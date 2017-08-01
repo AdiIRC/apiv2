@@ -1,20 +1,20 @@
 # Setting up a Project
 
-After starting visual studio go to create a New Project (File->New->Project). Plugins are standard dekstop .net .dll files so we'll be making a Windows Classic Desktop Class Library ( .NET Framework )
+After starting visual studio create a New Project (File->New->Project). Plugins are standard dekstop .net .dll files so we'll be making a Windows Classic Desktop Class Library ( .NET Framework )
 
 ![New Project Window Settings](http://i.imgur.com/bU9BbNq.png "New Project Window Settings")
 
-The plugin will need to implement an Interface provided by AdiIRC. We'll need to add a reference to the project to the library containing that interface. 
+The plugin will need to implement an Interface provided by AdiIRC. To access that Interface we'll need to reference a library. 
 
 ![Project Add Reference](http://i.imgur.com/APlCTYM.png "Project Add Reference")
 
-Since its not in the default references, go to the browse tab and click the browse button. AdiIRC automatically keeps an up to date version of the current API .dll's in its config folder. If its installed normally this can usually be found in "%USERPROFILE%\AppData\Local\AdiIRC" but in Portable versions it should be in the normal directory.
+Since its not in the default references, go to the browse section and click the browse button. AdiIRC automatically keeps an up to date version of the current API .dll's in its config folder. If its installed normally this can usually be found in "%USERPROFILE%\AppData\Local\AdiIRC" but in Portable versions it should be in the normal directory.
 
 ![References Browse Dialog](http://i.imgur.com/8zfqUTg.png" )
 
 Add a reference to "AdiIRCAPIv2.dll", make sure the reference is checked, then press OK. 
 
-Now that we have access to the API we can actually get started. You'll want the have a class inherit from IPlugin.
+Now that we have access to the API we can actually get started. You'll want to  have your class inherit from IPlugin.
 
 First add a using statement for the API library.
 

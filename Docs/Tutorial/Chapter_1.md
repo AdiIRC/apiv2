@@ -35,7 +35,7 @@ public string PluginEmail => "";
 ```
 
 
-They simply give AdiIRC ( and users ) information about your plugin. Name, Author, Description and Version populate the list in the plugins box in AdiIRC.
+They simply give AdiIRC ( and users ) information about your plugin. Name, Author, Description and Version are displayed in the plugins menu in AdiIRC.
 
 ```c#
 public void Initialize(IPluginHost host)
@@ -43,7 +43,7 @@ public void Initialize(IPluginHost host)
 }
 ```
 
-Initialize is called when the plugin is loaded by AdiIRC.
+Initialize is called when the plugin is loaded by AdiIRC. This where you should probably be doing things like hooking Events and loading settings.
 
 ```c#
 public void Dispose()
@@ -51,7 +51,7 @@ public void Dispose()
 }
 ```
 
-Dispose is called when AdiIRC unloads your plugin, since plugins cannot be unloaded during runtime this will execute while AdiIRC is closing itself.
+Dispose is called when AdiIRC unloads your plugin but AdiIRC cannot unload .dll plugins while it is running. Dispose will be called while AdiIRC is shutting down. Most of the time you will not need to do anything with Dispose()
 
 The Initialize method gets passed the IPluginHost object as an argument. IPluginHost is actually the main way to interact with AdiIRC. Lets start our first actual plugin by saving that to use it later. This specific tutorial won't need it yet but its a good habit to get into.
 
