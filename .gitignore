@@ -1,1 +1,10 @@
 .vs/
+*.exe
+*.msha
+*.mshc
+*.bat
+*.log
+*.php
+*.aspx
+*.config
+*.xml
