@@ -52,7 +52,6 @@ public void Dispose()
 ```
 
 Dispose is called when AdiIRC unloads your plugin, since plugins cannot be unloaded during runtime this will execute while AdiIRC is closing itself.
-IPluginHost
 
 The Initialize method gets passed the IPluginHost object as an argument. IPluginHost is actually the main way to interact with AdiIRC. Lets start our first actual plugin by saving that to use it later. This specific tutorial won't need it yet but its a good habit to get into.
 
