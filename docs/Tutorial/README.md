@@ -16,6 +16,10 @@ Besides these tutorials you should also be aware of the official [Documentation]
 
 Covers setting up a project, references and installing compiled plugins into AdiIRC.
 
-## 0 - [A basic Plugin: "Hello World"](Chapter_1.md)
+## 1 - [A basic Plugin: "Hello World"](Chapter_1.md)
 
 Covers the Iplugin Interface and showing a simple text message. 
+
+## 2 - [Commands and Events](Chapter_2.md)
+
+Covers creating slash Commands, using other Commands from your plugin and using API Events.
