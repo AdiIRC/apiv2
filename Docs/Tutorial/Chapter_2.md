@@ -69,14 +69,14 @@ One part of CommandHandler we have not yet discussed is that RegisteredCommandAr
 ![RegisteredCommandArgs Intellisense](http://i.imgur.com/areeRZZ.png "RegisteredCommandArgs Intellisense" )
 
 
-Okay that could be more clear. Luckily, there is [Documentation](https://adiirc.com/docsv2/html/b188f817-d351-7802-e9a1-6907dc8377be.htm).  Lets see what it has to say about [RegisteredCommandArgs](https://adiirc.com/docsv2/html/ed81f664-3e35-fcb5-0893-a19382ce145b.htm)
+Okay that could be more clear. Luckily, there is [Documentation](https://adiirc.com/docsv2/html/b188f817-d351-7802-e9a1-6907dc8377be.htm).  Lets see what it has to say about [RegisteredCommandArgs](https://adiirc.com/docsv2/html/ed81f664-3e35-fcb5-0893-a19382ce145b.htm).
 
 ```
 Public string	Command	- Returns the name of the command called
 Public IWindow	Window  - Returns the IWindow for which the command was called from 
 ```
 
-argument.Window is a reference to the window the user was on when they used the commands. And argument.Command holds the entire string for the command that was used.
+Starting off argument.Window is a reference to the window the user was on when they used the commands. And argument.Command holds the entire string for the command that was used.
 
 So we can replace our dependance on _host.CurrentIWindow by using argument.Window. 
 
@@ -109,6 +109,54 @@ Now if we compile and load this. And use the command "/marco shout" we'll get an
 ![Marco Polo shout](http://i.imgur.com/4eYvFXP.png
  "Marco Polo shout" )
 
-Argument objects are a core part of the AdiIRC API, they keep method signatures for events clean and helps prevent breaking changes to the API with updates. Its always a good idea to look up the arguments class for whatever event you are using. 
+Argument objects are a core part of the AdiIRC API, they keep method signatures for events clean and help prevent breaking changes to the API with updates. Its always a good idea to look up the arguments class for whatever event you are using in the documentation. 
 
 ## Events
+
+Having covered Commands we have a basic way for an addon to be interacted with by users. Our addon still cannot reach out an interact with AdiIRC on its own. But we have events to cover that.
+
+The AdiIRC API has a [robust set](https://adiirc.com/docsv2/html/4ccdf996-7481-c6cc-7871-8410a5cf61f9.htm) of events that will let you hook in to many parts of the client. Lets imagine a very simple addon, taking an action anytime something specific happens in chat. 
+
+Lets try replicating nick highlighting. The idea that your irc client should do something whenever your nickname is used in chat. For that we'll need to monitor incoming messages. The event OnChannelNormalMessage(ChannelNormalMessageArgs argument) fires anytime someone sends a normal message to any channel you are currently in. 
+
+```c#
+public void Initialize(IPluginHost host)
+{
+    _host = host;
+
+    _host.OnChannelNormalMessage += OnChannelNormalMessage;
+}
+
+private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
+{
+    //do something
+}
+```
+
+Great we got our event. What else do we need. Well we need to need to know what our nickname is on the server where we received the message. Basically any event that was fired by actual chat will have a IServer passed along with it. Any message that happens in a channel will have an IChannel object with it. And almost any event caused by a specific user will have a IUser object. 
+
+
+ChannelNormalMessage supplies us with all 3. We don't need the IUser or IChannel at the moment. But IServer will contain information about the server. And nicknames are server level. Lets look at the [IServer](https://adiirc.com/docsv2/html/05073858-153c-09e0-112c-062e7eed7d22.htm) interface in the documentation.
+
+There is actually a few ways to get the our current nickname out of Server but lets go with the most "proper" one. 
+
+```c#
+var nickName = argument.Server.Self.Nick;
+``` 
+
+Next we need the text of the message, argument.Message contains the text message in full. Thats easy then. And lets play a beep when we get the message, with the /beep command.
+
+```c#
+private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
+{
+    var nickName = argument.Server.Self.Nick;
+
+    if (argument.Message.Contains(nickName))
+    {
+        _host.ActiveIWindow.ExecuteCommand("/beep 1");
+    }
+}
+```
+[Full Example File](Chapter_2/Beep.cs)
+
+This naturally only covers normal messages. But those are not the only messages you can receive from other users. There are also Notifications, Actions. And private variations instead of channel ones. As an exercise try expanding this plugin to cover all those ean    vents. 
