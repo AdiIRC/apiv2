@@ -99,7 +99,7 @@ We can store the time the user joined in OnChannelJoin which we're already using
 ```c#
 private Dictionary<string, DateTime> _joinTimes;
 
-private public()
+private ExamplePlugin()
 {
     _joinTimes = new Dictionary<string, DateTime>();
 }
@@ -140,6 +140,6 @@ Lets compile that, load it and test it.
 ![Edited User Message](http://i.imgur.com/3eUCUfi.png
  "Edited User Message]" )
 
-Okay, yes. Clearly this has some major flaws still. For one that message is terrible and only counts in minutes, and is not nicely rounded. For another this plugin does not gracefully handle the same user across multiple channels or servers. 
+Okay, yes. Clearly this has some major flaws still. For one that message is terrible, its got a typo, only counts in minutes and has way to many digits. For another this plugin does not gracefully handle the same user across multiple channels or servers. 
 
 So consider that homework. As another thing to consider imagine and implement a way to show joins and parts in small channels but not large ones. 
