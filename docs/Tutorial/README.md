@@ -27,3 +27,7 @@ Covers creating slash Commands, using other Commands from your plugin and using 
 ## 3 - [Editing and Eating Events](Chapter_3.md)
 
 Covers using the EatData field of argument and changing incoming messages. Gives examples on how to implement a very simple join/part filter.
+
+## 4 - [Magnificent Menus](Chapter_4.md)
+
+Covers hooking into a variety of menu's, displaying Forms. 
