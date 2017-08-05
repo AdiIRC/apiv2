@@ -52,7 +52,7 @@ private void CommandHandler(RegisteredCommandArgs argument)
     _host.ActiveIWindow.ExecuteCommand(".echo ExamplePlugin Polo");
 }
 ``` 
-[Full Example File](Chapter_2/MarcoPolo.cs)
+[Full Example File](MarcoPolo.cs)
 
 Commands that are invoked with a . instead of a / are silent. That means they'll execute without producing additional text. 
 
