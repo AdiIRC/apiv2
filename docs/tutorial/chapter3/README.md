@@ -57,7 +57,7 @@ private void OnChannelJoin(ChannelJoinArgs argument)
     argument.EatData = EatData.EatText;
 }
 ```
-[Full Example File](Chapter_3/JoinPartSimple.cs)
+[Full Example File](JoinPartSimple.cs)
 
 Try it out. You'll see or rather, you won't see anyone joining or leaving channels. But their names still show up in the nicklist and they can still talk just fine.
 
@@ -133,7 +133,7 @@ private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
     }
 }
 ```
-[Full Example File](Chapter_3/JoinPart.cs)
+[Full Example File](JoinPart.cs)
 
 Lets compile that, load it and test it.
 

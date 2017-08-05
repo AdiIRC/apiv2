@@ -66,7 +66,7 @@ private void OnMenu(MenuEventArgs argument)
     }
 }
 ```
-[Full Example File](Chapter_4/SimpleMenu.cs)
+[Full Example File](SimpleMenu.cs)
 
 Oh but you might be running into an issue now. We started this plugin as a Class Library. And that means you don't get built in reference to System.Windows.Forms, or System.Drawing. So [add](https://msdn.microsoft.com/en-us/library/wkze6zky.aspx) references to those and a using statement for System.Windows.Forms.
 
@@ -114,7 +114,7 @@ private void OnMenu(MenuEventArgs argument)
     }
 }
 ```
-[Full Example File](Chapter_4/Form.cs)
+[Full Example File](Form.cs)
 
 ![Form Example](http://i.imgur.com/hD0Cj4f.png "Form Example" )
 

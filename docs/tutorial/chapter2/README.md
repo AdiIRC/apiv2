@@ -102,7 +102,7 @@ private void CommandHandler(RegisteredCommandArgs argument)
     }            
 }
 ```
-[Full Example File](Chapter_2/MarcoPoloShout.cs)
+[Full Example File](MarcoPoloShout.cs)
 
 Now if we compile and load this. And use the command "/marco shout" we'll get an all caps POLO instead.
 
@@ -157,6 +157,6 @@ private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
     }
 }
 ```
-[Full Example File](Chapter_2/Beep.cs)
+[Full Example File](Beep.cs)
 
 This naturally only covers normal messages. But those are not the only messages you can receive from other users. There are also Notifications, Actions. And private variations instead of channel ones. As an exercise try expanding this plugin to cover all those ean    vents. 
