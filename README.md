@@ -2,8 +2,8 @@
 This repo contains the AdiIRC plugin API v2, its source and its documentation.
 
 * `/Api/` contains the various aspects of the API interface  
-* `/Docs/` contains plain text documentation for plugin devs  
-* `/Template/` contains a zip'ed template for creating C# plugins
+* `/docs/` contains plain text documentation for plugin devs  
+* [template](https://github.com/AdiIRC/apiv2/tree/template) branch contains a template for creating C# plugins
 
 # Contributing
 > By offering suggestions, comments, feedback or submitting a pull request to the AdiIRC API project, its repository or its maintainers, you acknowledge that you own or have rights to distribute and sublicense the intellectual property contained therein, and that your content does not infringe upon the intellectual property rights of a third party.  
