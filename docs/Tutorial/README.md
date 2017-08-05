@@ -8,26 +8,26 @@ This series of tutorials expects you to have a basic understanding of .Net, C#, 
 
 ## Resources
 
-Besides these tutorials you should also be aware of the official [Documentation](https://adiirc.com/docsv2/html/b188f817-d351-7802-e9a1-6907dc8377be.htm) and the [Wiki](https://dev.adiirc.com/projects/adiirc/wiki). You can also ask questions in the official irc support channel [#adiirc](irc://chat.freenode.net/#AdiIRC)
+Besides these tutorials you should also be aware of the official [Documentation](https://adiirc.github.io/apiv2/generated) and the [Wiki](https://dev.adiirc.com/projects/adiirc/wiki). You can also ask questions in the official irc support channel [#adiirc-api](irc://chat.freenode.net/#AdiIRC-api)
 
 # Tutorials
 
-## 0 - [Setting up a Project](Chapter_0.md)
+## 0 - [Setting up a Project](chapter0/README.md)
 
 Covers setting up a project, references and installing compiled plugins into AdiIRC.
 
-## 1 - [A basic Plugin: "Hello World"](Chapter_1.md)
+## 1 - [A basic Plugin: "Hello World"](chapter1/README.md)
 
 Covers the Iplugin Interface and showing a simple text message. 
 
-## 2 - [Commands and Events](Chapter_2.md)
+## 2 - [Commands and Events](chapter2/README.md)
 
 Covers creating slash Commands, using other Commands from your plugin and using API Events.
 
-## 3 - [Editing and Eating Events](Chapter_3.md)
+## 3 - [Editing and Eating Events](chapter3/README.md)
 
 Covers using the EatData field of argument and changing incoming messages. Gives examples on how to implement a very simple join/part filter.
 
-## 4 - [Magnificent Menus](Chapter_4.md)
+## 4 - [Magnificent Menus](chapter4/README.md)
 
 Covers hooking into a variety of menu's, displaying Forms. 
