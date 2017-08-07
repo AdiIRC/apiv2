@@ -111,6 +111,73 @@ Now if we compile and load this. And use the command "/marco shout" we'll get an
 
 Argument objects are a core part of the AdiIRC API, they keep method signatures for events clean and help prevent breaking changes to the API with updates. Its always a good idea to look up the arguments class for whatever event you are using in the documentation. 
 
+## Identifiers
+Identifiers are a lot like commands with two major differences. Commands start with a / and while they might print something to a window they don't have a return value. Identifiers start with a $ and they do have a return value.
+
+In mIRC scripts whenever the parser finds an identifier it is instead replaced with the result of that identifier call. Lets have a concrete example $rand(value1,value2) returns a random number between value1 and value2. 
+
+For instance if you were to enter the following into an AdiIRC textbox. 
+
+```
+//echo -a $rand(0,10)
+```
+
+You'd get a random number between 0 and 10 instead of seeing the actual text you input. 
+
+Identifiers are an important part of mIRC scripts and you should consider registering some if applicable to your plugin. Registering Identifiers is a lot like Commands, however they let you set a return value. Like so.
+
+```c#
+public void Initialize(IPluginHost host)
+{
+    _host = host;                  
+    
+    _host.HookIdentifier("truerandom",TrueRandomIdentifier);
+}
+
+private void TrueRandomIdentifier(RegisteredIdentifierArgs argument)
+{
+    argument.ReturnString = "4";    // chosen by fair dice roll.
+                                    // guaranteed to be random.
+}
+```
+
+Lets execute that little example:
+
+![true random](http://i.imgur.com/6gMeGE8.png
+ "true random" )
+
+Perfect. But as we saw in the $rand identifier they can also take in arguments. You can find these under argument.InputParameters. 
+
+```c#
+private void TrueRandomIdentifier(RegisteredIdentifierArgs argument)
+{
+    var input = string.Join(" - ", argument.InputParameters);
+
+    var randomNumber = "4";     // chosen by fair dice roll.
+                                // guaranteed to be random.
+
+    argument.ReturnString = $"Random number between {input} : {randomNumber}";
+}
+```
+
+[Full Example File](TrueRandom.cs)
+
+![true random with input](http://i.imgur.com/APvd6Ei.png
+ "true random with input" )
+
+## Evaluating Identifiers
+
+You might need to actually use an identifier because its supplied by a script you are interacting with or it isn't available through the API. We used ExecuteCommand to call a command directly so you might think there is an ExecuteIdentifier, not the case. There isn't a way to directly call an identifier. But we can instead use Evaluate to directly execute a snippet or mIRC Script and get the result of that instead.
+
+```c#
+private void TrueRandomIdentifier(RegisteredIdentifierArgs argument)
+{
+    var output = _host.ActiveIWindow.Evaluate("$rand(0,10)","");
+
+    argument.ReturnString = output;
+}
+```
+
 ## Events
 
 Having covered Commands we have a basic way for an addon to be interacted with by users. Our addon still cannot reach out an interact with AdiIRC on its own. But we have events to cover that.
