@@ -1,10 +1,10 @@
 # Editing the Editbox
 
-The Exitbot in case you are not aware is the name of the thing you type words into to chat. There are plenty of reasons you might want to be able to edit whats going in there. 
+The Editbox in case you are not aware is the name of the thing you type words into to chat. There are plenty of reasons you might want to be able to edit whats going in there. 
 
 Imagine for a moment that you are a great fan of emoji. You want to share emoji with everyone else. But they're hard to type so you want to create an addon to replace simple text smileys with emoji as you type.
 
-First we'll need an event for typing in the Editbox. There is two OnEditboxKeyUp and OnEditboxKeyDown. We'll use KeyUp.
+First we'll need an event for typing in the Editbox. There is two: OnEditboxKeyUp and OnEditboxKeyDown. We'll use KeyUp.
 
 ```c#
 public void Initialize(IPluginHost host)
@@ -21,7 +21,7 @@ private void OnEditboxKeyUp(EditboxKeyUpArgs argument)
 
 ## IEditbox
 
-Lets examine IEditbox for a moment
+Lets examine IEditbox which is part of argument in this event for a moment:
 
 ```
 Public string   SelectedText        The selected text in the IEditbox
@@ -53,7 +53,7 @@ We run that, type a sentence add a :) and... Our cursor is now at the start of t
 
 Anytime you edit the text of IEditbox its going ot reset the cursor to the starting position. So you'll need to fix that yourself. 
 
-But how. Well if you're aware of how .net textboxes work you probably already know. Cursor position is identical to SelectionStart. Selectionstart is very simply just an int corresponding to the index of the character the cursor is currently "behind".
+How ? Well if you're aware of how .net textboxes work you probably already know. Cursor position is identical to SelectionStart. Selectionstart is very simply just an int corresponding to the index of the character the cursor is currently "behind".
 
 We can fix our problem by setting the cursor to the old location, minus the amount of characters we removed. 
 
