@@ -845,6 +845,14 @@
         event WindowClosed OnWindowClosed;
 
         /// <summary>
+        ///     Delegate gets called any IWindow is renamed
+        /// </summary>
+        /// <remarks>
+        ///     Usually from the commands /renwin, /queryrn or when a user in a private window changes nick.
+        /// </remarks>
+        event WindowRenamed OnWindowRenamed;
+
+        /// <summary>
         ///     Delegate gets called when a menu is opened
         /// </summary>
         event Menu OnMenu;

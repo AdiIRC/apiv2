@@ -33,6 +33,15 @@ namespace AdiIRCAPIv2.Delegates
     public delegate void WindowClosed(WindowCloseArgs argument);
 
     /// <summary>
+    ///     Delegate gets called any IWindow is renamed
+    /// </summary>
+    /// <remarks>
+    ///     Usually from the commands /renwin, /queryrn or when a user in a private window changes nick.
+    /// </remarks>
+    /// <param name="argument">WindowRenamedArgs</param>
+    public delegate void WindowRenamed(WindowRenamedArgs argument);
+
+    /// <summary>
     ///     Delegate gets called when a menu is opened
     /// </summary>
     /// <param name="argument">MenuEventArgs</param>
