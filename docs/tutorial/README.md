@@ -31,3 +31,5 @@ Covers using the EatData field of argument and changing incoming messages. Gives
 ## 4 - [Magnificent Menus](chapter4/README.md)
 
 Covers hooking into a variety of menu's, displaying Forms. 
+
+## 5 - [Editing the Editbox](chapter5/README.md)
