@@ -11,8 +11,8 @@ using System.Security.Permissions;
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, UnmanagedCode = false)]
 [assembly: ComVisible(true)]
 [assembly: Guid("f49269f8-cfbb-4af4-9ef4-db713cba6301")]
-[assembly: AssemblyVersion("2.0.0.8")]
-[assembly: AssemblyFileVersion("2.0.0.8")]
+[assembly: AssemblyVersion("2.0.1.0")]
+[assembly: AssemblyFileVersion("2.0.1.0")]
 
 namespace AdiIRCAPIv2
 {

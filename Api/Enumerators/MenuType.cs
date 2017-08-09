@@ -48,6 +48,16 @@
         /// <summary>
         ///     Indicates the OnMenu event is for a link
         /// </summary>
-        Link = 8
+        Link = 8,
+
+        /// <summary>
+        ///     Indicates the OnMenu event is for the Editbox
+        /// </summary>
+        Editbox = 9,
+
+        /// <summary>
+        ///     Indicates the OnMenu event is for the "System" menu associated with a window
+        /// </summary>
+        System = 10
     }
 }
