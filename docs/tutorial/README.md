@@ -8,7 +8,7 @@ This series of tutorials expects you to have a basic understanding of .Net, C#, 
 
 ## Resources
 
-Besides these tutorials you should also be aware of the official [Documentation](https://adiirc.github.io/apiv2/generated) and the [Wiki](https://dev.adiirc.com/projects/adiirc/wiki). You can also ask questions in the official irc support channel [#adiirc-api](irc://chat.freenode.net/#AdiIRC-api)
+Besides these tutorials you should also be aware of the official [Documentation](https://adiirc.github.io/apiv2/generated) and the [Wiki](https://dev.adiirc.com/projects/adiirc/wiki). You can also ask questions in the official irc support channel on freenode [#adiirc-api](irc://chat.freenode.net/#AdiIRC-api)
 
 # Tutorials
 
@@ -33,3 +33,9 @@ Covers using the EatData field of argument and changing incoming messages. Gives
 Covers hooking into a variety of menu's, displaying Forms. 
 
 ## 5 - [Editing the Editbox](chapter5/README.md)
+
+Covers making use of the Editbox.
+
+## 6 - [Raw Power](chapter6/README.md)
+
+Covers hooking into Raw events, the basics of IRC messages, Fake Raw Messages and finally Sending Messages.
