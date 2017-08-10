@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to the application's overall state.
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates called when performing a zip or unzip operation
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.ZipCompression;

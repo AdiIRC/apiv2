@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to user interactions with a window
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related to user interactions with a window
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.WindowInteraction;
@@ -27,7 +28,7 @@ namespace AdiIRCAPIv2.Delegates
     ///     Delegate gets called any IWindow is closed
     /// </summary>
     /// <remarks>
-    ///     Scripted Event Equivalent: extended <c>on CLOSE</c>, <c>on PART/c>, etc
+    ///     Scripted Event Equivalent: extended <c>on CLOSE</c>, <c>on PART</c>, etc
     /// </remarks>
     /// <param name="argument">WindowCloseArgs</param>
     public delegate void WindowClosed(WindowCloseArgs argument);

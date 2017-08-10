@@ -1,6 +1,7 @@
-﻿/// <summary>
-///     Enumerator used to indicate how further processing of an event should continue
-/// </summary>
+﻿//-------------------------------------------------------------------------------
+//     Enumerator used to indicate how further processing of an event should continue
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Enumerators
 {
     /// <summary>

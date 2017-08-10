@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related specifically to channel mode changes
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related specifically to channel mode changes
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.ChannelModes;
@@ -11,7 +12,7 @@ namespace AdiIRCAPIv2.Delegates
     /// <remarks>
     ///     <para>
     ///         The modes and parameters are not parsed
-    ///     </parm><para>
+    ///     </para><para>
     ///         Scripted Event Equivalent: <c>on RAWMODE</c>
     ///     </para>
     /// </remarks>

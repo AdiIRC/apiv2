@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to scripting-engine interactions
-/// </summary>
+//-------------------------------------------------------------------------------
+//     Delegates related to scripting-engine interactions
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.Aliasing;

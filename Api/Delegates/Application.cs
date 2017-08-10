@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to the application's overall state.
-/// </summary>
+//-------------------------------------------------------------------------------
+//     Delegates related to the application's overall state.
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.Application;

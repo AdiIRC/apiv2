@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related specifically to received channel messages
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related specifically to received channel messages
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.ChannelMessages;

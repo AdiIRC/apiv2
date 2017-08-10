@@ -32,14 +32,29 @@
             this.eatData = eatData;
         }
 
+        /// <summary>
+        ///     Returns the IWindow where the invite occured
+        /// </summary>
         public IWindow Window { get { return this.window; } }
 
+        /// <summary>
+        ///     Returns the IServer where the event occured
+        /// </summary>
         public IServer Server { get { return this.server; } }
 
+        /// <summary>
+        ///     Returns the IChannel where the invite occured
+        /// </summary>
         public IChannel Channel { get { return this.channel; } }
 
+        /// <summary>
+        ///     Returns the IChannelUser who performed the invite
+        /// </summary>
         public IChannelUser User { get { return this.user; } }
 
+        /// <summary>
+        ///     Gets or sets the current event proccessing state
+        /// </summary>
         public EatData EatData { get { return this.eatData; } set { this.eatData = value; } }
     }
 }

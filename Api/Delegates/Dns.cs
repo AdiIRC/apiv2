@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to Dns'ing a host|ip
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related to Dns'ing a hostname or ipaddress
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.Dns;

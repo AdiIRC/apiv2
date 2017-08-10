@@ -35,32 +35,46 @@
         /// <summary>
         /// Returns the Nth ITextView buffer line.
         /// </summary>
+        /// <param name="line">Line number to get</param>
         string GetLine(int line);
 
         /// <summary>
-        /// Adds a line of text to the ITextView buffer
-        /// Adding lines manually requires all formatting to be done manually as well, format = 
-        /// timestamp + " " + ITools.NickColumChar + nick + ITools.NickColumChar + " " + text
+        ///     Adds a line of text to the ITextView buffer
+        ///     Adding lines manually requires all formatting to be done manually as well, format = 
+        ///     timestamp + " " + ITools.NickColumChar + nick + ITools.NickColumChar + " " + text
         /// </summary>
+        /// <param name="text">Text to add</param>
+        /// <param name="lineColor">Linecolor to use for this line</param>
+        /// <param name="rgbLineColor">Optional rgb linecolor to use for this line in hex format RRGGBB</param>
         void Add(string text, int lineColor, string rgbLineColor);
 
         /// <summary>
-        /// Inserts a line of text at the Nth line in the ITextView buffer
-        /// Adding lines manually requires all formatting to be done manually as well, format = 
-        /// timestamp + " " + ITools.NickColumChar + nick + ITools.NickColumChar + " " + text
+        ///     Inserts a line of text at the Nth line in the ITextView buffer
+        ///     Adding lines manually requires all formatting to be done manually as well, format = 
+        ///     timestamp + " " + ITools.NickColumChar + nick + ITools.NickColumChar + " " + text
         /// </summary>
+        /// <param name="text">Text to insert</param>
+        /// <param name="line">Line number to insert at</param>
+        /// <param name="lineColor">Linecolor to use for this line</param>
+        /// <param name="rgbLineColor">Optional rgb linecolor to use for this line in hex format RRGGBB</param>
         void Insert(string text, int line, int lineColor, string rgbLineColor);
 
         /// <summary>
-        /// Replaces the Nth line in the ITextView buffer with a new text
-        /// Adding lines manually requires all formatting to be done manually as well, format = 
-        /// timestamp + " " + ITools.NickColumChar + nick + ITools.NickColumChar + " " + text
+        ///     Replaces the Nth line in the ITextView buffer with a new text
+        ///     Adding lines manually requires all formatting to be done manually as well, format = 
+        ///     timestamp + " " + ITools.NickColumChar + nick + ITools.NickColumChar + " " + text
         /// </summary>
+        /// <param name="text">Text to replace with</param>
+        /// <param name="line">Line number to replace at</param>
+        /// <param name="lineColor">Linecolor to use for this line</param>
+        /// <param name="rgbLineColor">Optional rgb linecolor to use for this line in hex format RRGGBB</param>
         void Replace(string text, int line, int lineColor, string rgbLineColor);
 
         /// <summary>
-        /// Removes the Nth ITextView buffer line.
+        ///     Removes the Nth ITextView buffer line.
         /// </summary>
+        /// <param name="start">The first line number(s) to remove</param>
+        /// <param name="end">End of line number(s) to remove</param>
         void Remove(int start, int end);
 
         /// <summary>
@@ -71,6 +85,7 @@
         /// <summary>
         /// Scrolls the scrollbar to the Nth (wrapped) line.
         /// </summary>
+        /// <param name="line">The line to scroll to</param>
         void ScrollTo(int line);
 
         /// <summary>

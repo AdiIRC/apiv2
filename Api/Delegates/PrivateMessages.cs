@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to when your IUser receives a direct message
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related to when your IUser receives a direct message
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.PrivateMessages;

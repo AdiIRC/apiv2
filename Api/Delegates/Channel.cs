@@ -1,10 +1,9 @@
-/// <summary>
-///     Delegates related to Channel specific interactions
-/// </summary>
-/// <remarks>
-///     <para>Delegates for various channel messages can be found at /Delegates/ChannelMessages.cs</para>
-///     <para>Delegates related to channel modes can be found at /Delegates/ChannelModes.cs</para>
-/// </remarks>
+//-------------------------------------------------------------------------------
+//  Delegates related to Channel specific interactions
+//  Delegates for various channel messages can be found at /Delegates/ChannelMessages.cs
+//  Delegates related to channel modes can be found at /Delegates/ChannelModes.cs
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.Channel;

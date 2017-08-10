@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates called for messages from a server that do not have an IChannel context and are not discussion-related
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates called for messages from a server that do not have an IChannel context and are not discussion-related
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.Contextless;

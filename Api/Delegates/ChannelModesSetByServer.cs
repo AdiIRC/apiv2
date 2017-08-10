@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates that get called when a server sets a channel mode
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates that get called when a server sets a channel mode
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.ChannelServerModes;

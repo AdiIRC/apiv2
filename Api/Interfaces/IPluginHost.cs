@@ -11,16 +11,6 @@
     {
         #region Aliasing
         /// <summary>
-        ///     Delegate gets called when a hooked command is called as a /command
-        /// </summary>
-        // event RegisteredCommand OnRegisteredCommand;
-
-        /// <summary>
-        ///     Delegate gets called when a hooked command is called as a $identifier
-        /// </summary>
-        // event RegisteredIdentifier OnRegisteredIdentifier;
-
-        /// <summary>
         ///     Delegate gets called when a scripted signal is emitted
         /// </summary>
         /// <remarks>
@@ -125,7 +115,7 @@
         #endregion
 
         #region ChannelMessages
-        // <summary>
+        /// <summary>
         ///     Delegate gets called when a IChannel revices a message
         /// </summary>
         /// <remarks>
@@ -357,7 +347,6 @@
         ///         Scripted Event Equivalent: <c>on SERVERMODE</c>
         ///     </para>
         /// </remarks>
-        /// <param name="argument">ChannelRawServerModeArgs</param>
         event ChannelRawServerMode OnChannelRawServerMode;
 
         /// <summary>
@@ -366,7 +355,6 @@
         /// <remarks>
         ///     User-status related modes are not included
         /// </remarks>
-        /// <param name="argument">ChannelServerModeArgs</param>
         event ChannelServerMode OnChannelServerMode;
 
         /// <summary>
@@ -812,8 +800,14 @@
 
         #region ScriptEngine
 
+        /// <summary>
+        ///     Delegate gets called when a script is (re)loaded from the Plugins Scripts Editor or from the /load and /reload command
+        /// </summary>
         event EngineScriptLoad OnEngineScriptLoad;
 
+        /// <summary>
+        ///     Delegate gets called when a script is unloaded from the Plugins Scripts Editor or from the /unload command
+        /// </summary>
         event EngineScriptUnload OnEngineScriptUnload;
 
         #endregion
@@ -840,7 +834,7 @@
         ///     Delegate gets called any IWindow is closed
         /// </summary>
         /// <remarks>
-        ///     Scripted Event Equivalent: extended <c>on CLOSE</c>, <c>on PART/c>
+        ///     Scripted Event Equivalent: extended <c>on CLOSE</c>, <c>on PART</c>
         /// </remarks>
         event WindowClosed OnWindowClosed;
 

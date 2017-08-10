@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to media being played
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related to media being played
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.MediaPlayback;

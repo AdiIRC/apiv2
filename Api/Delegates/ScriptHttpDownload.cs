@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to scripted initiated HTTP downloading
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related to scripted initiated HTTP downloading
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.ScriptHttpDownload;

@@ -1,6 +1,7 @@
-/// <summary>
-///     Delegates related to an IServer's connection
-/// </summary>
+//-------------------------------------------------------------------------------
+//  Delegates related to an IServer's connection
+//-------------------------------------------------------------------------------
+
 namespace AdiIRCAPIv2.Delegates
 {
     using Arguments.Connection;
