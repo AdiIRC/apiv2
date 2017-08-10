@@ -1,12 +1,12 @@
 # Raw Power
 
-So far previous chapters covered fairly abstract processed events. Messages to a specific channel, a user joining a channel, etc. But this is not the level of detail IRC actually works at. Most of the time you'll be covered by these higher level events. But sometimes you'll need to do something a little lower down.
+Previous chapters covered fairly abstract processed events. Messages to a specific channel, a user joining a channel, etc. But this is not the level of detail IRC actually works at. Most of the time you'll be covered by these higher level events. However sometimes you'll need to do something a little lower down.
 
 Lets go through them in order of Raw-ness.
 
 ## [OnRawBytesReceived](https://adiirc.github.io/apiv2/generated/html/07ef03d8-6cad-b5d1-bb79-725d53973c70.htm) and [OnRawByteSent](https://adiirc.github.io/apiv2/generated/html/0afccdd5-0333-a947-62a7-0495b579593b.htm):
 
-These are lowest level of Event, at this point we're not even a string anymore just raw Bytes. Virtually nobody will need to use this unless you are working on some for of encryption or data encoding plugin.
+These are lowest level of Event, at this point we're not even using strings anymore just raw Bytes. You'll likely never need to use these unless you are working on some form of encryption or data encoding plugin.
 
 ## [OnStringDataReceived](https://adiirc.github.io/apiv2/generated/html/d441c4b8-84d1-8e90-a142-90d8bcec4a48.htm) and [OnStringDataSent ](https://adiirc.github.io/apiv2/generated/html/afe00354-0b1b-6dd8-4a38-7cd2669aafc6.htm)
 
@@ -35,7 +35,7 @@ Lets see some messages,go to AdiIRC and type in "/rawlog". Make sure you are con
 <- :Buuu!5be3d702@gateway/web/freenode/ip.91.227.215.2 PRIVMSG ##csharp :I have method 'public T ReadParam<T>(){ return serializer.Deserialize(reader, T//what should I write here to achieve type?)}
 ```
 
-Ignoring the -> and <- detailing input and output direction this is literally whats being sent to and from your client. And if you're working with OnStringDataSent/Received this is what you'll have to be parsing and generating.
+Ignoring the -> and <- , those simply indicate input/output. This is literally whats being sent to and from your client. And if you're working with OnStringDataSent/Received this is what you'll have to be parsing.
 
 The PING and PONG lines are simply the server and client checking if they are still connected to each other so lets just forget about those for now. 
 
@@ -53,9 +53,9 @@ The PING and PONG lines are simply the server and client checking if they are st
 :Buuu!5be3d702@gateway/web/freenode/ip.91.227.215.2 PRIVMSG ##csharp :I have method 'public T ReadParam<T>(){ return serializer.Deserialize(reader, T//what should I write here to achieve type?)}
 ```
 
-We see two different types of events here PRIVMSG and JOIN. JOIN together with its counterparts PART and QUIT inform about people joining, leaving and quitting the channel/network. 
+We see two different types of events here PRIVMSG and JOIN. JOIN together with its siblings PART and QUIT inform about people joining, leaving and quitting the channel/network. 
 
-PRIVMSG is responsible for all the hard lifting of irc. Its the actual messsages. Yes, channel messages too. 
+PRIVMSG is responsible for all the hard lifting of irc. Its the actual messages. Yes, channel messages too. 
 
 Lets dissect messages in general for a moment. 
 
@@ -71,13 +71,13 @@ Most messages then follow the following format
 <command> <target> [:<text>]
 ```
 
-So if we apply this all to PRIVMSG. We see the user its being sent by, the command, the target followed by a space and : and then the actual message text.
+So if we apply this all to PRIVMSG. We see the user its being sent by, the command, the target followed by a space and : and finally the actual message text.
 
 Now this is a highly simplified and by no means complete explanation of the IRC protocol. But it will suffice for the examples to follow. 
 
 ## Parsing OnStringDataReceived Messages
 
-Lets imagine an actual reason we need to ues OnStringDataReceived. Once again we are just in love with emoji. We want all smilies to be emoji based, and also we are so lazy we don't want to hook many different events. 
+Lets imagine an actual reason we need to use OnStringDataReceived. Once again we are just in love with emoji. We want all smilies to be emoji based, and we are so lazy we don't want to hook many different events. 
 
 ```c#
 public void Initialize(IPluginHost host)
@@ -109,7 +109,7 @@ private void OnStringDataReceived(StringDataReceivedArgs argument)
 }
 ```
 
-Now its tempting to simply do a string replace on argument.Data but we have to consider that text smilies start with colons and the text part of the message is separated on a colon. We could accidentally turn the message into one AdiIRC does not understand. 
+Now its tempting to simply do a string replace on argument.Data however we have to consider that text smilies start with colons and the text part of the message is separated on a colon. We could accidentally turn the message into one AdiIRC does not understand. 
 
 So we'll have to do our work on message and then reassemble it manually.
 
@@ -137,7 +137,7 @@ private void OnStringDataReceived(StringDataReceivedArgs argument)
 
 ## Faking It ( With FakeRaw )
 
-Sometimes you might have a need to have AdiIRC receive a message that never actually happened. Maybe because you're building a IRC gateway plugin for a different chat service like Slack or Discord. 
+Sometimes you might need to have AdiIRC receive a message that never actually happened. Maybe because you're building a IRC gateway plugin for a different chat service like Slack or Discord. 
 
 Okay good example but not really useful for a tutorial. Lets just pretend you'd wish people were more polite than they really are, making them apologize for using bad words automatically. Just for you.
 
@@ -175,7 +175,7 @@ Lets fire that up and test it:
 
 Sending messages, its a core part of an irc client but we've not discussed it before now. There is a good reason for that. Sending messages through this API is a strictly Raw affair, so we had to cover some ground on how that all worked before we could broach the topic. 
 
-But we've covered all the ground and finally, we can send text to other people. Why ? Many reasons. But lets pretend we're just really stoked that turn that Marco Polo plugin we made at the start into a Marco Polo Irc Bot.
+But we've covered all the required ground and finally, we can send text to other people. Why ? Many reasons. But lets pretend we're just really stoked to turn that Marco Polo plugin we made at the start into a Marco Polo Irc Bot.
 
 ```c#        
 public void Initialize(IPluginHost host)
@@ -194,9 +194,9 @@ private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
 }
 ```
 
-Bot have a long tradition of only reacting to commands that are preceded by a specific character. Often "!" so lets do the same for our new ircbot. 
+Bots have a long tradition of only reacting to commands that are preceded by a specific character. Often "!" so lets do the same for our new ircbot. 
 
-Now SendRaw has many similarities with SendFakeRaw but a few key differences. Unlike SendFakeRaw we don't have to supply the nick, hostmask, etc section ourselves AdiIRC will take care of that. And its a message we are actually sending to a server so we are limited in things that the server actually accepts from users. 
+SendRaw has many similarities with SendFakeRaw but a few key differences. Unlike SendFakeRaw we don't have to supply the nick, hostmask, etc section ourselves AdiIRC will take care of that. And its a message we are actually sending to a server so we are limited in things that the server actually accepts from users. 
 
 Taking that into account sending a Polo back is fairly easy.
 
