@@ -122,5 +122,31 @@ This is of course a pretty quick and dirty bare-bones form. You'll want to use t
 
 ## Toolbar
 
-One major place left where we can put buttons. The Toolbar. Right now AdiIRC's API does not let us actually do anything with the toolbar. Once it does this tutorial will be updated.
+One major place left where we can put buttons. The Toolbar. Right now AdiIRC's API does not let us naturally edit the toolbar. However we have Commands and Aliases to cover us here.
+
+Lets give our addon a button, and for that we'll need an Icon:
+
+![Space](spade.png "Spade Icon" )
+
+Download that, save it somewhere simple for now and remember the path. For this example we've got it placed in "d:\spade.png".
+
+```c#
+public void Initialize(IPluginHost host)
+{
+    _host = host;
+
+    _host.HookCommand("/testPlugin", TestPluginCommand);
+
+    _host.ActiveIWindow.ExecuteCommand(".toolbar -a ExamplePluginButton \"Example Plugin\" \"d:\\spade.png\" \"/testPlugin\" ");
+
+}
+
+private void TestPluginCommand(RegisteredCommandArgs argument)
+{
+    _host.ActiveIWindow.OutputText("Hello");
+}
+```
+Lets compile that, run it and press our exciting new button.
+
+![Space](http://i.imgur.com/yULWnYC.png "Spade Icon" )
 
