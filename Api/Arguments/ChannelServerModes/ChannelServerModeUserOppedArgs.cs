@@ -10,8 +10,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
     /// </summary>
     public class ChannelServerModeUserOppedArgs : EventArgs
     {
-        private readonly IWindow window;
-        private readonly IServer server;
         private readonly IChannel channel;
         private readonly IChannelUser user;
         private readonly bool modeFirst;
@@ -25,8 +23,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         /// <summary>
         ///     Constructor for arguments class passed to the ChannelServerModeUserOpped event
         /// </summary>
-        /// <param name="window">IWindow</param>
-        /// <param name="server">IServer</param>
         /// <param name="channel">IChannel</param>
         /// <param name="user">IChannelUser</param>
         /// <param name="modeFirst">bool</param>
@@ -36,10 +32,8 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelServerModeUserOppedArgs(IWindow window, IServer server, IChannel channel, IChannelUser user, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelServerModeUserOppedArgs(IChannel channel, IChannelUser user, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
-            this.server = server;
             this.channel = channel;
             this.user = user;
             this.modeFirst = modeFirst;
@@ -50,16 +44,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the user got opped
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
-
-        /// <summary>
-        ///     Returns the IServer where the event occured
-        /// </summary>
-        public IServer Server { get { return this.server; } }
 
         /// <summary>
         ///     Returns the IChannel where the user got opped

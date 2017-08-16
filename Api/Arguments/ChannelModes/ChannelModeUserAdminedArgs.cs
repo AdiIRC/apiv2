@@ -10,8 +10,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelModes
     /// </summary>
     public class ChannelModeUserAdminedArgs : EventArgs
     {
-        private readonly IWindow window;
-        private readonly IServer server;
         private readonly IChannel channel;
         private readonly IUser user;
         private readonly IChannelUser byUser;
@@ -26,8 +24,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelModes
         /// <summary>
         ///     Constructor for arguments class passed to the ChannelModeUserAdmined event
         /// </summary>
-        /// <param name="window">IWindow</param>
-        /// <param name="server">IServer</param>
         /// <param name="channel">IChannel</param>
         /// <param name="user">IUser</param>
         /// <param name="byUser">IChannelUser</param>
@@ -38,10 +34,8 @@ namespace AdiIRCAPIv2.Arguments.ChannelModes
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelModeUserAdminedArgs(IWindow window, IServer server, IChannel channel, IUser user, IChannelUser byUser, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelModeUserAdminedArgs(IChannel channel, IUser user, IChannelUser byUser, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
-            this.server = server;
             this.channel = channel;
             this.user = user;
             this.byUser = byUser;
@@ -53,16 +47,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelModes
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the user got admined
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
-
-        /// <summary>
-        ///     Returns the IServer where the event occured
-        /// </summary>
-        public IServer Server { get { return this.server; } }
 
         /// <summary>
         ///     Returns the IChannel where the user got admined

@@ -10,7 +10,6 @@ namespace AdiIRCAPIv2.Arguments.PrivateMessages
     /// </summary>
     public class PrivateCtcpReplyMessageArgs : EventArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
         private readonly IUser user;
         private readonly string message;
@@ -23,7 +22,6 @@ namespace AdiIRCAPIv2.Arguments.PrivateMessages
         /// <summary>
         ///     Constructor for arguments class passed to the PrivateCtcpReplyMessage event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
         /// <param name="user">IUser</param>
         /// <param name="message">string</param>
@@ -32,9 +30,8 @@ namespace AdiIRCAPIv2.Arguments.PrivateMessages
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public PrivateCtcpReplyMessageArgs(IWindow window, IServer server, IUser user, string message, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public PrivateCtcpReplyMessageArgs(IServer server, IUser user, string message, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
             this.server = server;
             this.user = user;
             this.message = message;
@@ -44,11 +41,6 @@ namespace AdiIRCAPIv2.Arguments.PrivateMessages
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the message was received
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured

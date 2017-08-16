@@ -10,8 +10,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
     /// </summary>
     public class ChannelRawServerModeArgs : EventArgs
     {
-        private readonly IWindow window;
-        private readonly IServer server;
         private readonly IChannel channel;
         private readonly string modes;
         private readonly string rawMessage;
@@ -23,8 +21,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         /// <summary>
         ///     Constructor for arguments class passed to the ChannelRawServerMode event
         /// </summary>
-        /// <param name="window">IWindow</param>
-        /// <param name="server">IServer</param>
         /// <param name="channel">IChannel</param>
         /// <param name="modes">string</param>
         /// <param name="rawMessage">string</param>
@@ -32,10 +28,8 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelRawServerModeArgs(IWindow window, IServer server, IChannel channel, string modes, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelRawServerModeArgs(IChannel channel, string modes, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
-            this.server = server;
             this.channel = channel;
             this.modes = modes;
             this.rawMessage = rawMessage;
@@ -44,16 +38,6 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the mode change occured
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
-
-        /// <summary>
-        ///     Returns the IServer where the event occured
-        /// </summary>
-        public IServer Server { get { return this.server; } }
 
         /// <summary>
         ///     Returns the IChannel where the mode change occured

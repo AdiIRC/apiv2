@@ -11,7 +11,6 @@
     public class MenuEventArgs : EventArgs
     {
         private readonly IWindow window;
-        private readonly IServer server;
         private readonly MenuType menuType;
         private readonly MenuContext menuContext;
         private readonly string text;
@@ -22,16 +21,14 @@
         ///     Constructor for arguments class passed to the MenuEvent event
         /// </summary>
         /// <param name="window">IWindow</param>
-        /// <param name="server">IServer</param>
         /// <param name="menuType">MenuType</param>
         /// <param name="menuContext">MenuContext</param>
         /// <param name="text">string</param>
         /// <param name="menuItems">ToolStripItemCollection</param>
         /// <param name="eatData">EatData</param>
-        public MenuEventArgs(IWindow window, IServer server, MenuType menuType, MenuContext menuContext, string text, ToolStripItemCollection menuItems, EatData eatData)
+        public MenuEventArgs(IWindow window, MenuType menuType, MenuContext menuContext, string text, ToolStripItemCollection menuItems, EatData eatData)
         {
             this.window = window;
-            this.server = server;
             this.menuType = menuType;
             this.menuContext = menuContext;
             this.text = text;
@@ -43,11 +40,6 @@
         ///     Returns the IWindow where the menu is to be shown
         /// </summary>
         public IWindow Window { get { return this.window; } }
-
-        /// <summary>
-        ///     Returns the IServer where the event occured
-        /// </summary>
-        public IServer Server { get { return this.server; } }
 
         /// <summary>
         ///     Returns the menu type of this menu

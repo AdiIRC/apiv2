@@ -11,7 +11,6 @@
     /// </summary>
     public class ServerPongReceivedArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
         private readonly string message;
         private readonly string rawMessage;
@@ -23,7 +22,6 @@
         /// <summary>
         ///     Constructor for arguments class passed to the ServerPongReceived event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
         /// <param name="message">string</param>
         /// <param name="rawMessage">string</param>
@@ -31,9 +29,8 @@
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ServerPongReceivedArgs(IWindow window, IServer server, string message, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ServerPongReceivedArgs(IServer server, string message, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
             this.server = server;
             this.message = message;
             this.rawMessage = rawMessage;
@@ -42,11 +39,6 @@
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the pong was received
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured

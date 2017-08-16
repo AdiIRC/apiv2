@@ -10,8 +10,6 @@
     /// </summary>
     public class ChannelKickArgs : EventArgs
     {
-        private readonly IWindow window;
-        private readonly IServer server;
         private readonly IChannel channel;
         private readonly IChannelUser kickedUser;
         private readonly IChannelUser byUser;
@@ -25,8 +23,6 @@
         /// <summary>
         ///     Constructor for arguments class passed to the ChannelKick event
         /// </summary>
-        /// <param name="window">IWindow</param>
-        /// <param name="server">IServer</param>
         /// <param name="channel">IChannel</param>
         /// <param name="kickedUser">IChannelUser</param>
         /// <param name="byUser">IChannelUser</param>
@@ -36,10 +32,8 @@
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelKickArgs(IWindow window, IServer server, IChannel channel, IChannelUser kickedUser, IChannelUser byUser, string kickReason, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelKickArgs(IChannel channel, IChannelUser kickedUser, IChannelUser byUser, string kickReason, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
-            this.server = server;
             this.channel = channel;
             this.kickedUser = kickedUser;
             this.byUser = byUser;
@@ -50,16 +44,6 @@
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the kick occured
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
-
-        /// <summary>
-        ///     Returns the IServer where the event occured
-        /// </summary>
-        public IServer Server { get { return this.server; } }
 
         /// <summary>
         ///     Returns the IChannel where the kick occured

@@ -9,33 +9,25 @@
     /// </summary>
     public class ChannelInvitedUserArgs : EventArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
-        private readonly IChannel channel;
+        private readonly string channelName;
         private readonly IChannelUser user;
         private EatData eatData;
 
         /// <summary>
         ///     Arguments class passed to the ChannelInvitedUser event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
-        /// <param name="channel">IChannel</param>
+        /// <param name="channelName">string</param>
         /// <param name="user">IChannelUser</param>
         /// <param name="eatData">EatData</param>
-        public ChannelInvitedUserArgs(IWindow window, IServer server, IChannel channel, IChannelUser user, EatData eatData)
+        public ChannelInvitedUserArgs(IServer server, string channelName, IChannelUser user, EatData eatData)
         {
-            this.window = window;
             this.server = server;
-            this.channel = channel;
+            this.channelName = channelName;
             this.user = user;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the invite occured
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured
@@ -45,7 +37,7 @@
         /// <summary>
         ///     Returns the IChannel where the invite occured
         /// </summary>
-        public IChannel Channel { get { return this.channel; } }
+        public string ChannelName { get { return this.channelName; } }
 
         /// <summary>
         ///     Returns the IChannelUser who performed the invite

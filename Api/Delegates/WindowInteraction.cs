@@ -65,10 +65,4 @@ namespace AdiIRCAPIv2.Delegates
     /// </summary>
     /// <param name="argument">WindowBufferScrolledArgs</param>
     public delegate void WindowBufferScrolled(WindowBufferScrolledArgs argument);
-
-    /// <summary>
-    ///     Delegate gets called when a window buffer is scrolled
-    /// </summary>
-    /// <param name="argument">WindowBufferTextClickedArgs</param>
-    public delegate void WindowBufferTextClicked(WindowBufferTextClickedArgs argument);
 }

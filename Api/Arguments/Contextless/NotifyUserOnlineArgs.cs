@@ -9,7 +9,6 @@ namespace AdiIRCAPIv2.Arguments.Contextless
     /// </summary>
     public class NotifyUserOnlineArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
         private readonly IUser user;
         private readonly DateTime signedOnTime;
@@ -17,22 +16,15 @@ namespace AdiIRCAPIv2.Arguments.Contextless
         /// <summary>
         ///     Constructor for arguments class passed to the NotifyUserOnline event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
         /// <param name="user">IUser</param>
         /// <param name="signedOnTime">DateTime></param>
-        public NotifyUserOnlineArgs(IWindow window, IServer server, IUser user, DateTime signedOnTime)
+        public NotifyUserOnlineArgs(IServer server, IUser user, DateTime signedOnTime)
         {
-            this.window = window;
             this.server = server;
             this.user = user;
             this.signedOnTime = signedOnTime;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the notify was received
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured

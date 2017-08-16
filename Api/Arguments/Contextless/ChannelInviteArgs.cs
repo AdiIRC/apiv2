@@ -10,9 +10,8 @@ namespace AdiIRCAPIv2.Arguments.Contextless
     /// </summary>
     public class ChannelInviteArgs : EventArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
-        private readonly string channel;
+        private readonly string channelName;
         private readonly IChannelUser user;
         private readonly string rawMessage;
         private readonly string rawBytes;
@@ -23,20 +22,18 @@ namespace AdiIRCAPIv2.Arguments.Contextless
         /// <summary>
         ///     Constructor for arguments class passed to the ChannelInvite event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
-        /// <param name="channel">IChannel</param>
+        /// <param name="channelName">IChannel</param>
         /// <param name="user">IChannelUser</param>
         /// <param name="rawMessage">string</param>
         /// <param name="rawBytes">string</param>
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelInviteArgs(IWindow window, IServer server, string channel, IChannelUser user, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelInviteArgs(IServer server, string channelName, IChannelUser user, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
             this.server = server;
-            this.channel = channel;
+            this.channelName = channelName;
             this.user = user;
             this.rawMessage = rawMessage;
             this.rawBytes = rawBytes;
@@ -46,11 +43,6 @@ namespace AdiIRCAPIv2.Arguments.Contextless
         }
 
         /// <summary>
-        ///     Returns the IWindow where the invite was received
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
-
-        /// <summary>
         ///     Returns the IServer where the event occured
         /// </summary>
         public IServer Server { get { return this.server; } }
@@ -58,7 +50,7 @@ namespace AdiIRCAPIv2.Arguments.Contextless
         /// <summary>
         ///     Returns the channel name you were invited to
         /// </summary>
-        public string Channel { get { return this.channel; } }
+        public string ChannelName { get { return this.channelName; } }
 
         /// <summary>
         ///     Returns the IChannelUser who sent the invite

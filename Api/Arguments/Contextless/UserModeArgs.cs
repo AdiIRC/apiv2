@@ -10,7 +10,6 @@
     /// </summary>
     public class UserModeArgs : EventArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
         private readonly string mode;
         private readonly string rawMessage;
@@ -22,7 +21,6 @@
         /// <summary>
         ///     Constructor for arguments class passed to the UserMode event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
         /// <param name="mode">string</param>
         /// <param name="rawMessage">string</param>
@@ -30,9 +28,8 @@
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public UserModeArgs(IWindow window, IServer server, string mode, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public UserModeArgs(IServer server, string mode, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
             this.server = server;
             this.mode = mode;
             this.rawMessage = rawMessage;
@@ -41,11 +38,6 @@
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the usermode was received
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured

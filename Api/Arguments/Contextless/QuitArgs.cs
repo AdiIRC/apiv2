@@ -10,7 +10,6 @@
     /// </summary>
     public class QuitArgs : EventArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
         private readonly IUser user;
         private readonly string quitMessage;
@@ -23,7 +22,6 @@
         /// <summary>
         ///     Constructor for arguments class passed to the Quit event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
         /// <param name="user">IUser</param>
         /// <param name="quitMessage">string</param>
@@ -32,9 +30,8 @@
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public QuitArgs(IWindow window, IServer server, IUser user, string quitMessage, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public QuitArgs(IServer server, IUser user, string quitMessage, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
             this.server = server;
             this.user = user;
             this.quitMessage = quitMessage;
@@ -44,11 +41,6 @@
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the Quit was received
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured

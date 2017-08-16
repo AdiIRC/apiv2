@@ -7,7 +7,7 @@
     /// </summary>
     public class StringDataReceivedArgs
     {
-        private IServer server;
+        private readonly IServer server;
         private string data;
 
         /// <summary>
@@ -17,14 +17,14 @@
         /// <param name="data">string</param>
         public StringDataReceivedArgs(IServer server, string data)
         {
-            this.Server = server;
+            this.server = server;
             this.data = data;
         }
 
         /// <summary>
         ///     The IServer where the event occured
         /// </summary>
-        public IServer Server { get { return this.server; } set { this.server = value; } }
+        public IServer Server { get { return this.server; } }
 
         /// <summary>
         ///     The string data received

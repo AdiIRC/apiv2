@@ -866,10 +866,6 @@
         /// </summary>
         event WindowBufferScrolled OnWindowBufferScrolled;
 
-        /// <summary>
-        ///     Delegate gets called when a window buffer is scrolled
-        /// </summary>
-        event WindowBufferTextClicked OnWindowBufferTextClicked;
         #endregion
 
         #region ZipCompression

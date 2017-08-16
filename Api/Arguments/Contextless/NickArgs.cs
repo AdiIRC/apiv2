@@ -10,7 +10,6 @@
     /// </summary>
     public class NickArgs : EventArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
         private readonly IUser user;
         private readonly string newNick;
@@ -23,7 +22,6 @@
         /// <summary>
         ///     Constructor for arguments class passed to the Nick event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
         /// <param name="user">IUser</param>
         /// <param name="newNick">string</param>
@@ -32,9 +30,8 @@
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public NickArgs(IWindow window, IServer server, IUser user, string newNick, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public NickArgs(IServer server, IUser user, string newNick, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
-            this.window = window;
             this.server = server;
             this.user = user;
             this.newNick = newNick;
@@ -44,11 +41,6 @@
             this.messageTags = messageTags;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the nick was received
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured

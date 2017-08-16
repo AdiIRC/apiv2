@@ -9,7 +9,6 @@
     /// </summary>
     public class MessageSentArgs : EventArgs
     {
-        private readonly IWindow window;
         private readonly IServer server;
         private readonly string target;
         private string message;
@@ -20,16 +19,14 @@
         /// <summary>
         ///     Constructor for arguments class passed to the MessageSent event
         /// </summary>
-        /// <param name="window">IWindow</param>
         /// <param name="server">IServer</param>
         /// <param name="target">string</param>
         /// <param name="message">string</param>
         /// <param name="command">string</param>
         /// <param name="messageType">MessageType</param>
         /// <param name="eatData">EatData></param>
-        public MessageSentArgs(IWindow window, IServer server, string target, string message, string command, MessageType messageType, EatData eatData)
+        public MessageSentArgs(IServer server, string target, string message, string command, MessageType messageType, EatData eatData)
         {
-            this.window = window;
             this.server = server;
             this.target = target;
             this.message = message;
@@ -37,11 +34,6 @@
             this.messageType = messageType;
             this.eatData = eatData;
         }
-
-        /// <summary>
-        ///     Returns the IWindow where the messages was sent from
-        /// </summary>
-        public IWindow Window { get { return this.window; } }
 
         /// <summary>
         ///     Returns the IServer where the event occured
