@@ -14,11 +14,7 @@
 
         public string Email { get { return "bob@jones.com"; } }
 
-        public IPluginHost Host { get; set; }
-
-        public ITools Tools { get; set; }
-
-        public void Initialize()
+        public void Initialize(PluginHost host)
         {
             // Called when the plugin is loaded, subscribe to host events here.
         }
