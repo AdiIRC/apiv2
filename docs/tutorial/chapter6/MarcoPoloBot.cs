@@ -11,8 +11,8 @@ namespace TestPlugin
         public string PluginVersion => "1";
         public string PluginEmail => "";
 
-        private IPluginHost _host;        
-        
+        private IPluginHost _host;
+
         public void Initialize(IPluginHost host)
         {
             _host = host;
@@ -26,7 +26,7 @@ namespace TestPlugin
             {
                 var message = $"PRIVMSG {argument.Channel.Name} :Polo.";
 
-                argument.Server.SendRaw(message);
+                argument.Channel.Server.SendRaw(message);
             }
         }
 

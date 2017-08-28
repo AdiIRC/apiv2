@@ -203,12 +203,12 @@ private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
 Great we got our event. What else do we need. Well we need to need to know what our nickname is on the server where we received the message. Basically any event that was fired by actual chat will have a IServer passed along with it. Any message that happens in a channel will have an IChannel object with it. And almost any event caused by a specific user will have a IUser object. 
 
 
-ChannelNormalMessage supplies us with all 3. We don't need the IUser or IChannel at the moment. But IServer will contain information about the server. And nicknames are server level. Lets look at the [IServer](https://adiirc.com/docsv2/html/05073858-153c-09e0-112c-062e7eed7d22.htm) interface in the documentation.
+ChannelNormalMessage supplies us with all 3. We don't need the IUser at the moment. But IChannel will contain a reference to the server its on. And nicknames are server level information. Lets look at the [IServer](https://adiirc.com/docsv2/html/05073858-153c-09e0-112c-062e7eed7d22.htm) interface in the documentation.
 
 There is actually a few ways to get the our current nickname out of Server but lets go with the most "proper" one. 
 
 ```c#
-var nickName = argument.Server.Self.Nick;
+var nickName = argument.Channel.Server.Self.Nick;
 ``` 
 
 Next we need the text of the message, argument.Message contains the text message in full. Thats easy then. And lets play a beep when we get the message, with the /beep command.
@@ -216,7 +216,7 @@ Next we need the text of the message, argument.Message contains the text message
 ```c#
 private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
 {
-    var nickName = argument.Server.Self.Nick;
+    var nickName = argument.Channel.Server.Self.Nick;
 
     if (argument.Message.Contains(nickName))
     {
