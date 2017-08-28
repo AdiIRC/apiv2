@@ -158,7 +158,7 @@ private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
         var sender = $"{user.Nick}!{user.Ident}@{user.Host}";
         var apology = $":{sender} PRIVMSG {argument.Channel.Name} :Sorry, my next message is going to be very rude.";
 
-        argument.Server.SendFakeRaw(apology);
+        argument.Channel.Server.SendFakeRaw(apology);
     }
 }
 ```
@@ -207,7 +207,7 @@ private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
     {
         var message = $"PRIVMSG {argument.Channel.Name} :Polo.";
 
-        argument.Server.SendRaw(message);
+        argument.Channel.Server.SendRaw(message);
     }
 }
 ```

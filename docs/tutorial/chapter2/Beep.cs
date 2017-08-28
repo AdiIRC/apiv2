@@ -22,7 +22,7 @@ namespace TestPlugin
 
         private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
         {
-            var nickName = argument.Server.Self.Nick;
+            var nickName = argument.Channel.Server.Self.Nick;
 
             if (argument.Message.Contains(nickName))
             {

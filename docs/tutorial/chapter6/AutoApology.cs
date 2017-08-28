@@ -11,27 +11,27 @@ namespace TestPlugin
         public string PluginVersion => "1";
         public string PluginEmail => "";
 
-        private IPluginHost _host;        
-        
-            public void Initialize(IPluginHost host)
+        private IPluginHost _host;
+
+        public void Initialize(IPluginHost host)
+        {
+            _host = host;
+
+            _host.OnChannelNormalMessage += OnChannelNormalMessage;
+        }
+
+        private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
+        {
+            if (argument.Message.Contains("damn"))
             {
-                _host = host;
+                var user = argument.User;
 
-                _host.OnChannelNormalMessage += OnChannelNormalMessage;
+                var sender = $"{user.Nick}!{user.Ident}@{user.Host}";
+                var apology = $":{sender} PRIVMSG {argument.Channel.Name} :Sorry, my next message is going to be very rude.";
+
+                argument.Channel.Server.SendFakeRaw(apology);
             }
-
-            private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
-            {
-                if (argument.Message.Contains("damn"))
-                {
-                    var user = argument.User;
-
-                    var sender = $"{user.Nick}!{user.Ident}@{user.Host}";
-                    var apology = $":{sender} PRIVMSG {argument.Channel.Name} :Sorry, my next message is going to be very rude.";
-
-                    argument.Server.SendFakeRaw(apology);
-                }
-            }
+        }
 
 
         public void Dispose()
