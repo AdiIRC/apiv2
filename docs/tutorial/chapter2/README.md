@@ -226,4 +226,4 @@ private void OnChannelNormalMessage(ChannelNormalMessageArgs argument)
 ```
 [Full Example File](Beep.cs)
 
-This naturally only covers normal messages. But those are not the only messages you can receive from other users. There are also Notifications, Actions. And private variations instead of channel ones. As an exercise try expanding this plugin to cover all those ean    vents. 
+This naturally only covers normal messages. But those are not the only messages you can receive from other users. There are also Notifications, Actions. And private variations instead of channel ones. As an exercise try expanding this plugin to cover all those additional events. 
