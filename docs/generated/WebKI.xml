@@ -1882,6 +1882,7 @@
     <HelpKINode Title="DnsResolveEndArgs.Ipv6 Property " Url="html/78815f0c-8e47-40d4-3245-566b0fdd7ffa.htm" />
     <HelpKINode Title="DnsResolveStartedArgs.Ipv6 Property " Url="html/2406e97f-c620-e009-123d-9ef6bccb5078.htm" />
   </HelpKINode>
+  <HelpKINode Title="IRCv3Caps property" Url="html/75bde0b1-2803-c68e-85bb-14ab75e8fcdc.htm" />
   <HelpKINode Title="IsAway property">
     <HelpKINode Title="IPrivateWindow.IsAway Property " Url="html/d61e6619-6701-a6d2-2459-8bb5655134b7.htm" />
     <HelpKINode Title="IUser.IsAway Property " Url="html/64ea24dc-685f-a282-92e3-76f270feb009.htm" />
@@ -1924,6 +1925,7 @@
   <HelpKINode Title="IServer.HostTarget property" Url="html/7192c1b7-a60d-f040-74df-9859bc7482ff.htm" />
   <HelpKINode Title="IServer.IdleTime property" Url="html/6316157b-cd1f-c8b3-9d9a-fe23efeb67c5.htm" />
   <HelpKINode Title="IServer.InviteLength property" Url="html/afb68bef-986e-e240-4980-cb26e4477732.htm" />
+  <HelpKINode Title="IServer.IRCv3Caps property" Url="html/75bde0b1-2803-c68e-85bb-14ab75e8fcdc.htm" />
   <HelpKINode Title="IServer.IsConnected property" Url="html/39fcde53-d7c7-9e3e-d999-2d84947f5530.htm" />
   <HelpKINode Title="IServer.IsConnecting property" Url="html/dfcc87a0-c0c0-ffd4-387a-0cf0acb6f7e3.htm" />
   <HelpKINode Title="IServer.IsLoggingOn property" Url="html/de112759-7cdc-8539-ec6e-e42df514b79f.htm" />

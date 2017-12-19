@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="48dc3e21-9ee8-40ac-9b0c-144434ade869" Title="AdiIRCAPIv2.Arguments.Aliasing" Url="html/b188f817-d351-7802-e9a1-6907dc8377be.htm">
-    <HelpTOCNode Id="cf687126-2d78-43e1-b22b-0e3cadbe792d" Title="RegisteredCommandArgs Class" Url="html/ed81f664-3e35-fcb5-0893-a19382ce145b.htm">
+  <HelpTOCNode Id="c3aa2e9b-e42a-41ab-a97b-5eb801d08578" Title="AdiIRCAPIv2.Arguments.Aliasing" Url="html/b188f817-d351-7802-e9a1-6907dc8377be.htm">
+    <HelpTOCNode Id="2b4174dd-35fd-4419-a7ef-a5219aa444f4" Title="RegisteredCommandArgs Class" Url="html/ed81f664-3e35-fcb5-0893-a19382ce145b.htm">
       <HelpTOCNode Title="RegisteredCommandArgs Constructor " Url="html/521716d0-2b4d-2f95-f1d2-7de326df7c8c.htm" />
-      <HelpTOCNode Id="ed2f2c06-e11a-4bcd-adf4-7ebbb4c055f6" Title="RegisteredCommandArgs Properties" Url="html/e887c29d-ed96-f200-7ac3-2a825da8deb5.htm">
+      <HelpTOCNode Id="1d1de16d-40b8-4b19-ac80-4e16e80bc447" Title="RegisteredCommandArgs Properties" Url="html/e887c29d-ed96-f200-7ac3-2a825da8deb5.htm">
         <HelpTOCNode Title="Command Property " Url="html/0f4f4f7f-0936-6c8a-215b-f58e96c76c9d.htm" />
         <HelpTOCNode Title="Window Property " Url="html/a16db8f8-c296-dee2-57ea-0c746ef4820e.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RegisteredCommandArgs Methods" Url="html/38c471d2-2a6a-d833-29ec-f6b358a768e6.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="45d2ebc7-a323-4a37-8320-0fa1593f28db" Title="RegisteredIdentifierArgs Class" Url="html/7cfaf447-587d-63d2-639e-49854e389d6d.htm">
+    <HelpTOCNode Id="9beea8df-fcf0-48e0-95b0-969aea3b980c" Title="RegisteredIdentifierArgs Class" Url="html/7cfaf447-587d-63d2-639e-49854e389d6d.htm">
       <HelpTOCNode Title="RegisteredIdentifierArgs Constructor " Url="html/8b9fe537-9b8b-f57c-3021-b8a6b69c12d6.htm" />
-      <HelpTOCNode Id="a4f2e766-d5ba-4384-9934-6761ed4346a3" Title="RegisteredIdentifierArgs Properties" Url="html/24ff03ea-cef9-129b-8d1a-c3e79a34aa9f.htm">
+      <HelpTOCNode Id="a050aa1d-e7b8-44c0-bde3-11ac548c7a06" Title="RegisteredIdentifierArgs Properties" Url="html/24ff03ea-cef9-129b-8d1a-c3e79a34aa9f.htm">
         <HelpTOCNode Title="Identifier Property " Url="html/a14cb18d-ad87-1028-bd16-ca167fe22fbe.htm" />
         <HelpTOCNode Title="InputParameters Property " Url="html/bcad045d-be71-b79b-71eb-8b2082abd8fb.htm" />
         <HelpTOCNode Title="ReturnString Property " Url="html/b2416722-1ff1-d96c-34a6-9bee89973c3d.htm" />
@@ -20,9 +20,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="RegisteredIdentifierArgs Methods" Url="html/71736ef3-35ed-645f-21d5-ded1dae7801f.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b7bb34a8-8bce-4fd3-94cc-69cec056c7c0" Title="ScriptSignalEventArgs Class" Url="html/278ed343-833d-20ad-10d3-a61668d47853.htm">
+    <HelpTOCNode Id="a3bbcfe8-0107-4a75-a4dd-3dd5f48c020f" Title="ScriptSignalEventArgs Class" Url="html/278ed343-833d-20ad-10d3-a61668d47853.htm">
       <HelpTOCNode Title="ScriptSignalEventArgs Constructor " Url="html/fc1db379-b3e1-4913-2ae9-0857026ec96f.htm" />
-      <HelpTOCNode Id="38793a40-ae3a-42df-ac7d-d5ac2529ef73" Title="ScriptSignalEventArgs Properties" Url="html/59d2e15b-059a-035a-04b7-2de59ce0003c.htm">
+      <HelpTOCNode Id="588d9951-2cf5-4c2e-84c2-3d89e9d0fd5d" Title="ScriptSignalEventArgs Properties" Url="html/59d2e15b-059a-035a-04b7-2de59ce0003c.htm">
         <HelpTOCNode Title="EatData Property " Url="html/710a8305-f799-3805-92f0-1a8515fb1b17.htm" />
         <HelpTOCNode Title="Parameters Property " Url="html/af471991-97d8-8d5c-b849-fc173f8e3ad5.htm" />
         <HelpTOCNode Title="Signal Property " Url="html/f65aa348-ecf7-0b5d-3104-0f99b6623955.htm" />
@@ -30,36 +30,36 @@
       <HelpTOCNode Title="ScriptSignalEventArgs Methods" Url="html/027145d0-acef-c188-1b18-23056894db68.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="29353252-df97-4607-ad7f-5a09b7b799e9" Title="AdiIRCAPIv2.Arguments.Application" Url="html/4b8e64ce-ba22-c504-3043-c6261e3f70bd.htm">
-    <HelpTOCNode Id="ea1ee7af-61e8-481a-ae1b-ca0b256885dd" Title="ApplicationClosingArgs Class" Url="html/26708715-c236-564c-a9ed-24117cced23f.htm">
+  <HelpTOCNode Id="07d49b12-6a58-40ab-bfd1-f8e658646b5f" Title="AdiIRCAPIv2.Arguments.Application" Url="html/4b8e64ce-ba22-c504-3043-c6261e3f70bd.htm">
+    <HelpTOCNode Id="16b066df-4ce3-404d-9fae-2bda1d7092c2" Title="ApplicationClosingArgs Class" Url="html/26708715-c236-564c-a9ed-24117cced23f.htm">
       <HelpTOCNode Title="ApplicationClosingArgs Constructor " Url="html/544b7358-5f7b-ec17-e599-73f8a23b4da5.htm" />
       <HelpTOCNode Title="ApplicationClosingArgs Methods" Url="html/50fbfffc-e75c-b8cc-fed3-a9fdf63b8c85.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="375d1426-7cbe-4ad7-96b5-6c862601449d" Title="ApplicationFocusChangedArgs Class" Url="html/f542e007-c863-806e-ada0-6e243fb00440.htm">
+    <HelpTOCNode Id="abeeb54e-d8ed-47c9-b0c8-28fd6f03dd67" Title="ApplicationFocusChangedArgs Class" Url="html/f542e007-c863-806e-ada0-6e243fb00440.htm">
       <HelpTOCNode Title="ApplicationFocusChangedArgs Constructor " Url="html/008b1d40-fdbd-1c0d-9097-a143f9df902a.htm" />
       <HelpTOCNode Title="ApplicationFocusChangedArgs Methods" Url="html/3ea3f5ac-ea20-bcee-4ecf-8508fda3c1d0.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ef34e6c9-450d-4665-89f1-c1003a74aba7" Title="ApplicationHostSuspendedArgs Class" Url="html/f8102759-61bd-0bb4-48ba-46eecf883aa3.htm">
+    <HelpTOCNode Id="2bd14274-fb83-40d8-87c8-e44bc6d5751f" Title="ApplicationHostSuspendedArgs Class" Url="html/f8102759-61bd-0bb4-48ba-46eecf883aa3.htm">
       <HelpTOCNode Title="ApplicationHostSuspendedArgs Constructor " Url="html/0f221a30-44bd-15ca-9c19-424545393e2c.htm" />
       <HelpTOCNode Title="ApplicationHostSuspendedArgs Methods" Url="html/20fe351b-3f72-51d9-211c-20c2091317b0.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a7230c75-cfac-4ac6-a546-276a60c8de38" Title="ApplicationHostWokenArgs Class" Url="html/e587aa42-f964-ba03-a691-e0d9e1b81432.htm">
+    <HelpTOCNode Id="9326ee8b-ac8d-40e6-86c5-d80a3bb1d248" Title="ApplicationHostWokenArgs Class" Url="html/e587aa42-f964-ba03-a691-e0d9e1b81432.htm">
       <HelpTOCNode Title="ApplicationHostWokenArgs Constructor " Url="html/1f3448f8-7cf2-bf5a-c38a-448d93a69b88.htm" />
       <HelpTOCNode Title="ApplicationHostWokenArgs Methods" Url="html/b33dfe13-c95b-df73-6b3b-f55ab08fbe10.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a3ee3ea2-c4bd-4333-9176-6f1e4f796577" Title="ApplicationOptionsChangedArgs Class" Url="html/3cec7d2d-f31f-c56b-fd15-471cf1aae6b2.htm">
+    <HelpTOCNode Id="53d6be88-f9a7-4bd8-a95b-d5d8101aa376" Title="ApplicationOptionsChangedArgs Class" Url="html/3cec7d2d-f31f-c56b-fd15-471cf1aae6b2.htm">
       <HelpTOCNode Title="ApplicationOptionsChangedArgs Constructor " Url="html/6734221b-13f6-212a-c071-b2ba513c8cc0.htm" />
       <HelpTOCNode Title="ApplicationOptionsChangedArgs Methods" Url="html/bdda7c7d-1d10-5ff8-d0de-f4e02e0634c2.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="608d7b24-f161-439d-90b6-13391e593fbb" Title="ApplicationStartedArgs Class" Url="html/c8380dd4-4665-2462-61cf-bd191136807a.htm">
+    <HelpTOCNode Id="939ebfd6-662f-403e-8426-d49dc77f0c30" Title="ApplicationStartedArgs Class" Url="html/c8380dd4-4665-2462-61cf-bd191136807a.htm">
       <HelpTOCNode Title="ApplicationStartedArgs Constructor " Url="html/95f43073-939d-4653-2ef8-e82d94f5cfa8.htm" />
       <HelpTOCNode Title="ApplicationStartedArgs Methods" Url="html/bb5ade7b-e47b-24ee-72e8-d41605d20c6a.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="1685f60a-5742-46ae-8e64-dfe91b22e7f9" Title="AdiIRCAPIv2.Arguments.Channel" Url="html/25e6d852-40da-58b4-c5a3-4ecaaa75ca7f.htm">
-    <HelpTOCNode Id="ce176e20-5420-4c2b-b6fa-79bbd7e96662" Title="ChannelInvitedUserArgs Class" Url="html/07e29b09-815e-b888-352c-a7074a80c6ff.htm">
+  <HelpTOCNode Id="63647d05-6094-455a-929f-816697824dad" Title="AdiIRCAPIv2.Arguments.Channel" Url="html/25e6d852-40da-58b4-c5a3-4ecaaa75ca7f.htm">
+    <HelpTOCNode Id="9a8789c7-db0c-4a48-80e0-d4c8b3a041d5" Title="ChannelInvitedUserArgs Class" Url="html/07e29b09-815e-b888-352c-a7074a80c6ff.htm">
       <HelpTOCNode Title="ChannelInvitedUserArgs Constructor " Url="html/46b927e1-0b4c-8843-7ac4-0c033e4595ef.htm" />
-      <HelpTOCNode Id="ccf530af-97ca-43fa-b46c-fb4a1829c9d9" Title="ChannelInvitedUserArgs Properties" Url="html/1d8f03d2-eb49-1547-7a68-41390b81bbfa.htm">
+      <HelpTOCNode Id="64a9fd37-fc9c-478e-8dfa-e64e414863cc" Title="ChannelInvitedUserArgs Properties" Url="html/1d8f03d2-eb49-1547-7a68-41390b81bbfa.htm">
         <HelpTOCNode Title="ChannelName Property " Url="html/aee460c4-2ea7-dbfc-52ca-f94896b7b59d.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/d99a04b7-121b-397d-cf9e-2857d8718768.htm" />
         <HelpTOCNode Title="Server Property " Url="html/d087e946-04f7-985f-7fee-99abbd6f8164.htm" />
@@ -67,9 +67,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelInvitedUserArgs Methods" Url="html/dc27e547-72c7-83fe-956d-ed0e9dc16ee2.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d722a6b8-0ddb-4c44-a7cd-d0190dcf0a40" Title="ChannelJoinArgs Class" Url="html/3c3b9530-1902-947b-37f1-7ddcf8793317.htm">
+    <HelpTOCNode Id="2dc8d3a2-fb23-4775-bf8c-68e217c2a019" Title="ChannelJoinArgs Class" Url="html/3c3b9530-1902-947b-37f1-7ddcf8793317.htm">
       <HelpTOCNode Title="ChannelJoinArgs Constructor " Url="html/51d27640-5ca9-4bc4-1acd-86de85e3aafd.htm" />
-      <HelpTOCNode Id="f3c094c2-08ea-4694-b0ab-bacd33d4d093" Title="ChannelJoinArgs Properties" Url="html/c5eacc35-84bf-49d2-2815-11d32f3384d4.htm">
+      <HelpTOCNode Id="1dc2dc0d-594e-4b2e-87fd-d14dbd8eac4f" Title="ChannelJoinArgs Properties" Url="html/c5eacc35-84bf-49d2-2815-11d32f3384d4.htm">
         <HelpTOCNode Title="Channel Property " Url="html/4ce023a2-4ad3-0696-49e7-01911ff2138e.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/8f156a3a-af56-5619-1d80-dad180c3fd7b.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/2d6f6596-40ef-60b2-03d3-5d5ebaf847a9.htm" />
@@ -80,9 +80,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelJoinArgs Methods" Url="html/1d4e19f4-7c9b-b2df-bd41-0d3f32f9e640.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="67ec5398-9a88-477e-b9cb-39b3ef11fd11" Title="ChannelKickArgs Class" Url="html/282258bf-92cb-17f1-1848-fb16cb12c954.htm">
+    <HelpTOCNode Id="eb610f03-2545-4578-8ae1-579c9ca29b49" Title="ChannelKickArgs Class" Url="html/282258bf-92cb-17f1-1848-fb16cb12c954.htm">
       <HelpTOCNode Title="ChannelKickArgs Constructor " Url="html/6f9181ff-d0ea-ebb8-9fe3-d7778c87b8e5.htm" />
-      <HelpTOCNode Id="0a68e85f-f37b-4ab3-b84f-bfda85ea606f" Title="ChannelKickArgs Properties" Url="html/ca66bfb6-8ebf-579f-f3cb-e9f1b6a2a02e.htm">
+      <HelpTOCNode Id="a0c18fa5-f7f9-4757-acd0-b960b72bb4a9" Title="ChannelKickArgs Properties" Url="html/ca66bfb6-8ebf-579f-f3cb-e9f1b6a2a02e.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/0919ee40-900e-bba4-24b5-014352a2373b.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/6282ef7b-ca93-500f-961c-9a7b6138eb61.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/a5a38e61-48d7-c575-773f-5980fde98036.htm" />
@@ -95,9 +95,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelKickArgs Methods" Url="html/dd0b5f9b-b2f3-4819-3c25-ee1ead12d90f.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a0725db3-ce89-4459-93d3-60a617075863" Title="ChannelPartArgs Class" Url="html/8b0c3100-ddc7-437c-ea45-24c82af7b488.htm">
+    <HelpTOCNode Id="2ce980e4-3608-40af-81d1-ee4e970cdf51" Title="ChannelPartArgs Class" Url="html/8b0c3100-ddc7-437c-ea45-24c82af7b488.htm">
       <HelpTOCNode Title="ChannelPartArgs Constructor " Url="html/a6b72c83-dede-4111-358c-020acab296f6.htm" />
-      <HelpTOCNode Id="00e3c34e-8809-4cae-99a0-391f7a4be506" Title="ChannelPartArgs Properties" Url="html/333ee609-7944-fdff-c125-df19c36b7838.htm">
+      <HelpTOCNode Id="3ae89e6c-8203-4e2d-bc05-fe1baed3ed0f" Title="ChannelPartArgs Properties" Url="html/333ee609-7944-fdff-c125-df19c36b7838.htm">
         <HelpTOCNode Title="Channel Property " Url="html/4b37be39-6135-6ac7-370f-d5bc45fa687f.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/52eb5006-44f7-f5b3-9770-d87f7bc7ada5.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/7709c252-7018-afb5-e975-bf72777df2d1.htm" />
@@ -109,9 +109,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelPartArgs Methods" Url="html/644fb852-9dbf-76f1-8b49-66d7dc332e51.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="76bbd0a7-4e41-4014-ad8a-28d7221080db" Title="ChannelTopicArgs Class" Url="html/9203d246-5381-9907-e64b-43f1fd0db306.htm">
+    <HelpTOCNode Id="d335ba86-f5c6-4d34-b6b8-2fdbce53e1ac" Title="ChannelTopicArgs Class" Url="html/9203d246-5381-9907-e64b-43f1fd0db306.htm">
       <HelpTOCNode Title="ChannelTopicArgs Constructor " Url="html/bd442f3e-df58-a4eb-f2bc-04159e247e79.htm" />
-      <HelpTOCNode Id="7049af5c-edae-4c27-9816-37f7caaf78e6" Title="ChannelTopicArgs Properties" Url="html/c9c657e1-341b-c6ef-8b59-6fedba29dba1.htm">
+      <HelpTOCNode Id="48df5c57-de16-4efb-bf15-18a7be6b0066" Title="ChannelTopicArgs Properties" Url="html/c9c657e1-341b-c6ef-8b59-6fedba29dba1.htm">
         <HelpTOCNode Title="Channel Property " Url="html/80294132-74b0-453e-8292-62c0ff5a93e7.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/2e63c47e-86e1-aad8-accf-6317daa52a34.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/61b58b6a-f541-25b7-a898-b6f3cf81a2ae.htm" />
@@ -123,9 +123,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelTopicArgs Methods" Url="html/cf77d676-a5ab-35bb-9e9c-df8446ce1cba.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="41849e17-e55e-40df-bda3-54c8f6a95e18" Title="UserInvitedToChannelArgs Class" Url="html/8e3072e6-579f-fd42-f063-e2126c38f7a1.htm">
+    <HelpTOCNode Id="4c850649-b468-4320-aace-be10d7316c81" Title="UserInvitedToChannelArgs Class" Url="html/8e3072e6-579f-fd42-f063-e2126c38f7a1.htm">
       <HelpTOCNode Title="UserInvitedToChannelArgs Constructor " Url="html/86da9399-32df-04c8-e0e0-04d9dcf55dd2.htm" />
-      <HelpTOCNode Id="33d6f3aa-afd7-4bbc-8ffe-3cce3a847d7f" Title="UserInvitedToChannelArgs Properties" Url="html/c7c0aa48-ac39-1e69-0fb1-8738cee1c211.htm">
+      <HelpTOCNode Id="1d8a07f8-13f0-42ac-bb59-b28c1c4d96df" Title="UserInvitedToChannelArgs Properties" Url="html/c7c0aa48-ac39-1e69-0fb1-8738cee1c211.htm">
         <HelpTOCNode Title="ChannelName Property " Url="html/2ffe0558-318b-8e49-7559-0ab080271488.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/d739ffc0-bdc9-32dd-7007-2564c5cf31ca.htm" />
         <HelpTOCNode Title="Server Property " Url="html/80257131-ebce-2322-99bc-1c32e28d74da.htm" />
@@ -134,10 +134,10 @@
       <HelpTOCNode Title="UserInvitedToChannelArgs Methods" Url="html/1b28fa9c-5211-3f55-46a3-0c6186dbafd4.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="fed1c7c1-07f4-4d1c-83cd-c5d833445672" Title="AdiIRCAPIv2.Arguments.ChannelMessages" Url="html/1de0665e-9b93-d746-06b3-27bde863cdd0.htm">
-    <HelpTOCNode Id="65065848-5ef0-4645-adab-074da8bdb1c1" Title="ChannelActionMessageArgs Class" Url="html/618041a1-f02f-d6b0-2376-7add472a8999.htm">
+  <HelpTOCNode Id="20ed0191-77a3-4116-bcd7-73b5f3d3d567" Title="AdiIRCAPIv2.Arguments.ChannelMessages" Url="html/1de0665e-9b93-d746-06b3-27bde863cdd0.htm">
+    <HelpTOCNode Id="1991358b-900b-4517-9fb0-75576c87e577" Title="ChannelActionMessageArgs Class" Url="html/618041a1-f02f-d6b0-2376-7add472a8999.htm">
       <HelpTOCNode Title="ChannelActionMessageArgs Constructor " Url="html/70cd6ad2-3efb-082a-4048-4a398cb9d490.htm" />
-      <HelpTOCNode Id="c7641df0-cdb6-4e73-8729-a0f830846b1b" Title="ChannelActionMessageArgs Properties" Url="html/2b5909fa-8d60-e0da-f6aa-f5ae5837c2b5.htm">
+      <HelpTOCNode Id="a5c6c884-e0df-4ba2-9255-84bd0940f32e" Title="ChannelActionMessageArgs Properties" Url="html/2b5909fa-8d60-e0da-f6aa-f5ae5837c2b5.htm">
         <HelpTOCNode Title="Channel Property " Url="html/fdfa320a-83f6-3355-2a58-bd91e311373a.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/5486877a-332e-56fe-fccf-9fcd84137e3d.htm" />
         <HelpTOCNode Title="Message Property " Url="html/28fa329a-4c0e-92d4-ff66-633b374a6f40.htm" />
@@ -149,9 +149,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelActionMessageArgs Methods" Url="html/fea5567c-38bf-b54d-a019-148b152215cd.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c21f718c-be29-4e53-be07-5d9b5ed8cd7f" Title="ChannelCtcpMessageArgs Class" Url="html/413c49ae-fe4c-3548-de92-ed152a475ffa.htm">
+    <HelpTOCNode Id="1ed02b5e-a628-4ea0-98fc-12a70452aa8c" Title="ChannelCtcpMessageArgs Class" Url="html/413c49ae-fe4c-3548-de92-ed152a475ffa.htm">
       <HelpTOCNode Title="ChannelCtcpMessageArgs Constructor " Url="html/bb229ef2-2ed0-4cf0-c868-1dca6b79b442.htm" />
-      <HelpTOCNode Id="db908d3a-a0ed-48b9-b412-bbd487444150" Title="ChannelCtcpMessageArgs Properties" Url="html/8a6b7b95-eb78-def2-f123-ebff1671fea9.htm">
+      <HelpTOCNode Id="51b82167-f63c-4157-b869-c6e74b71c58e" Title="ChannelCtcpMessageArgs Properties" Url="html/8a6b7b95-eb78-def2-f123-ebff1671fea9.htm">
         <HelpTOCNode Title="Channel Property " Url="html/da22dd51-4813-2beb-b304-31ea6af5a627.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/b01df5aa-a987-a64b-836f-ade51b7667e0.htm" />
         <HelpTOCNode Title="Message Property " Url="html/db87ae5b-3860-ec8a-9c0d-a2d6a3368f0b.htm" />
@@ -163,9 +163,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelCtcpMessageArgs Methods" Url="html/64ee2a4a-f35d-fe3f-96d9-76aae01b5c4c.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b2246b3a-4122-4b3b-9bd7-349493a55b73" Title="ChannelCtcpReplyMessageArgs Class" Url="html/e252ef49-030f-0244-e11f-df9406726f33.htm">
+    <HelpTOCNode Id="be657b92-2099-4e9c-96e9-5b74cacb985c" Title="ChannelCtcpReplyMessageArgs Class" Url="html/e252ef49-030f-0244-e11f-df9406726f33.htm">
       <HelpTOCNode Title="ChannelCtcpReplyMessageArgs Constructor " Url="html/a78e4dda-b68e-7286-c49d-f96afe600bb0.htm" />
-      <HelpTOCNode Id="f1f77041-afeb-46ac-bf3e-94b4184b6e63" Title="ChannelCtcpReplyMessageArgs Properties" Url="html/e35b1bcb-7153-a027-8625-ac2df6f43e30.htm">
+      <HelpTOCNode Id="501bd0fe-cfa7-4875-bfa4-c1b79089d09a" Title="ChannelCtcpReplyMessageArgs Properties" Url="html/e35b1bcb-7153-a027-8625-ac2df6f43e30.htm">
         <HelpTOCNode Title="Channel Property " Url="html/a11f39aa-0a7c-f826-85c0-d891d7726ac7.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/a76ccaaa-7465-2be8-06d0-71b2d5a75bfb.htm" />
         <HelpTOCNode Title="Message Property " Url="html/e683aa19-417f-64ab-5370-de86556425f9.htm" />
@@ -177,9 +177,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelCtcpReplyMessageArgs Methods" Url="html/ddcf852b-2d3b-70b1-ca16-4725e13ebdda.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="20ef5613-3c4d-4458-b72d-169806ae6329" Title="ChannelNormalMessageArgs Class" Url="html/b9c36d6d-f90b-8fde-a0f9-950c58027d1d.htm">
+    <HelpTOCNode Id="41b7decf-baf6-4505-b909-a96e3218a72a" Title="ChannelNormalMessageArgs Class" Url="html/b9c36d6d-f90b-8fde-a0f9-950c58027d1d.htm">
       <HelpTOCNode Title="ChannelNormalMessageArgs Constructor " Url="html/3892332f-2dad-8b1f-2439-35c32cd5f334.htm" />
-      <HelpTOCNode Id="6bea7ab0-59fc-4ec9-9197-d0ec83784784" Title="ChannelNormalMessageArgs Properties" Url="html/6cf85a6d-b500-f1bd-78eb-11e38a933e1b.htm">
+      <HelpTOCNode Id="2f5100df-5047-4329-8c86-f42a4d5609c8" Title="ChannelNormalMessageArgs Properties" Url="html/6cf85a6d-b500-f1bd-78eb-11e38a933e1b.htm">
         <HelpTOCNode Title="Channel Property " Url="html/407f7d22-e99b-a565-64e7-0d03a244948b.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/82b95754-4e78-0fc1-307c-c8956546c0ac.htm" />
         <HelpTOCNode Title="Message Property " Url="html/52331ccb-e76a-549c-e400-e107298a9c46.htm" />
@@ -191,9 +191,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelNormalMessageArgs Methods" Url="html/7884b3f6-d2ad-0be8-c7ba-d018f426df18.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="cbe29a15-934e-46e4-9280-1a62ed7ee108" Title="ChannelNoticeMessageArgs Class" Url="html/ade3d643-aa81-a1f8-2105-c2267d403fdd.htm">
+    <HelpTOCNode Id="770c7cd6-b03d-4a37-9220-235cdbe544b0" Title="ChannelNoticeMessageArgs Class" Url="html/ade3d643-aa81-a1f8-2105-c2267d403fdd.htm">
       <HelpTOCNode Title="ChannelNoticeMessageArgs Constructor " Url="html/e74abf2f-f112-16a4-630c-36285c1788f9.htm" />
-      <HelpTOCNode Id="6008a77c-ca87-4765-86ad-a85fc5062244" Title="ChannelNoticeMessageArgs Properties" Url="html/4053dea0-aecc-4dff-dcd0-61c82d442f04.htm">
+      <HelpTOCNode Id="ec7df5d3-1ec6-4cde-b57c-f0f12ceea8bd" Title="ChannelNoticeMessageArgs Properties" Url="html/4053dea0-aecc-4dff-dcd0-61c82d442f04.htm">
         <HelpTOCNode Title="Channel Property " Url="html/da047412-0376-2292-f423-05e127069e2d.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/5aa14bdd-b2b9-e0d3-a73c-79854a9d5caf.htm" />
         <HelpTOCNode Title="Message Property " Url="html/830ff436-6655-bf7c-fe1f-4f6d9528b456.htm" />
@@ -206,10 +206,10 @@
       <HelpTOCNode Title="ChannelNoticeMessageArgs Methods" Url="html/7373ab77-0d19-13d8-77f1-f5394d0bd79b.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="96b40a3a-00c0-466d-ba3d-a2f57eb16275" Title="AdiIRCAPIv2.Arguments.ChannelModes" Url="html/8b556972-49e1-3c8f-bff2-1135612931c9.htm">
-    <HelpTOCNode Id="aa27b588-8d9c-444a-a18c-e88e30591b36" Title="ChannelModeArgs Class" Url="html/fa50459c-6e02-36d3-ad96-c28cba663356.htm">
+  <HelpTOCNode Id="590e9320-0461-44d9-8acc-95880af83bf0" Title="AdiIRCAPIv2.Arguments.ChannelModes" Url="html/8b556972-49e1-3c8f-bff2-1135612931c9.htm">
+    <HelpTOCNode Id="8ea6b8d2-86da-4e57-a65b-c7844d3a5b6f" Title="ChannelModeArgs Class" Url="html/fa50459c-6e02-36d3-ad96-c28cba663356.htm">
       <HelpTOCNode Title="ChannelModeArgs Constructor " Url="html/2a353df5-1e85-3d9d-e78d-20b170fcfed9.htm" />
-      <HelpTOCNode Id="577f4504-8295-4aa2-9f0d-bbb8c91496c4" Title="ChannelModeArgs Properties" Url="html/0f2b3e4d-b30f-3c19-83e0-f76b2d8b3cd7.htm">
+      <HelpTOCNode Id="cf40a643-e753-4e81-8f57-4c941315d8d4" Title="ChannelModeArgs Properties" Url="html/0f2b3e4d-b30f-3c19-83e0-f76b2d8b3cd7.htm">
         <HelpTOCNode Title="Channel Property " Url="html/9cbae95f-b408-22dc-50d8-76e7a6e1ba3d.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/42b9341a-b41f-bc80-3a39-e52d34c3b98d.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/79522519-fa35-ac46-c453-53f6cadab92f.htm" />
@@ -221,9 +221,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeArgs Methods" Url="html/70c64a96-f266-b6b4-02bd-d194d7bb8b5c.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="bac7124a-033b-49de-b43c-4994cea79ec4" Title="ChannelModeListBanArgs Class" Url="html/21658af3-2d3c-d153-4fdf-1443078a22b1.htm">
+    <HelpTOCNode Id="f5906d33-477b-4403-91a5-60d79a145774" Title="ChannelModeListBanArgs Class" Url="html/21658af3-2d3c-d153-4fdf-1443078a22b1.htm">
       <HelpTOCNode Title="ChannelModeListBanArgs Constructor " Url="html/7bb0db2b-82ad-78e2-3928-26c3ede7bfee.htm" />
-      <HelpTOCNode Id="8ea84c65-598a-447a-b27f-20868513b203" Title="ChannelModeListBanArgs Properties" Url="html/0ef44f9f-c24a-e01d-6e75-8d7aefc84a85.htm">
+      <HelpTOCNode Id="417da84c-b89c-447c-b67d-6da5b040b1a3" Title="ChannelModeListBanArgs Properties" Url="html/0ef44f9f-c24a-e01d-6e75-8d7aefc84a85.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/e13e9a2f-494e-dbc2-238e-ba4f630d78a7.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/0e9c1283-8277-e9d0-2869-d05bc9cc12c8.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/1789a695-bf9c-f098-d9a6-8583733af137.htm" />
@@ -237,9 +237,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListBanArgs Methods" Url="html/122c0df5-2c10-cb1a-5e31-66181cccdc32.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d066f30a-9091-4983-ad08-b1e4372d7a3e" Title="ChannelModeListBanExemptArgs Class" Url="html/066e2522-85ec-6836-701e-bf19376f5ae7.htm">
+    <HelpTOCNode Id="45a0457c-8c3b-4db0-bfd8-debf65cb1c0f" Title="ChannelModeListBanExemptArgs Class" Url="html/066e2522-85ec-6836-701e-bf19376f5ae7.htm">
       <HelpTOCNode Title="ChannelModeListBanExemptArgs Constructor " Url="html/20f94214-cd8c-c16f-9c54-9a28d7d81681.htm" />
-      <HelpTOCNode Id="f0625db9-35ba-4dca-8b7a-74520bbae971" Title="ChannelModeListBanExemptArgs Properties" Url="html/06fe8dac-cb78-3dbc-6a88-56382f6b30bd.htm">
+      <HelpTOCNode Id="ac23c451-1406-4356-b132-82b433a2a388" Title="ChannelModeListBanExemptArgs Properties" Url="html/06fe8dac-cb78-3dbc-6a88-56382f6b30bd.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/d1d53f53-5553-7ab7-758d-7899382f8060.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/908dafda-2868-39c8-d42e-405b6e2b969e.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/11025269-f4a0-673b-39a1-427b2b7dbf01.htm" />
@@ -253,9 +253,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListBanExemptArgs Methods" Url="html/e6850441-b696-2eb7-5e8e-81e691151ef2.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="7f4eb851-2a1b-434a-872d-ff11d590b5cf" Title="ChannelModeListBanUnexemptArgs Class" Url="html/a2679eba-4716-ed5d-0bdf-36e2b4da2c91.htm">
+    <HelpTOCNode Id="eda25756-2c11-4de5-8082-0a3c24bfb929" Title="ChannelModeListBanUnexemptArgs Class" Url="html/a2679eba-4716-ed5d-0bdf-36e2b4da2c91.htm">
       <HelpTOCNode Title="ChannelModeListBanUnexemptArgs Constructor " Url="html/3d9e3619-273e-53d1-a81b-f8ec302d0397.htm" />
-      <HelpTOCNode Id="df0f308a-1fd1-478b-8a24-d07277d5437a" Title="ChannelModeListBanUnexemptArgs Properties" Url="html/d41acd48-af2d-e949-71f6-daf67a400ffa.htm">
+      <HelpTOCNode Id="bf2e1bf3-d1de-4ffa-a6f6-d8c573da8d7c" Title="ChannelModeListBanUnexemptArgs Properties" Url="html/d41acd48-af2d-e949-71f6-daf67a400ffa.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/0c0b7b5a-1c7e-1358-e263-8978f693de17.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/6d161e31-7c5a-3d2b-3fd4-b3669bb88db4.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/f9932d45-569b-87ab-a9d0-7fd6f0b08330.htm" />
@@ -269,9 +269,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListBanUnexemptArgs Methods" Url="html/e01b4c23-09d6-2115-c73e-a0f68742861e.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="69ed84ff-5ad6-46d2-a6ed-0b4def7b9632" Title="ChannelModeListInviteExemptArgs Class" Url="html/3785c3b0-2ba6-d44d-03c8-8babac55f03c.htm">
+    <HelpTOCNode Id="de68e2f5-f4b4-422f-975b-676cc846fe5b" Title="ChannelModeListInviteExemptArgs Class" Url="html/3785c3b0-2ba6-d44d-03c8-8babac55f03c.htm">
       <HelpTOCNode Title="ChannelModeListInviteExemptArgs Constructor " Url="html/1cd6754e-c721-3c38-5949-1404c085e7b6.htm" />
-      <HelpTOCNode Id="90ddf007-deb6-4728-8e14-dd2440275563" Title="ChannelModeListInviteExemptArgs Properties" Url="html/ddc23f66-f253-f52c-53eb-5cb2f1ba5415.htm">
+      <HelpTOCNode Id="5d8f5665-92f1-49c7-857c-7b9bc0a83844" Title="ChannelModeListInviteExemptArgs Properties" Url="html/ddc23f66-f253-f52c-53eb-5cb2f1ba5415.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/3bdcdd83-e7db-ba7b-1e8e-1723dd47e19e.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/a0e90963-a6e8-2778-c24a-757c95aea066.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/7d2f4561-c426-a839-ec91-8fd4c1178d1b.htm" />
@@ -285,9 +285,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListInviteExemptArgs Methods" Url="html/e93c56f0-a93d-c886-f3a4-ae28a50b118c.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4cbe45a6-b1ce-4bb2-b342-4a7598d77491" Title="ChannelModeListInviteUnexemptArgs Class" Url="html/35f73505-2681-1b67-a494-9e6a7c25ef81.htm">
+    <HelpTOCNode Id="f951e23b-3ded-46f9-a8db-741dad84ae67" Title="ChannelModeListInviteUnexemptArgs Class" Url="html/35f73505-2681-1b67-a494-9e6a7c25ef81.htm">
       <HelpTOCNode Title="ChannelModeListInviteUnexemptArgs Constructor " Url="html/87bed45d-f97e-f75c-8d70-10e1ea564b6d.htm" />
-      <HelpTOCNode Id="3152f419-eff4-4781-b797-418e48c94479" Title="ChannelModeListInviteUnexemptArgs Properties" Url="html/92d2be45-9f3d-7821-d6cd-4a00ad2983e9.htm">
+      <HelpTOCNode Id="f6bee092-f404-4ac8-866c-4018baf4b039" Title="ChannelModeListInviteUnexemptArgs Properties" Url="html/92d2be45-9f3d-7821-d6cd-4a00ad2983e9.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/36c66389-c703-3787-bfe7-0d7f786b5caa.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/22c4eec4-a1b9-2698-31cc-0d6c199eea7e.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/e7146932-cea2-9772-a4be-f7c082e9f987.htm" />
@@ -301,9 +301,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListInviteUnexemptArgs Methods" Url="html/5e70571f-e11f-f9f3-b757-79d84b5e271d.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="56b03acc-7ea3-4ba1-8208-b6e1f64263ed" Title="ChannelModeListQuietArgs Class" Url="html/a677e4c3-3880-e650-cdf2-5da6af076661.htm">
+    <HelpTOCNode Id="3c455cc9-fab1-43ee-a3bc-ca081678b549" Title="ChannelModeListQuietArgs Class" Url="html/a677e4c3-3880-e650-cdf2-5da6af076661.htm">
       <HelpTOCNode Title="ChannelModeListQuietArgs Constructor " Url="html/997e685a-be16-1d40-7536-c3c0cd7475ac.htm" />
-      <HelpTOCNode Id="396f98a5-19a1-434e-861e-04fecd4436f5" Title="ChannelModeListQuietArgs Properties" Url="html/8a7fe183-f3cc-c951-f591-41391698cd7f.htm">
+      <HelpTOCNode Id="d59827ef-e6ce-4587-8e61-2d5198d84719" Title="ChannelModeListQuietArgs Properties" Url="html/8a7fe183-f3cc-c951-f591-41391698cd7f.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/d4cd0691-52e5-ac9a-9ef1-34b92a8faad8.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/f21b7b73-b57b-1cd5-7a48-f2f9a94b069d.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/9e39e955-797c-6956-e91c-aecef841b3d1.htm" />
@@ -317,9 +317,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListQuietArgs Methods" Url="html/234225fb-04c0-7fed-f463-83cc266be419.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1a65fd71-d9c0-4da9-91ea-278f26408b07" Title="ChannelModeListUnbanArgs Class" Url="html/093ff737-756e-8176-e8d9-782855bd4a1a.htm">
+    <HelpTOCNode Id="dfb55e77-140a-4ead-bd79-6a27c0cbd476" Title="ChannelModeListUnbanArgs Class" Url="html/093ff737-756e-8176-e8d9-782855bd4a1a.htm">
       <HelpTOCNode Title="ChannelModeListUnbanArgs Constructor " Url="html/5a361150-d7b7-19c0-9707-89a5297c59f6.htm" />
-      <HelpTOCNode Id="26ee7608-8e93-459c-bacb-10060f12b677" Title="ChannelModeListUnbanArgs Properties" Url="html/e83f99e6-083b-a0de-c4e8-79c4132ef68e.htm">
+      <HelpTOCNode Id="e200fac3-763d-4aee-8039-4a965316b42b" Title="ChannelModeListUnbanArgs Properties" Url="html/e83f99e6-083b-a0de-c4e8-79c4132ef68e.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/ca2f02b7-bc1f-a80b-e37d-da20f74e4a5d.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/a73c47fb-17a9-0cc8-9887-9f000108d6a8.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/ceac2cda-972b-e352-06d8-2f9fb9b7788e.htm" />
@@ -333,9 +333,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListUnbanArgs Methods" Url="html/74ab85b6-e793-373c-bed8-b91834c302a7.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b9082443-b238-4403-8b0e-f939aeacfbe5" Title="ChannelModeListUnquietArgs Class" Url="html/f41bc54f-acc4-d9e3-dcb1-5a56553ad155.htm">
+    <HelpTOCNode Id="0d38b7ed-da37-4ab1-a46d-c34901abf010" Title="ChannelModeListUnquietArgs Class" Url="html/f41bc54f-acc4-d9e3-dcb1-5a56553ad155.htm">
       <HelpTOCNode Title="ChannelModeListUnquietArgs Constructor " Url="html/7b18f90b-df39-e7b4-342d-5463b7ca03b6.htm" />
-      <HelpTOCNode Id="c6d49e3c-db67-459a-8093-1723b0ef7c38" Title="ChannelModeListUnquietArgs Properties" Url="html/35be63c1-ec97-3a0e-0299-5a105fddb06b.htm">
+      <HelpTOCNode Id="4c503b5a-4183-4ffd-b94d-71c21215cd99" Title="ChannelModeListUnquietArgs Properties" Url="html/35be63c1-ec97-3a0e-0299-5a105fddb06b.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/cde1a768-dc86-4f84-2917-c62a6d9113a3.htm" />
         <HelpTOCNode Title="ByUser Property " Url="html/66f6c852-36a9-095a-d3e3-25620b6d40fb.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/ac89870f-4448-6aeb-ceb6-c61332d56776.htm" />
@@ -349,9 +349,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeListUnquietArgs Methods" Url="html/5d32b2ad-c06c-cc93-fe33-7165f0411fbd.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="789fa8df-36a1-45e2-8d41-efa9246df998" Title="ChannelModeUserAdminedArgs Class" Url="html/7e0dc1a8-6631-50b1-0431-5f41423b483e.htm">
+    <HelpTOCNode Id="ef75ba02-6f54-4054-8b6b-ef46948b9dda" Title="ChannelModeUserAdminedArgs Class" Url="html/7e0dc1a8-6631-50b1-0431-5f41423b483e.htm">
       <HelpTOCNode Title="ChannelModeUserAdminedArgs Constructor " Url="html/c6704d0f-92da-e903-6e62-b5547a9653ac.htm" />
-      <HelpTOCNode Id="f1ef75f3-208e-47d2-b75b-5c6ddd9b3f7a" Title="ChannelModeUserAdminedArgs Properties" Url="html/84ffc5a2-326e-179e-876b-00c50f88bc19.htm">
+      <HelpTOCNode Id="cd413d84-8e79-4914-9a70-90bafdca6aff" Title="ChannelModeUserAdminedArgs Properties" Url="html/84ffc5a2-326e-179e-876b-00c50f88bc19.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/c5c749a8-350a-494d-d311-9fedabd63b4b.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/794567aa-0936-83e6-1483-ca4291b8f97b.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/7a0248f1-b9d1-400b-9a9d-123cd4d5de3e.htm" />
@@ -365,9 +365,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserAdminedArgs Methods" Url="html/177b275c-8c59-1342-c2fc-139b9d26736f.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="299db258-a40a-4e65-8841-e298ed043274" Title="ChannelModeUserDeadminedArgs Class" Url="html/71458157-6211-d67c-5b68-3abe3aca153a.htm">
+    <HelpTOCNode Id="1df6475b-39ec-47ea-a4ad-9736238c5574" Title="ChannelModeUserDeadminedArgs Class" Url="html/71458157-6211-d67c-5b68-3abe3aca153a.htm">
       <HelpTOCNode Title="ChannelModeUserDeadminedArgs Constructor " Url="html/9fb9328c-057d-84ad-af93-97c539ce5fb2.htm" />
-      <HelpTOCNode Id="f22d4808-9dd3-41f2-99fa-de19f3f15a91" Title="ChannelModeUserDeadminedArgs Properties" Url="html/51e2ecb0-1ce4-2894-311d-9e4cc15eddcb.htm">
+      <HelpTOCNode Id="c4bc63a3-926c-4822-a8e1-758bb7c80af5" Title="ChannelModeUserDeadminedArgs Properties" Url="html/51e2ecb0-1ce4-2894-311d-9e4cc15eddcb.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/fbc64e95-e3b3-9cf0-a5b5-e6a183c0ff81.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/4f11aced-ce0e-d45b-f104-f9af8847fc36.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/cf588615-d89a-6e4f-00fd-e1859a9c6d76.htm" />
@@ -381,9 +381,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserDeadminedArgs Methods" Url="html/306ad3f0-7b33-a15d-5a5d-1c0714db6350.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d3a68228-6d42-4d84-8bb8-ceb5d555e1bc" Title="ChannelModeUserDehalfOppedArgs Class" Url="html/e022c266-50ac-30a0-8292-c54683f757e2.htm">
+    <HelpTOCNode Id="4602f1a1-51c7-4a09-b745-058a75bb1ae8" Title="ChannelModeUserDehalfOppedArgs Class" Url="html/e022c266-50ac-30a0-8292-c54683f757e2.htm">
       <HelpTOCNode Title="ChannelModeUserDehalfOppedArgs Constructor " Url="html/db2d18b5-d653-cce1-57bb-8d6d9e0aebf3.htm" />
-      <HelpTOCNode Id="1f5b3055-e0e0-4828-90ae-4a0db65442a0" Title="ChannelModeUserDehalfOppedArgs Properties" Url="html/353f6003-1dc0-caa9-7862-d20cb5ae82db.htm">
+      <HelpTOCNode Id="24934a6f-2e6b-499d-b892-200916e62166" Title="ChannelModeUserDehalfOppedArgs Properties" Url="html/353f6003-1dc0-caa9-7862-d20cb5ae82db.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/b746dfff-c040-c788-c41e-40c1f8f58172.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/c29632fd-6871-c45d-9c27-f79a068cea64.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/8c8e331e-7ed0-bcae-e457-694989a76882.htm" />
@@ -397,9 +397,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserDehalfOppedArgs Methods" Url="html/6ccae602-a80d-d81a-9ecf-8b2598db2e59.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c88b5b6a-5d75-4fcd-93b3-e82598a25302" Title="ChannelModeUserDeoppedArgs Class" Url="html/26598066-3b51-2931-20cb-343268ccf16e.htm">
+    <HelpTOCNode Id="53aa4ffd-6338-48cf-89cd-db5e70f662df" Title="ChannelModeUserDeoppedArgs Class" Url="html/26598066-3b51-2931-20cb-343268ccf16e.htm">
       <HelpTOCNode Title="ChannelModeUserDeoppedArgs Constructor " Url="html/3ca7983b-2778-d2de-03f7-4e76bf52b786.htm" />
-      <HelpTOCNode Id="310cfdb5-fcfb-4dd8-9c37-1e2e99b356f9" Title="ChannelModeUserDeoppedArgs Properties" Url="html/81926ef7-0e71-868f-f04f-d081d472b16f.htm">
+      <HelpTOCNode Id="4784857c-246b-47ff-b147-76e8929fad67" Title="ChannelModeUserDeoppedArgs Properties" Url="html/81926ef7-0e71-868f-f04f-d081d472b16f.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/67994298-668a-95ea-1364-48a724401779.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/abac2251-7369-a40a-8a64-7a3a7f4e3d3d.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/8ba9410c-d99c-fce6-188b-fa7b74223b7e.htm" />
@@ -413,9 +413,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserDeoppedArgs Methods" Url="html/bd7ac45c-7f0b-1186-f1fa-99d147bf6d7c.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="234ad7bb-4bff-4f73-a00d-53340ca5a61b" Title="ChannelModeUserDeowneredArgs Class" Url="html/32756da4-c09b-a9b2-5586-f0c22ef417de.htm">
+    <HelpTOCNode Id="9948524c-9c83-455e-8694-24510359ae4c" Title="ChannelModeUserDeowneredArgs Class" Url="html/32756da4-c09b-a9b2-5586-f0c22ef417de.htm">
       <HelpTOCNode Title="ChannelModeUserDeowneredArgs Constructor " Url="html/9af2d826-f652-2e2f-cd4b-86dd16b90ea4.htm" />
-      <HelpTOCNode Id="21e6741a-b321-44dd-a1ba-558af43607f0" Title="ChannelModeUserDeowneredArgs Properties" Url="html/96b343cf-44b9-e52c-5bbd-e283665a9edf.htm">
+      <HelpTOCNode Id="6340ba64-6a7c-4203-a3cc-97aa9d72c39e" Title="ChannelModeUserDeowneredArgs Properties" Url="html/96b343cf-44b9-e52c-5bbd-e283665a9edf.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/ad5c990e-c65c-fb89-f70b-075fd1eeffd2.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/b668530a-a684-f1d5-91ad-ba7cb7eea2f1.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/8474158c-b4b0-a958-dac8-e3b853a1f042.htm" />
@@ -429,9 +429,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserDeowneredArgs Methods" Url="html/d156f2ce-be38-be72-1edc-dc8a54aad0de.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="2f513b58-dab0-48ad-80a7-f2a1939f5f97" Title="ChannelModeUserDevoicedArgs Class" Url="html/a43fd741-e750-5c1e-ee49-433e6d2788f5.htm">
+    <HelpTOCNode Id="0d8e2be2-9e15-44ee-b3aa-cad5c93649ba" Title="ChannelModeUserDevoicedArgs Class" Url="html/a43fd741-e750-5c1e-ee49-433e6d2788f5.htm">
       <HelpTOCNode Title="ChannelModeUserDevoicedArgs Constructor " Url="html/8c3d1277-4ad9-d61e-ff89-51e1b7d2d81c.htm" />
-      <HelpTOCNode Id="7a59e379-0f1d-465c-80c6-e353c6c8943c" Title="ChannelModeUserDevoicedArgs Properties" Url="html/090c2cf9-3be8-d2c5-efc1-ee13855a3dcc.htm">
+      <HelpTOCNode Id="8f6d982d-2161-4207-b19f-da35cfb33c05" Title="ChannelModeUserDevoicedArgs Properties" Url="html/090c2cf9-3be8-d2c5-efc1-ee13855a3dcc.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/63d55d6e-894c-37a7-1299-464d86cf2e22.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/ae29dfc9-b6cc-e131-749f-5178625b28a5.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/f0c70eba-2f0d-044e-52c5-85755f737b95.htm" />
@@ -445,9 +445,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserDevoicedArgs Methods" Url="html/bbe32b62-e0f0-33e1-a7fd-a7fc22864d2b.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a706ba4c-0e13-4367-890d-9dc544dbc93e" Title="ChannelModeUserHalfOppedArgs Class" Url="html/79efd2ce-0b21-e46c-a733-2200611479f9.htm">
+    <HelpTOCNode Id="23a04297-ad30-4bae-8709-fca3c93d774e" Title="ChannelModeUserHalfOppedArgs Class" Url="html/79efd2ce-0b21-e46c-a733-2200611479f9.htm">
       <HelpTOCNode Title="ChannelModeUserHalfOppedArgs Constructor " Url="html/c7f1588d-5f8f-6df2-52da-c0ffacc0b662.htm" />
-      <HelpTOCNode Id="8022cab5-b4ed-42aa-ae92-58923fc91087" Title="ChannelModeUserHalfOppedArgs Properties" Url="html/c419e6b8-bdeb-37f0-840b-a5ea12e35cee.htm">
+      <HelpTOCNode Id="52e5c278-8b45-476f-ae2a-e4b2a8079ff2" Title="ChannelModeUserHalfOppedArgs Properties" Url="html/c419e6b8-bdeb-37f0-840b-a5ea12e35cee.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/07346d27-8101-d73d-f651-f6182c856381.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/5ab7eaea-a131-bad6-dd0f-f89faeb6870c.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/cb4088dc-4f18-7272-9b00-973c03c04820.htm" />
@@ -461,9 +461,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserHalfOppedArgs Methods" Url="html/f9c71459-1563-284c-fe5d-7324ea5d09ea.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="0e8e6e7e-e4b4-4454-b4f3-d575a3c42858" Title="ChannelModeUserOppedArgs Class" Url="html/ff4e6ac1-4a82-99c7-208c-6d7fa3f91b0c.htm">
+    <HelpTOCNode Id="ae10b761-a59b-45b9-8579-386b163821e9" Title="ChannelModeUserOppedArgs Class" Url="html/ff4e6ac1-4a82-99c7-208c-6d7fa3f91b0c.htm">
       <HelpTOCNode Title="ChannelModeUserOppedArgs Constructor " Url="html/e24e69ce-4947-671e-4d82-9fc8f68d051e.htm" />
-      <HelpTOCNode Id="2ba8509e-86d4-40e2-8e6d-60a5b749b9df" Title="ChannelModeUserOppedArgs Properties" Url="html/faa71f95-efdf-ea29-321f-902b535aa59b.htm">
+      <HelpTOCNode Id="dc031c48-cc2d-4db6-9a54-5ea52666be9d" Title="ChannelModeUserOppedArgs Properties" Url="html/faa71f95-efdf-ea29-321f-902b535aa59b.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/516fdcbb-52bb-6c1d-c021-5a80b0b571c3.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/f40eaa0c-68ce-8835-bd1a-0369490677b4.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/417866c8-188e-50a8-0a7d-56890722b1eb.htm" />
@@ -477,9 +477,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserOppedArgs Methods" Url="html/59b961f6-df52-50d0-0f4c-54781cd7249e.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d88bd481-3c15-4f38-a7a9-c0002e8a3f2a" Title="ChannelModeUserOwneredArgs Class" Url="html/4679117d-bd34-d150-b285-398231475b52.htm">
+    <HelpTOCNode Id="f2305884-da3f-41f3-98be-a9f6088d9fb0" Title="ChannelModeUserOwneredArgs Class" Url="html/4679117d-bd34-d150-b285-398231475b52.htm">
       <HelpTOCNode Title="ChannelModeUserOwneredArgs Constructor " Url="html/778de901-96ac-6aae-6658-95a6d3f5d2fb.htm" />
-      <HelpTOCNode Id="70038c1f-4766-4920-810d-cb60c0c9e89f" Title="ChannelModeUserOwneredArgs Properties" Url="html/0ce67eac-3f25-d1c6-9b9c-5380398b1cc0.htm">
+      <HelpTOCNode Id="6da9cb52-a45f-4851-8a43-489ad1139e18" Title="ChannelModeUserOwneredArgs Properties" Url="html/0ce67eac-3f25-d1c6-9b9c-5380398b1cc0.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/c3496f08-c426-7b43-127e-3afc8e625018.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/1c4cbddc-0e80-ca91-0a7b-7f31a907d8f9.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/0a1c4bbd-38c7-cf60-7f6f-8f6860986adb.htm" />
@@ -493,9 +493,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserOwneredArgs Methods" Url="html/ff7c9fd7-4469-3eab-e678-c00e2d38d7bb.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a42e41af-07b0-4a97-9bb4-f1c731a2385f" Title="ChannelModeUserVoicedArgs Class" Url="html/6b760f67-b35a-9fed-0054-339a0c7b1a5a.htm">
+    <HelpTOCNode Id="2b3f0569-febf-4abb-ac23-14c5b257b746" Title="ChannelModeUserVoicedArgs Class" Url="html/6b760f67-b35a-9fed-0054-339a0c7b1a5a.htm">
       <HelpTOCNode Title="ChannelModeUserVoicedArgs Constructor " Url="html/997a2c37-7f17-2cd8-a9e3-3d8f7de2978e.htm" />
-      <HelpTOCNode Id="4e445482-c0f9-4f2f-b2c3-af8854af9b52" Title="ChannelModeUserVoicedArgs Properties" Url="html/bef5a7aa-5878-ff5e-9928-b5c6e68b5f17.htm">
+      <HelpTOCNode Id="8a3bc334-1075-452c-b4c4-93774caae269" Title="ChannelModeUserVoicedArgs Properties" Url="html/bef5a7aa-5878-ff5e-9928-b5c6e68b5f17.htm">
         <HelpTOCNode Title="ByUser Property " Url="html/9f2fab1a-1921-533a-5ba9-7186ed7171f4.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/18e9b8d2-530d-b52d-a351-e900ac7a3e5d.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/ef664125-8450-a6a4-a0e6-4d33061c6cf4.htm" />
@@ -509,9 +509,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelModeUserVoicedArgs Methods" Url="html/6c76ee03-e27c-5785-a8a1-0e80d3e0e16f.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="305d1d31-64ba-4d55-bbe6-2e8a5a06fbc0" Title="ChannelRawModeArgs Class" Url="html/4f1e3f74-53d2-9fea-6df0-a61ea948858e.htm">
+    <HelpTOCNode Id="97c34212-65b5-498d-a025-4080b9b56d06" Title="ChannelRawModeArgs Class" Url="html/4f1e3f74-53d2-9fea-6df0-a61ea948858e.htm">
       <HelpTOCNode Title="ChannelRawModeArgs Constructor " Url="html/15f1ac2f-9d2b-36b2-b483-446c20e6541f.htm" />
-      <HelpTOCNode Id="d083d6db-cd7e-4555-82e0-e1a174b29245" Title="ChannelRawModeArgs Properties" Url="html/72ede9ea-e055-6038-8dc3-dd485e02ac85.htm">
+      <HelpTOCNode Id="85997e12-2f2b-467d-af60-17951e2a3858" Title="ChannelRawModeArgs Properties" Url="html/72ede9ea-e055-6038-8dc3-dd485e02ac85.htm">
         <HelpTOCNode Title="Channel Property " Url="html/04a11937-bb8c-40c9-7381-74e75244d15e.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/5a44df3c-a717-1df0-ea92-76617fe42268.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/e2300759-0ba2-2f4c-e618-c5028c08d296.htm" />
@@ -524,10 +524,10 @@
       <HelpTOCNode Title="ChannelRawModeArgs Methods" Url="html/f90c6fd2-30b8-2c74-f27e-47831e208655.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="043db3b2-d468-40ee-872f-b5e6d69a0403" Title="AdiIRCAPIv2.Arguments.ChannelServerModes" Url="html/bb40a484-c57a-d577-4ac9-bf7cd6fd0e9b.htm">
-    <HelpTOCNode Id="db5908a5-a6c1-4be1-a2fc-6ea70de489df" Title="ChannelRawServerModeArgs Class" Url="html/d7275b50-a18c-ebb0-1c17-5b55e27b0105.htm">
+  <HelpTOCNode Id="aacc5704-b398-4870-83b2-9f9c6a4f7292" Title="AdiIRCAPIv2.Arguments.ChannelServerModes" Url="html/bb40a484-c57a-d577-4ac9-bf7cd6fd0e9b.htm">
+    <HelpTOCNode Id="fa5fee9a-1c28-4abe-b993-659e521b1ca4" Title="ChannelRawServerModeArgs Class" Url="html/d7275b50-a18c-ebb0-1c17-5b55e27b0105.htm">
       <HelpTOCNode Title="ChannelRawServerModeArgs Constructor " Url="html/2c362f78-571e-572a-950c-5cc151cf847b.htm" />
-      <HelpTOCNode Id="60bc84c9-a3b8-477d-a5df-85a193244a37" Title="ChannelRawServerModeArgs Properties" Url="html/7557880c-b36e-666e-6908-d614cd8b08b2.htm">
+      <HelpTOCNode Id="045e6e47-02ba-4955-8469-1cec4388c0b0" Title="ChannelRawServerModeArgs Properties" Url="html/7557880c-b36e-666e-6908-d614cd8b08b2.htm">
         <HelpTOCNode Title="Channel Property " Url="html/d62a44e0-f60c-6e32-9355-7ee26207fd36.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/2a5c471f-0fc6-5072-e71b-ac7e3f016c68.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/f77778fa-d4ea-9657-3b65-9841e81938b5.htm" />
@@ -538,9 +538,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelRawServerModeArgs Methods" Url="html/d55fcde5-08a6-7f2d-0748-a1a8631b460c.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f74d5d85-b1a0-46db-82bb-0016ac68d629" Title="ChannelServerModeArgs Class" Url="html/757b7d96-3f86-0074-e90c-1583b944c22e.htm">
+    <HelpTOCNode Id="7933efa6-d7c3-4108-b6db-c80130a0cb13" Title="ChannelServerModeArgs Class" Url="html/757b7d96-3f86-0074-e90c-1583b944c22e.htm">
       <HelpTOCNode Title="ChannelServerModeArgs Constructor " Url="html/dda308fc-d4c9-49eb-322d-6dfdc6fee792.htm" />
-      <HelpTOCNode Id="63d96047-8484-47d4-a712-371899a1b0ea" Title="ChannelServerModeArgs Properties" Url="html/e7cda385-82fc-0837-78d9-2e4609751f7c.htm">
+      <HelpTOCNode Id="a670355e-8404-411e-b6f3-58beea15ef49" Title="ChannelServerModeArgs Properties" Url="html/e7cda385-82fc-0837-78d9-2e4609751f7c.htm">
         <HelpTOCNode Title="Channel Property " Url="html/7a93da82-9c53-4e8a-6b38-b32682b67c0c.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/239420c4-7533-2652-2d64-bb8a30be11c4.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/fd12d21a-7f2c-9ac5-0407-a078bcf72894.htm" />
@@ -551,9 +551,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeArgs Methods" Url="html/8194331d-ce40-b726-8ccb-7604b5ed5309.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="243c158d-04d1-426e-b0fd-5e754d674a3a" Title="ChannelServerModeListBanArgs Class" Url="html/abd0ec5e-929e-c6b4-197c-659bef77ea46.htm">
+    <HelpTOCNode Id="986d19c4-b6c8-4669-b3c0-9929878d08b1" Title="ChannelServerModeListBanArgs Class" Url="html/abd0ec5e-929e-c6b4-197c-659bef77ea46.htm">
       <HelpTOCNode Title="ChannelServerModeListBanArgs Constructor " Url="html/a7804957-2688-405a-efa7-d063b46364a9.htm" />
-      <HelpTOCNode Id="be819e8f-1df3-4900-ab89-c8c89836c420" Title="ChannelServerModeListBanArgs Properties" Url="html/0611acca-b859-5377-d3d8-519bc99f23c7.htm">
+      <HelpTOCNode Id="e182946a-7c97-494c-b264-1cf728f96f13" Title="ChannelServerModeListBanArgs Properties" Url="html/0611acca-b859-5377-d3d8-519bc99f23c7.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/5d652a1c-88ec-4cd3-e9c1-498760769448.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/9564c6ca-d9f2-8066-1ee6-0c807f0164e9.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/e4dc7e7d-2312-a531-ab3b-d47ea84ea4bb.htm" />
@@ -566,9 +566,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListBanArgs Methods" Url="html/8e008379-9b07-dc19-9bb9-817c168a6154.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="453a1524-2adb-4555-9f9d-addecea37485" Title="ChannelServerModeListBanExemptArgs Class" Url="html/702b9ddf-8945-214f-b533-0969d35c12a4.htm">
+    <HelpTOCNode Id="5b7add21-163a-4686-a0fb-aed247f82dc3" Title="ChannelServerModeListBanExemptArgs Class" Url="html/702b9ddf-8945-214f-b533-0969d35c12a4.htm">
       <HelpTOCNode Title="ChannelServerModeListBanExemptArgs Constructor " Url="html/5d1a3d29-3e3d-3206-7698-8b846127cc46.htm" />
-      <HelpTOCNode Id="f06bf916-7c64-4f88-8049-c60313dde36d" Title="ChannelServerModeListBanExemptArgs Properties" Url="html/147944de-3c4a-c42f-3faf-005f3da9b68b.htm">
+      <HelpTOCNode Id="181d79ff-8255-4fb7-8b6a-182188a650cf" Title="ChannelServerModeListBanExemptArgs Properties" Url="html/147944de-3c4a-c42f-3faf-005f3da9b68b.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/bbedf9c9-8ce0-5023-50bc-c69e78b6c434.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/fbd8d3fe-38ae-2a70-f4e6-be0f96b0182e.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/873591af-7b19-baab-8be7-159558fdfeba.htm" />
@@ -581,9 +581,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListBanExemptArgs Methods" Url="html/fb63e81f-3bfd-8d61-9757-82aa3181aaf5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="57770b56-fe9b-4d79-a0eb-55ad1c2659fa" Title="ChannelServerModeListBanUnexemptArgs Class" Url="html/22825ec1-e44a-048c-6a5f-41dda97c6bc4.htm">
+    <HelpTOCNode Id="142dde4e-bacb-4dca-8736-5e816deaf466" Title="ChannelServerModeListBanUnexemptArgs Class" Url="html/22825ec1-e44a-048c-6a5f-41dda97c6bc4.htm">
       <HelpTOCNode Title="ChannelServerModeListBanUnexemptArgs Constructor " Url="html/f63394da-35a9-822a-e046-f9f22e8082ab.htm" />
-      <HelpTOCNode Id="ddb25bda-07ab-456d-9c07-39fd12229754" Title="ChannelServerModeListBanUnexemptArgs Properties" Url="html/4119e6f3-3203-7a9a-1a9d-72e391ad3960.htm">
+      <HelpTOCNode Id="278ec84a-b0d2-47fc-9ec9-848e3c05f6e2" Title="ChannelServerModeListBanUnexemptArgs Properties" Url="html/4119e6f3-3203-7a9a-1a9d-72e391ad3960.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/e1d1aaec-a143-4da1-5e1c-dc8a8c4c784d.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/883d9be8-ade8-ae21-e58a-5ceecb8fcf6f.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/80b7b7f1-2615-218a-8e66-1b0312ccc056.htm" />
@@ -596,9 +596,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListBanUnexemptArgs Methods" Url="html/02e44491-ee70-4513-bd73-18bf7ab48c8d.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="2bea0aa2-3184-411b-8ffa-fffd0fd1ed5c" Title="ChannelServerModeListInviteExemptArgs Class" Url="html/35ee24b1-856b-5564-98dd-f6676d495781.htm">
+    <HelpTOCNode Id="0cbbbb99-1646-4d3f-857e-eadcdec89775" Title="ChannelServerModeListInviteExemptArgs Class" Url="html/35ee24b1-856b-5564-98dd-f6676d495781.htm">
       <HelpTOCNode Title="ChannelServerModeListInviteExemptArgs Constructor " Url="html/907c4c86-0ec0-cfca-db4c-6199c4696970.htm" />
-      <HelpTOCNode Id="f978baba-d15c-4e16-8da4-dfcf95fffdb3" Title="ChannelServerModeListInviteExemptArgs Properties" Url="html/3b3f0c9e-6fd5-7f33-425a-4a8fc2fbaf39.htm">
+      <HelpTOCNode Id="f04ffe12-6b86-4d9d-9915-f3ada299293d" Title="ChannelServerModeListInviteExemptArgs Properties" Url="html/3b3f0c9e-6fd5-7f33-425a-4a8fc2fbaf39.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/9f2a83f1-73da-44c0-8698-f5d82af87b60.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/4405f2c7-bf90-4bd4-c6db-651d60f1eaf5.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/255e56c1-b050-13cb-2d1d-304cd9826b15.htm" />
@@ -611,9 +611,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListInviteExemptArgs Methods" Url="html/fd33f4c0-5bd9-c362-e765-88428ff23817.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c64b3240-ec52-490b-9123-ca77e8d60d7d" Title="ChannelServerModeListInviteUnexemptArgs Class" Url="html/78c9262a-0229-3828-84ce-8610593bf745.htm">
+    <HelpTOCNode Id="60b7d820-9021-495e-b51d-68d96deb244b" Title="ChannelServerModeListInviteUnexemptArgs Class" Url="html/78c9262a-0229-3828-84ce-8610593bf745.htm">
       <HelpTOCNode Title="ChannelServerModeListInviteUnexemptArgs Constructor " Url="html/0e0be86a-d6d8-6c65-0c16-8b841181dc9e.htm" />
-      <HelpTOCNode Id="efba912a-3837-4c56-a29d-a63cc3a70107" Title="ChannelServerModeListInviteUnexemptArgs Properties" Url="html/4f371f08-d681-ee7d-1444-9a84dd2e08a7.htm">
+      <HelpTOCNode Id="ac0be33f-0956-48e2-97d3-a54ad73a91c0" Title="ChannelServerModeListInviteUnexemptArgs Properties" Url="html/4f371f08-d681-ee7d-1444-9a84dd2e08a7.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/99d0efb2-532c-7683-fced-29914a4e60c1.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/e2ed6ac7-59d5-af3f-02fb-48a9d4987a89.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/d49d0aa6-878d-6346-4b80-455f669a796f.htm" />
@@ -626,9 +626,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListInviteUnexemptArgs Methods" Url="html/d66bc2c5-be84-09f0-2906-e5407d13f57e.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="6e86a07c-a3df-4fc9-8211-daf1db5aafb9" Title="ChannelServerModeListQuietArgs Class" Url="html/d939241e-8344-6aea-0bdc-577023ee9655.htm">
+    <HelpTOCNode Id="678fe12c-0302-4f49-b389-f57e5bed10d3" Title="ChannelServerModeListQuietArgs Class" Url="html/d939241e-8344-6aea-0bdc-577023ee9655.htm">
       <HelpTOCNode Title="ChannelServerModeListQuietArgs Constructor " Url="html/8dcd6e40-e4dc-6e00-b9f0-47fd426b762f.htm" />
-      <HelpTOCNode Id="fba4d847-48d8-4ed4-b12c-a844318fdf95" Title="ChannelServerModeListQuietArgs Properties" Url="html/360dc1f4-3323-2cd3-fc37-00e4ec4c52fc.htm">
+      <HelpTOCNode Id="c1262e15-be57-460c-9f44-3041eb4d5e40" Title="ChannelServerModeListQuietArgs Properties" Url="html/360dc1f4-3323-2cd3-fc37-00e4ec4c52fc.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/c957ba46-526d-d1dc-e5d7-dbbbfbc62e70.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/ae4eeaee-0e35-94a4-1e41-1a3124dd908d.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/741f9cc9-41f4-8e21-e02f-73cf261c6349.htm" />
@@ -641,9 +641,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListQuietArgs Methods" Url="html/5dcf4f9f-62cf-5ca7-0a11-c481f7e06ed4.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="14580450-d7d0-4dd5-bf3d-c437bb338366" Title="ChannelServerModeListUnbanArgs Class" Url="html/02743f8a-5f4a-195b-ce73-84c904531c92.htm">
+    <HelpTOCNode Id="102eb3ea-a04d-46c3-89da-e8cf27f753e1" Title="ChannelServerModeListUnbanArgs Class" Url="html/02743f8a-5f4a-195b-ce73-84c904531c92.htm">
       <HelpTOCNode Title="ChannelServerModeListUnbanArgs Constructor " Url="html/b0dcb403-5a19-7b1c-d3a4-328156d2a0cb.htm" />
-      <HelpTOCNode Id="61ffda5b-0d62-46b4-8b8b-2d5b977295c1" Title="ChannelServerModeListUnbanArgs Properties" Url="html/50b97c99-632d-a70b-d64d-33bee2512483.htm">
+      <HelpTOCNode Id="a89325a1-29dc-4ad2-9b7b-de4bea6c16a0" Title="ChannelServerModeListUnbanArgs Properties" Url="html/50b97c99-632d-a70b-d64d-33bee2512483.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/9107a3bb-5028-b462-258d-1c2b26e5a01f.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/33b8bebb-c522-e022-7aae-7fae42e1aa36.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/787b5533-6d19-9da2-6a89-83f06681bdec.htm" />
@@ -656,9 +656,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListUnbanArgs Methods" Url="html/f1f24970-084b-1e11-4cff-61c7dc23d3b4.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="6afdcc35-1794-42ac-80de-9189ed41f619" Title="ChannelServerModeListUnquietArgs Class" Url="html/1561b0f5-7294-abd8-3491-6ab4c08dbd5d.htm">
+    <HelpTOCNode Id="0982215d-ab2d-4b19-89b3-006609d11279" Title="ChannelServerModeListUnquietArgs Class" Url="html/1561b0f5-7294-abd8-3491-6ab4c08dbd5d.htm">
       <HelpTOCNode Title="ChannelServerModeListUnquietArgs Constructor " Url="html/731b04aa-9a14-e75e-d095-fb415c9da95b.htm" />
-      <HelpTOCNode Id="028d67d1-ca0f-4b93-b534-eef3dab6cbd2" Title="ChannelServerModeListUnquietArgs Properties" Url="html/f87e4158-9b47-adf3-7934-f0f4aa4a2c27.htm">
+      <HelpTOCNode Id="1f1efe69-d1dc-4006-b405-0015677e9f03" Title="ChannelServerModeListUnquietArgs Properties" Url="html/f87e4158-9b47-adf3-7934-f0f4aa4a2c27.htm">
         <HelpTOCNode Title="BanMask Property " Url="html/02063715-0238-9ec0-6d22-3680410b877e.htm" />
         <HelpTOCNode Title="Channel Property " Url="html/2d2e66a3-c981-04b3-8211-9bedfb01b3ba.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/2c6dccc9-580a-7b55-6987-12798b17aa7c.htm" />
@@ -671,9 +671,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeListUnquietArgs Methods" Url="html/b2f104c1-21e8-81cd-ccfe-c1e277a0c795.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="dd24c809-6d12-4e6b-91a7-377ea5bbf299" Title="ChannelServerModeUserAdminedArgs Class" Url="html/17a1fc8d-690b-e02e-4289-49641f8f1245.htm">
+    <HelpTOCNode Id="1839cd54-6d5d-4ea1-bb5d-b529370e69a4" Title="ChannelServerModeUserAdminedArgs Class" Url="html/17a1fc8d-690b-e02e-4289-49641f8f1245.htm">
       <HelpTOCNode Title="ChannelServerModeUserAdminedArgs Constructor " Url="html/f634efb6-54a1-6c5f-052e-c568286b86a6.htm" />
-      <HelpTOCNode Id="16f438e1-9820-4d7d-be9c-6e3b1ca569f4" Title="ChannelServerModeUserAdminedArgs Properties" Url="html/46802a4a-7127-d96b-8179-bb4be3fee33b.htm">
+      <HelpTOCNode Id="fa9414b4-5b43-4c78-a006-d04da1115413" Title="ChannelServerModeUserAdminedArgs Properties" Url="html/46802a4a-7127-d96b-8179-bb4be3fee33b.htm">
         <HelpTOCNode Title="Channel Property " Url="html/4a8f15db-bdd1-594c-4b01-e1717ccb6ee9.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/8a0ce562-0071-311b-1dee-4467dd473c21.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/fccd7984-5e18-33e1-2d62-72257ad08ea1.htm" />
@@ -686,9 +686,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserAdminedArgs Methods" Url="html/97c47a07-2ca1-2385-4609-e9aff8a9cef6.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f1de2940-4ba6-4518-89ff-cc6d6d96dd28" Title="ChannelServerModeUserDeadminedArgs Class" Url="html/7a7488fa-3463-cd64-72ce-abeb5c03a6d5.htm">
+    <HelpTOCNode Id="ba9ceca6-32f8-4263-bd42-2394afc0d8b5" Title="ChannelServerModeUserDeadminedArgs Class" Url="html/7a7488fa-3463-cd64-72ce-abeb5c03a6d5.htm">
       <HelpTOCNode Title="ChannelServerModeUserDeadminedArgs Constructor " Url="html/3689cc49-f1e2-1440-b0cb-29168df9fe03.htm" />
-      <HelpTOCNode Id="67f5b262-3bea-40b0-90d3-4b9d8f55c833" Title="ChannelServerModeUserDeadminedArgs Properties" Url="html/7e542e1d-17a9-106e-baad-bba0f0d08a2d.htm">
+      <HelpTOCNode Id="800c9bb5-cccc-4cc6-a616-65dcd61ef5df" Title="ChannelServerModeUserDeadminedArgs Properties" Url="html/7e542e1d-17a9-106e-baad-bba0f0d08a2d.htm">
         <HelpTOCNode Title="Channel Property " Url="html/69aeef22-7534-a6f4-0044-d48be8b0a28d.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/44d9541e-75b4-c2a6-901b-0e0e5255863d.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/86690fc2-1d44-ee4a-8175-a43eb17746dd.htm" />
@@ -701,9 +701,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserDeadminedArgs Methods" Url="html/1b5ba632-fb12-e71d-2db0-673e959c00d0.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b0e782f5-76ba-4c29-8987-792fe4d72810" Title="ChannelServerModeUserDehalfOppedArgs Class" Url="html/36e38b80-a410-d47c-3a66-a7aed3a0510c.htm">
+    <HelpTOCNode Id="70541471-cb47-4500-98f0-c9817195ab10" Title="ChannelServerModeUserDehalfOppedArgs Class" Url="html/36e38b80-a410-d47c-3a66-a7aed3a0510c.htm">
       <HelpTOCNode Title="ChannelServerModeUserDehalfOppedArgs Constructor " Url="html/636ed60c-dc60-5352-d62e-87b54c04a78e.htm" />
-      <HelpTOCNode Id="43d4ba80-076c-4b93-aab0-4e7506f75976" Title="ChannelServerModeUserDehalfOppedArgs Properties" Url="html/fac5c670-1f6c-0bf4-3e86-bcb0d18eb3e5.htm">
+      <HelpTOCNode Id="4bc3ccbb-3cc6-477d-8906-9bbc7f17cbc9" Title="ChannelServerModeUserDehalfOppedArgs Properties" Url="html/fac5c670-1f6c-0bf4-3e86-bcb0d18eb3e5.htm">
         <HelpTOCNode Title="Channel Property " Url="html/d9138545-981b-767e-70dc-4558e1118418.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/d517c185-c41f-1f4d-52d5-978e62e90c63.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/76598c8a-aa5c-fc90-5cb2-0dbc15f7cd09.htm" />
@@ -716,9 +716,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserDehalfOppedArgs Methods" Url="html/d10fbd49-dd6d-7ba1-2f9b-65b14e5f08fb.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="bc8a2619-daf6-49a1-8f16-dbc841789bec" Title="ChannelServerModeUserDeoppedArgs Class" Url="html/1c52a302-c1d2-650a-164a-b83adde2ac58.htm">
+    <HelpTOCNode Id="dce953bc-022e-4c04-83fe-b1c167601ad3" Title="ChannelServerModeUserDeoppedArgs Class" Url="html/1c52a302-c1d2-650a-164a-b83adde2ac58.htm">
       <HelpTOCNode Title="ChannelServerModeUserDeoppedArgs Constructor " Url="html/3174c7d4-39dd-3a90-58da-71bf0ab9fcd5.htm" />
-      <HelpTOCNode Id="5714b8e3-eb02-4e78-92fe-0f3229f76ffb" Title="ChannelServerModeUserDeoppedArgs Properties" Url="html/16b9303f-ec46-b187-a7d1-18f3d41e6590.htm">
+      <HelpTOCNode Id="bb8d0c74-f5aa-4fba-93bb-77e1abfb53c6" Title="ChannelServerModeUserDeoppedArgs Properties" Url="html/16b9303f-ec46-b187-a7d1-18f3d41e6590.htm">
         <HelpTOCNode Title="Channel Property " Url="html/321ae030-eb80-0e0d-865a-916f7c739e1a.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/674625be-df6e-53a4-8fe8-55b9b2334eed.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/98eb7821-e4a2-9322-277b-398ef1d3988c.htm" />
@@ -731,9 +731,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserDeoppedArgs Methods" Url="html/8a0ec421-a3a4-d39e-16ff-b46d72339b67.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e4c5bf22-9747-41f9-82a2-a25851d6298e" Title="ChannelServerModeUserDeowneredArgs Class" Url="html/cf7afc5a-ba7d-a19a-13d4-b0b3977a2e3b.htm">
+    <HelpTOCNode Id="653eb8a2-a7ad-4e3c-a1a7-862fa6ff32a8" Title="ChannelServerModeUserDeowneredArgs Class" Url="html/cf7afc5a-ba7d-a19a-13d4-b0b3977a2e3b.htm">
       <HelpTOCNode Title="ChannelServerModeUserDeowneredArgs Constructor " Url="html/30593c42-33d0-cd8a-6ba9-99ec65067c40.htm" />
-      <HelpTOCNode Id="2b7a621f-afe9-44bc-b524-12867c64a585" Title="ChannelServerModeUserDeowneredArgs Properties" Url="html/3be298c9-8a76-0ec6-e706-5800a67b4f1c.htm">
+      <HelpTOCNode Id="890eb671-7f9c-47c1-a0a2-27952fcd5b08" Title="ChannelServerModeUserDeowneredArgs Properties" Url="html/3be298c9-8a76-0ec6-e706-5800a67b4f1c.htm">
         <HelpTOCNode Title="Channel Property " Url="html/2d94a68f-1ee5-8b65-0841-8d44c5046f1f.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/45a55b56-10fc-d89d-5761-47e04cca1c28.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/5aad1bd1-7c4d-0d08-db06-c9641a55c800.htm" />
@@ -746,9 +746,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserDeowneredArgs Methods" Url="html/4c21c4e2-e4c9-2ecc-00c4-111731686cf1.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="aafe0732-f20d-4348-b9e4-7f13e38cc6ab" Title="ChannelServerModeUserDevoicedArgs Class" Url="html/9be99031-6057-723c-02e8-01d9fbccd1e8.htm">
+    <HelpTOCNode Id="91d3a6a7-0941-4cdd-9442-4648f0b1b1fd" Title="ChannelServerModeUserDevoicedArgs Class" Url="html/9be99031-6057-723c-02e8-01d9fbccd1e8.htm">
       <HelpTOCNode Title="ChannelServerModeUserDevoicedArgs Constructor " Url="html/3b918d0f-ee01-eea2-63b0-1072011cc28c.htm" />
-      <HelpTOCNode Id="a175208b-e6ce-44c8-9b79-e6ec870e39c5" Title="ChannelServerModeUserDevoicedArgs Properties" Url="html/75007281-2305-d353-52f1-7977113f021b.htm">
+      <HelpTOCNode Id="db5831d5-391f-4fa2-a199-1637cb3a9dbd" Title="ChannelServerModeUserDevoicedArgs Properties" Url="html/75007281-2305-d353-52f1-7977113f021b.htm">
         <HelpTOCNode Title="Channel Property " Url="html/8a033fa3-ec54-e4d1-f14c-d978c1239cf8.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/703ea534-a468-6dfa-d0c5-410702655b43.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/276c8fdf-104c-e3d8-e3aa-5e776c633cb1.htm" />
@@ -761,9 +761,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserDevoicedArgs Methods" Url="html/bbec10ed-27b8-2195-bdc5-cfc102aad183.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="eec13f58-fce7-47e9-a216-68d966e3feb0" Title="ChannelServerModeUserHalfOppedArgs Class" Url="html/184ec323-86b6-7073-bd54-c098b7e45f48.htm">
+    <HelpTOCNode Id="5b0bef14-6798-4a95-b8df-4a72c6c45c02" Title="ChannelServerModeUserHalfOppedArgs Class" Url="html/184ec323-86b6-7073-bd54-c098b7e45f48.htm">
       <HelpTOCNode Title="ChannelServerModeUserHalfOppedArgs Constructor " Url="html/3a7eec21-afa7-2484-2643-fe0f319646d5.htm" />
-      <HelpTOCNode Id="6014de9f-9cc9-4aaf-8a32-d10f47ee94c1" Title="ChannelServerModeUserHalfOppedArgs Properties" Url="html/ed450917-3a5a-d3d1-0a44-44ba17a55104.htm">
+      <HelpTOCNode Id="a9fdbeec-0b38-42c2-9746-c37443fb9908" Title="ChannelServerModeUserHalfOppedArgs Properties" Url="html/ed450917-3a5a-d3d1-0a44-44ba17a55104.htm">
         <HelpTOCNode Title="Channel Property " Url="html/db53fbc0-1c14-71a0-0577-bfa1c1c0c22f.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/d0444602-a584-0d32-8e91-2614dc926201.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/ea0659b6-84bb-e90c-ae3c-e204975ada20.htm" />
@@ -776,9 +776,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserHalfOppedArgs Methods" Url="html/bc28ba2a-7d76-6f2e-8b7c-7dbec2139582.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b196dfb9-4f46-4c47-8d2f-9d3c61ec9fd6" Title="ChannelServerModeUserOppedArgs Class" Url="html/e87ff1d2-e148-3a2c-7213-5779ff01a03f.htm">
+    <HelpTOCNode Id="410fa44c-f924-4861-b1b3-df73689bc4af" Title="ChannelServerModeUserOppedArgs Class" Url="html/e87ff1d2-e148-3a2c-7213-5779ff01a03f.htm">
       <HelpTOCNode Title="ChannelServerModeUserOppedArgs Constructor " Url="html/c731bbd0-e9cf-e958-85e4-10a90bf9186a.htm" />
-      <HelpTOCNode Id="70e2a04a-5b17-402b-9454-4661930911e9" Title="ChannelServerModeUserOppedArgs Properties" Url="html/ae78a000-9245-b1cb-5da2-006ec79a08ae.htm">
+      <HelpTOCNode Id="03bc20ac-7887-43d9-8ab1-c6dd9195738b" Title="ChannelServerModeUserOppedArgs Properties" Url="html/ae78a000-9245-b1cb-5da2-006ec79a08ae.htm">
         <HelpTOCNode Title="Channel Property " Url="html/05423f72-399f-036f-ac39-550be8fbb437.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/e4a7af04-f82e-481f-b24d-ea8eb554ea85.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/0850b30c-0ebb-072a-1c0c-923fc16571b1.htm" />
@@ -791,9 +791,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserOppedArgs Methods" Url="html/9ccd69ed-b122-45f4-dc3a-0772593533c5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="063ff50e-8acc-4142-883f-be87c7c86d90" Title="ChannelServerModeUserOwneredArgs Class" Url="html/2a84e5cf-cb39-c60f-6e0e-cfe09adb8494.htm">
+    <HelpTOCNode Id="5bfbe678-3dae-4227-acda-163357dc3140" Title="ChannelServerModeUserOwneredArgs Class" Url="html/2a84e5cf-cb39-c60f-6e0e-cfe09adb8494.htm">
       <HelpTOCNode Title="ChannelServerModeUserOwneredArgs Constructor " Url="html/00addb44-ba83-3d65-c829-47e7ebec1276.htm" />
-      <HelpTOCNode Id="4d942b7a-3852-4d87-8210-57d7810a5325" Title="ChannelServerModeUserOwneredArgs Properties" Url="html/393bc0e5-f2e7-4bdb-37ce-806154cf020d.htm">
+      <HelpTOCNode Id="9d24f97e-6e03-4f87-bcab-75a9ba784b28" Title="ChannelServerModeUserOwneredArgs Properties" Url="html/393bc0e5-f2e7-4bdb-37ce-806154cf020d.htm">
         <HelpTOCNode Title="Channel Property " Url="html/6c135c71-2892-52c1-4a4d-d8209fbac6ad.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/9a59800d-8c84-ad9f-f68b-eab7cf839048.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/34b9a25e-08a3-d66f-029b-214c3392d2aa.htm" />
@@ -806,9 +806,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelServerModeUserOwneredArgs Methods" Url="html/9fc4eb95-8edf-24d5-034c-0820108b06a5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1ed3d298-0ca3-4bbb-93a8-76f63d568270" Title="ChannelServerModeUserVoicedArgs Class" Url="html/9a2b9fff-09bc-38ee-3f1b-00d50a3945dd.htm">
+    <HelpTOCNode Id="2f89db90-fd5c-4eb9-b517-ee339b021414" Title="ChannelServerModeUserVoicedArgs Class" Url="html/9a2b9fff-09bc-38ee-3f1b-00d50a3945dd.htm">
       <HelpTOCNode Title="ChannelServerModeUserVoicedArgs Constructor " Url="html/a14a35fa-78a3-5966-a3b5-c419a949f3bc.htm" />
-      <HelpTOCNode Id="e26cd1eb-290b-4aac-a67b-406d7a52e270" Title="ChannelServerModeUserVoicedArgs Properties" Url="html/d53650f7-ca14-7eab-e130-76168ec9276d.htm">
+      <HelpTOCNode Id="5ac26e87-8772-4002-b6a4-b973868108be" Title="ChannelServerModeUserVoicedArgs Properties" Url="html/d53650f7-ca14-7eab-e130-76168ec9276d.htm">
         <HelpTOCNode Title="Channel Property " Url="html/21ca104e-c54b-8603-868f-1545572d6ac6.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/e4c7edd0-682d-bb8a-2a19-1a75b0b25bef.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/b4a3f043-60ed-1b9c-2c61-4c4b6511c64a.htm" />
@@ -822,58 +822,58 @@
       <HelpTOCNode Title="ChannelServerModeUserVoicedArgs Methods" Url="html/79a36326-1126-1833-5069-06a856fb34ae.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="96fc3138-823e-4f22-a8ea-34f8f7b94244" Title="AdiIRCAPIv2.Arguments.Connection" Url="html/b79db528-2192-148a-22c4-f63c03a5586f.htm">
-    <HelpTOCNode Id="cf1de2d6-5ac4-4476-aacd-c386268183a5" Title="ConnectArgs Class" Url="html/33d37b04-0227-ee56-4801-2ea383d6de92.htm">
+  <HelpTOCNode Id="2c3123db-9d51-4175-b1f3-922a7390a48d" Title="AdiIRCAPIv2.Arguments.Connection" Url="html/b79db528-2192-148a-22c4-f63c03a5586f.htm">
+    <HelpTOCNode Id="d8a91ebd-68d9-4175-9c11-97ecea5d40dc" Title="ConnectArgs Class" Url="html/33d37b04-0227-ee56-4801-2ea383d6de92.htm">
       <HelpTOCNode Title="ConnectArgs Constructor " Url="html/e8d6488a-df23-5447-bf39-c11ecac024ec.htm" />
-      <HelpTOCNode Id="e626af0e-c3bb-4788-94ac-eb3db8fcd834" Title="ConnectArgs Properties" Url="html/0b56b999-e79b-3924-85aa-e08d0c53f8b1.htm">
+      <HelpTOCNode Id="c69dbbb7-db01-4b1e-973c-f6785ccec3ca" Title="ConnectArgs Properties" Url="html/0b56b999-e79b-3924-85aa-e08d0c53f8b1.htm">
         <HelpTOCNode Title="EatData Property " Url="html/3e441d2a-b357-27c1-e8d7-7fd4cc2054fe.htm" />
         <HelpTOCNode Title="Server Property " Url="html/837a3fe6-6353-0006-bdbd-57d3c37e3ab6.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ConnectArgs Methods" Url="html/424aa23b-897e-557f-046f-6a9691b70cb8.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f868efa1-9d83-4225-ad10-959fa1d09951" Title="ConnectFailureArgs Class" Url="html/318d4289-4956-9960-e7db-9087e6b0630c.htm">
+    <HelpTOCNode Id="1813da7a-1d52-4072-b43d-50a3be832d29" Title="ConnectFailureArgs Class" Url="html/318d4289-4956-9960-e7db-9087e6b0630c.htm">
       <HelpTOCNode Title="ConnectFailureArgs Constructor " Url="html/eebf3b05-ed15-a6e8-e154-ac77a6874133.htm" />
-      <HelpTOCNode Id="c7404998-883a-4d04-8655-b51c9475432f" Title="ConnectFailureArgs Properties" Url="html/3d034896-43ed-3b93-8c6d-ac4ee4c6a3aa.htm">
+      <HelpTOCNode Id="a4688645-853e-4637-8835-e1f4d14b3b7a" Title="ConnectFailureArgs Properties" Url="html/3d034896-43ed-3b93-8c6d-ac4ee4c6a3aa.htm">
         <HelpTOCNode Title="EatData Property " Url="html/0dc7351b-0785-2a77-d67a-933e222679ec.htm" />
         <HelpTOCNode Title="Error Property " Url="html/96328119-a0ba-de62-84d3-a977624b459f.htm" />
         <HelpTOCNode Title="Server Property " Url="html/da56cf53-391b-7582-49d8-6dff317a4929.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ConnectFailureArgs Methods" Url="html/579bdcce-6788-b0ab-7489-1eaf269d6861.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="21d1e16c-cb74-46b8-b2ac-d6dd6a8ee80f" Title="ConnectionLogonSuccessArgs Class" Url="html/51200e0c-3be8-5d2f-640d-ebeb18e02cf9.htm">
+    <HelpTOCNode Id="41297537-ad8e-44db-a2f3-4a613e9160e3" Title="ConnectionLogonSuccessArgs Class" Url="html/51200e0c-3be8-5d2f-640d-ebeb18e02cf9.htm">
       <HelpTOCNode Title="ConnectionLogonSuccessArgs Constructor " Url="html/f2e90415-30ee-f4eb-66ba-b647591246d0.htm" />
-      <HelpTOCNode Id="8cd04a61-4a11-40ff-90b9-6c8e9d81e35a" Title="ConnectionLogonSuccessArgs Properties" Url="html/1df29bec-22cb-bb50-a694-0969c6a9f36d.htm">
+      <HelpTOCNode Id="b57c0e91-3f7c-4831-bda0-7f79a09ac5e5" Title="ConnectionLogonSuccessArgs Properties" Url="html/1df29bec-22cb-bb50-a694-0969c6a9f36d.htm">
         <HelpTOCNode Title="Server Property " Url="html/8bd70d89-c9cf-e5b7-2420-1443294e68a6.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="ConnectionLogonSuccessArgs Methods" Url="html/9536ca96-cdae-6ca5-f93f-704b92015fa3.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="acbf14dd-6268-4b59-8ce1-002c354470c1" Title="DisconnectArgs Class" Url="html/e0a3b874-0c83-a4aa-f931-2c75d110e804.htm">
+    <HelpTOCNode Id="748237d8-8e11-407e-9b6e-fdbec00307ff" Title="DisconnectArgs Class" Url="html/e0a3b874-0c83-a4aa-f931-2c75d110e804.htm">
       <HelpTOCNode Title="DisconnectArgs Constructor " Url="html/2901888c-a9ae-5358-d1b4-c09f4cb7f30b.htm" />
-      <HelpTOCNode Id="693402dc-5012-421c-a7b8-09f7110db5ca" Title="DisconnectArgs Properties" Url="html/3ab2e770-115f-e790-faf2-1c2aef3af947.htm">
+      <HelpTOCNode Id="3e9d4521-4d8b-4982-b036-56fc450ad2a9" Title="DisconnectArgs Properties" Url="html/3ab2e770-115f-e790-faf2-1c2aef3af947.htm">
         <HelpTOCNode Title="EatData Property " Url="html/b5e2d18d-2ce2-b57e-2f92-675721d61705.htm" />
         <HelpTOCNode Title="Server Property " Url="html/aa61ff7a-08f7-7a84-a4e5-7f1a24a27def.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="DisconnectArgs Methods" Url="html/4e4ad437-215b-6cb7-f800-0b15583f75ee.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="48d61e16-7e46-4ec3-8c4f-85ee6a4ecc63" Title="RawBytesReceivedArgs Class" Url="html/6c2bb3ed-7638-3147-03b2-dbd9e1253e71.htm">
+    <HelpTOCNode Id="d913b1bb-de84-49ae-8a3d-7c5f585cd9e4" Title="RawBytesReceivedArgs Class" Url="html/6c2bb3ed-7638-3147-03b2-dbd9e1253e71.htm">
       <HelpTOCNode Title="RawBytesReceivedArgs Constructor " Url="html/bf6b5465-152b-f29a-97aa-c795d0427949.htm" />
-      <HelpTOCNode Id="eba2d2dc-e261-450c-8522-75ffd2e146c3" Title="RawBytesReceivedArgs Properties" Url="html/687e20b8-a0bd-a31f-33f1-b2967a984b1c.htm">
+      <HelpTOCNode Id="30db306b-633d-402d-9139-37cf05008565" Title="RawBytesReceivedArgs Properties" Url="html/687e20b8-a0bd-a31f-33f1-b2967a984b1c.htm">
         <HelpTOCNode Title="Bytes Property " Url="html/a6e74f24-a520-952d-b65b-e09347ec3a73.htm" />
         <HelpTOCNode Title="Server Property " Url="html/b3307898-9a25-1b8a-1651-50ab97315373.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RawBytesReceivedArgs Methods" Url="html/003fc749-320a-2065-bb15-386e0f04b5e0.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4cb295c4-94fe-4fad-85a0-8f5fbde9fa6d" Title="RawBytesSentArgs Class" Url="html/eb0a40f8-12f6-14b7-6cc9-defc93de9582.htm">
+    <HelpTOCNode Id="b9a98a1f-8202-4532-bc69-81f6ecf73b9f" Title="RawBytesSentArgs Class" Url="html/eb0a40f8-12f6-14b7-6cc9-defc93de9582.htm">
       <HelpTOCNode Title="RawBytesSentArgs Constructor " Url="html/7d05ac29-73a2-5763-3d12-7c7541bf3837.htm" />
-      <HelpTOCNode Id="566f200b-8cd7-4ee4-af3b-2967534eea7d" Title="RawBytesSentArgs Properties" Url="html/4309cc93-09b0-f6bc-1b07-f591b324d9f2.htm">
+      <HelpTOCNode Id="0e11f76d-4ea1-40ba-8a1d-90528c61ec41" Title="RawBytesSentArgs Properties" Url="html/4309cc93-09b0-f6bc-1b07-f591b324d9f2.htm">
         <HelpTOCNode Title="Bytes Property " Url="html/f4acd6dc-cc42-6464-fdd5-efb5e5cfd616.htm" />
         <HelpTOCNode Title="Server Property " Url="html/7b1ebc33-64e0-b4e7-5d92-3e617cd81369.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="RawBytesSentArgs Methods" Url="html/87f0d524-94d3-54b6-521b-d3b4cb7e55aa.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ff640f60-ab3b-4796-b50d-de5f5b1a0523" Title="RawServerEventReceivedArgs Class" Url="html/17eab416-0688-7d0c-08c2-41e95ce6cf21.htm">
+    <HelpTOCNode Id="3097ba35-a3d4-4e9a-a2f2-70945f31a173" Title="RawServerEventReceivedArgs Class" Url="html/17eab416-0688-7d0c-08c2-41e95ce6cf21.htm">
       <HelpTOCNode Title="RawServerEventReceivedArgs Constructor " Url="html/2287be3d-e7ab-23b1-12c9-69675287464d.htm" />
-      <HelpTOCNode Id="6c9ea4cb-d078-469f-93a5-33e173b50f29" Title="RawServerEventReceivedArgs Properties" Url="html/14065fcd-fc76-fd49-e37a-af716a9cde69.htm">
+      <HelpTOCNode Id="56fa8bc2-9078-41f8-b4e4-26d7cd7d1164" Title="RawServerEventReceivedArgs Properties" Url="html/14065fcd-fc76-fd49-e37a-af716a9cde69.htm">
         <HelpTOCNode Title="EatData Property " Url="html/98354163-1297-7fb8-817f-78fa9ca7903d.htm" />
         <HelpTOCNode Title="Message Property " Url="html/3aa444d6-8ce0-c7a3-a369-ddf8785b8987.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/2bbb04aa-4fe8-cc5d-65cb-d6e57dce6b73.htm" />
@@ -885,27 +885,27 @@
       </HelpTOCNode>
       <HelpTOCNode Title="RawServerEventReceivedArgs Methods" Url="html/52fc0873-a454-d38c-86d8-d14a71b4348e.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4a807b09-6e8e-4d54-840f-9d71a7692072" Title="StringDataReceivedArgs Class" Url="html/75f618b5-1968-7f83-6205-be22cf2e7833.htm">
+    <HelpTOCNode Id="03461665-9a28-45f6-a0d1-fad8f87686fc" Title="StringDataReceivedArgs Class" Url="html/75f618b5-1968-7f83-6205-be22cf2e7833.htm">
       <HelpTOCNode Title="StringDataReceivedArgs Constructor " Url="html/be522030-e4c1-a0bc-9915-27e56917c193.htm" />
-      <HelpTOCNode Id="0587fbf5-b21f-444b-a4b9-7dea2a3e7fac" Title="StringDataReceivedArgs Properties" Url="html/bbb5e45c-d955-48cb-abe4-bd6d9ec5f612.htm">
+      <HelpTOCNode Id="9b029e6f-7910-4c4d-a09f-c92253876c03" Title="StringDataReceivedArgs Properties" Url="html/bbb5e45c-d955-48cb-abe4-bd6d9ec5f612.htm">
         <HelpTOCNode Title="Data Property " Url="html/287b4d8a-38d2-b245-03c7-99270de41887.htm" />
         <HelpTOCNode Title="Server Property " Url="html/de98083a-7eee-5cec-e0fb-a6beb5280fe3.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="StringDataReceivedArgs Methods" Url="html/a197e701-52b1-193b-29fe-a50421bd5c01.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d0aab619-f7d7-4bbc-b6e0-9c23acfdbb90" Title="StringDataSentArgs Class" Url="html/237d084c-4cf7-ad41-797c-dd81aa7aaf7a.htm">
+    <HelpTOCNode Id="835310db-9482-42e8-bb69-3e7a584290a1" Title="StringDataSentArgs Class" Url="html/237d084c-4cf7-ad41-797c-dd81aa7aaf7a.htm">
       <HelpTOCNode Title="StringDataSentArgs Constructor " Url="html/189b9123-1188-f8a0-27e4-a9d3159fe3e0.htm" />
-      <HelpTOCNode Id="80e8c8c4-60ab-4f55-9afd-2e19f52b0ff9" Title="StringDataSentArgs Properties" Url="html/2baa6eb8-061c-f2b0-5409-c1be29763b15.htm">
+      <HelpTOCNode Id="7f69984b-fa7b-425a-a445-113336e3719e" Title="StringDataSentArgs Properties" Url="html/2baa6eb8-061c-f2b0-5409-c1be29763b15.htm">
         <HelpTOCNode Title="Data Property " Url="html/cd1f200d-acd0-f608-397c-89d5c59995f0.htm" />
         <HelpTOCNode Title="Server Property " Url="html/ac55925d-1605-b072-69aa-2c57d867ee63.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="StringDataSentArgs Methods" Url="html/a983feca-67da-f05d-5015-ca3430a32b91.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="6b66d5d3-4c4a-435d-9b34-cb94d10b50b9" Title="AdiIRCAPIv2.Arguments.Contextless" Url="html/ba479f4f-5964-f3ed-d9c5-03d7e80bc0ae.htm">
-    <HelpTOCNode Id="b6388d97-e311-4841-b4ea-26c040e1d10d" Title="ChannelInviteArgs Class" Url="html/aec88703-8caa-36dc-2731-c7b2da03bec3.htm">
+  <HelpTOCNode Id="6a121748-ba9f-48ce-89e5-57f461a524ab" Title="AdiIRCAPIv2.Arguments.Contextless" Url="html/ba479f4f-5964-f3ed-d9c5-03d7e80bc0ae.htm">
+    <HelpTOCNode Id="05606e3e-f7e2-4682-ba97-c917291ce008" Title="ChannelInviteArgs Class" Url="html/aec88703-8caa-36dc-2731-c7b2da03bec3.htm">
       <HelpTOCNode Title="ChannelInviteArgs Constructor " Url="html/b4aaaa9e-7be5-cabb-a107-e3b177a42fe4.htm" />
-      <HelpTOCNode Id="d5d6f45b-e9be-4cbb-8ecd-c4209bdf36f2" Title="ChannelInviteArgs Properties" Url="html/8a819651-91ff-f364-7e99-1154a39729af.htm">
+      <HelpTOCNode Id="86b2d7db-a37d-4b1a-8881-f45714107f14" Title="ChannelInviteArgs Properties" Url="html/8a819651-91ff-f364-7e99-1154a39729af.htm">
         <HelpTOCNode Title="ChannelName Property " Url="html/9a2b46b8-7cec-0605-f73b-605dbd7ca125.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/497d9599-f253-d507-9351-b6afb7817d7e.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/0f5c82e9-600c-d276-fda2-9e47e9d5d9f3.htm" />
@@ -917,9 +917,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ChannelInviteArgs Methods" Url="html/2e8919d5-ee22-869e-de1f-bd02f906ac00.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="a6207ecf-ad42-4474-89d3-4603b38d2cc8" Title="MessageSentArgs Class" Url="html/a451edd9-8354-8f1c-a3a1-90d69af240b6.htm">
+    <HelpTOCNode Id="863ae848-0dea-4e90-88fa-14b41a16e799" Title="MessageSentArgs Class" Url="html/a451edd9-8354-8f1c-a3a1-90d69af240b6.htm">
       <HelpTOCNode Title="MessageSentArgs Constructor " Url="html/002d4103-2c70-3286-1a0b-704b3dbddfba.htm" />
-      <HelpTOCNode Id="2415cffd-0e7c-4ba9-8374-b924e9a0ff12" Title="MessageSentArgs Properties" Url="html/66d04c94-14d2-2655-ff40-9aa258443ef5.htm">
+      <HelpTOCNode Id="8de96c37-13c2-4a11-9bd0-3c1ce6d0ad5f" Title="MessageSentArgs Properties" Url="html/66d04c94-14d2-2655-ff40-9aa258443ef5.htm">
         <HelpTOCNode Title="Command Property " Url="html/4d6078a0-351e-2e0d-06b6-a208b21ca70c.htm" />
         <HelpTOCNode Title="EatData Property " Url="html/13e956c5-9681-a303-89ee-82daff38c4cb.htm" />
         <HelpTOCNode Title="Message Property " Url="html/8a6bcce9-d715-e86f-585d-dd536281c61b.htm" />
@@ -929,9 +929,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="MessageSentArgs Methods" Url="html/6fe0702b-8b55-1ec9-01d7-d69ff3a32cea.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="9ef3b99b-b27c-4399-bb25-e2d8a1f1438c" Title="NickArgs Class" Url="html/7e2cd77e-1501-5ca0-5ba8-2c713bc13de8.htm">
+    <HelpTOCNode Id="5ede5256-8b5d-41c3-b3e3-b614f4990972" Title="NickArgs Class" Url="html/7e2cd77e-1501-5ca0-5ba8-2c713bc13de8.htm">
       <HelpTOCNode Title="NickArgs Constructor " Url="html/8e1c45d7-346a-2fd1-0ae4-1c4b9ef5da64.htm" />
-      <HelpTOCNode Id="38674da7-bb76-4514-918f-b905e59b633d" Title="NickArgs Properties" Url="html/7d37c8dc-d65b-94e1-7b19-7fc5d258b75d.htm">
+      <HelpTOCNode Id="fe880e6a-78d0-495a-ae80-78b2218f29fa" Title="NickArgs Properties" Url="html/7d37c8dc-d65b-94e1-7b19-7fc5d258b75d.htm">
         <HelpTOCNode Title="EatData Property " Url="html/b31f9456-c093-3968-2a2a-1b513666e370.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/f4e269f5-d4ec-47ff-b58a-ffd03d2b4f0b.htm" />
         <HelpTOCNode Title="NewNick Property " Url="html/b2cd4bc1-ea95-277e-4ad6-d1014b5bbcdc.htm" />
@@ -943,26 +943,26 @@
       </HelpTOCNode>
       <HelpTOCNode Title="NickArgs Methods" Url="html/16a10ee1-e79f-2c62-33bc-c375df669b63.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d1ddb21c-704e-4ae2-a5f6-bee7a280a091" Title="NotifyUserOfflineArgs Class" Url="html/68e63aed-9929-ea76-585a-cde5d53be997.htm">
+    <HelpTOCNode Id="711a27fd-887b-4bc2-8c54-e29c6683305f" Title="NotifyUserOfflineArgs Class" Url="html/68e63aed-9929-ea76-585a-cde5d53be997.htm">
       <HelpTOCNode Title="NotifyUserOfflineArgs Constructor " Url="html/4e756add-8b38-7715-56f0-1f20aca3f568.htm" />
-      <HelpTOCNode Id="90a0fd65-69ea-4d18-8402-a0a5992a7139" Title="NotifyUserOfflineArgs Properties" Url="html/f36af71c-15a0-89f8-33a0-7e7153b30a88.htm">
+      <HelpTOCNode Id="e1c0a3ab-a1a1-4dbf-aafe-829d5dca6699" Title="NotifyUserOfflineArgs Properties" Url="html/f36af71c-15a0-89f8-33a0-7e7153b30a88.htm">
         <HelpTOCNode Title="Server Property " Url="html/82ca9eb1-e0b8-724a-d16f-3c5ba472372b.htm" />
         <HelpTOCNode Title="User Property " Url="html/c7d7aa3a-1624-ab58-31d4-50f0c4738000.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="NotifyUserOfflineArgs Methods" Url="html/4d706c27-45ef-81d4-b330-9ff1bd768d1c.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f9cbeaab-6504-4122-bf9c-b9f0381087a9" Title="NotifyUserOnlineArgs Class" Url="html/d1a57416-870b-56be-a0a6-c3f0c8aabc99.htm">
+    <HelpTOCNode Id="4e29d016-0745-434e-8122-8b7819e0a8cd" Title="NotifyUserOnlineArgs Class" Url="html/d1a57416-870b-56be-a0a6-c3f0c8aabc99.htm">
       <HelpTOCNode Title="NotifyUserOnlineArgs Constructor " Url="html/c24e4afa-a96c-8180-0e3c-b7b37b359b55.htm" />
-      <HelpTOCNode Id="e8130aba-9249-44fd-b48f-e0ad553cde58" Title="NotifyUserOnlineArgs Properties" Url="html/ddf49c0c-5231-73e7-176e-94e98032e483.htm">
+      <HelpTOCNode Id="381781c2-a773-4c5d-ad7a-762421e4a674" Title="NotifyUserOnlineArgs Properties" Url="html/ddf49c0c-5231-73e7-176e-94e98032e483.htm">
         <HelpTOCNode Title="Server Property " Url="html/b52e7b79-b193-1998-2b6e-388a30ae5f64.htm" />
         <HelpTOCNode Title="SignedOnTime Property " Url="html/de2d525f-e43e-e9ec-59a7-c10942126d34.htm" />
         <HelpTOCNode Title="User Property " Url="html/51ee60ba-c7d9-f30c-8098-997d8a496fbc.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="NotifyUserOnlineArgs Methods" Url="html/a40621c2-feb0-20fb-9839-1c3c7e354403.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="dbc699df-a317-48ee-b87d-b2171635f27f" Title="QuitArgs Class" Url="html/f3a965f7-77c8-61fe-1412-8072c91213c0.htm">
+    <HelpTOCNode Id="836f5751-09df-40a7-a0e5-b825e01b5513" Title="QuitArgs Class" Url="html/f3a965f7-77c8-61fe-1412-8072c91213c0.htm">
       <HelpTOCNode Title="QuitArgs Constructor " Url="html/e1b114e1-ea06-c92a-6e49-676e999bad06.htm" />
-      <HelpTOCNode Id="773f0e87-4507-4f8e-8204-fd6a9304e1a7" Title="QuitArgs Properties" Url="html/8c821449-58f6-d035-fea7-9df3727b2364.htm">
+      <HelpTOCNode Id="4937b74d-e401-4411-8330-bd6cd9e9616b" Title="QuitArgs Properties" Url="html/8c821449-58f6-d035-fea7-9df3727b2364.htm">
         <HelpTOCNode Title="EatData Property " Url="html/ee626dc7-3165-ba27-9775-471d8796983d.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/d3c77f3c-8488-6d37-14c8-01ce3f543c25.htm" />
         <HelpTOCNode Title="QuitMessage Property " Url="html/13d9a5cc-6499-a990-62e9-3d17c3ee81a9.htm" />
@@ -974,9 +974,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="QuitArgs Methods" Url="html/4771f786-0d65-9b78-6b07-b10740f7d6b7.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5ce6e645-9eb7-4b5e-8d7a-3eac651fb530" Title="ServerPingReceivedArgs Class" Url="html/d634bbc6-03f5-6570-c8fb-7337387c8525.htm">
+    <HelpTOCNode Id="8b67b9d4-077d-4094-9667-a95a95c967da" Title="ServerPingReceivedArgs Class" Url="html/d634bbc6-03f5-6570-c8fb-7337387c8525.htm">
       <HelpTOCNode Title="ServerPingReceivedArgs Constructor " Url="html/8fdec72b-adcf-a65a-b898-d7d7d8635b7a.htm" />
-      <HelpTOCNode Id="fc3a70fb-1a1d-4bf2-8900-082f06222fac" Title="ServerPingReceivedArgs Properties" Url="html/af8ceee2-581a-867c-d1b9-2f34c620764f.htm">
+      <HelpTOCNode Id="aa15ab6f-2de6-4a74-9b0d-0942081d33e0" Title="ServerPingReceivedArgs Properties" Url="html/af8ceee2-581a-867c-d1b9-2f34c620764f.htm">
         <HelpTOCNode Title="EatData Property " Url="html/8dce7e18-c37a-dd6b-7484-79f398c3daf6.htm" />
         <HelpTOCNode Title="Message Property " Url="html/529b29e8-ea35-9919-33dd-01a6cdb77322.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/cb87a78e-e8ee-0a1d-489d-5677c509faf3.htm" />
@@ -987,9 +987,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ServerPingReceivedArgs Methods" Url="html/813650ab-59a8-5bf6-9a6e-a5e38f356a23.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="bacbde6d-3473-4d86-8329-aa081a120e47" Title="ServerPongReceivedArgs Class" Url="html/9ca98758-5300-01f4-3dca-6cfd1445098e.htm">
+    <HelpTOCNode Id="1ab27726-c26f-48f5-aa25-78a724410fc6" Title="ServerPongReceivedArgs Class" Url="html/9ca98758-5300-01f4-3dca-6cfd1445098e.htm">
       <HelpTOCNode Title="ServerPongReceivedArgs Constructor " Url="html/162f86ee-ea87-e929-3f27-1f3ce4bdd12f.htm" />
-      <HelpTOCNode Id="6ac1b5c7-9f72-424c-80e7-153d31fe8644" Title="ServerPongReceivedArgs Properties" Url="html/ae2d2ff6-6942-a167-4787-fd396233d798.htm">
+      <HelpTOCNode Id="3b8d9e28-2296-473b-a28c-10ce95c8f700" Title="ServerPongReceivedArgs Properties" Url="html/ae2d2ff6-6942-a167-4787-fd396233d798.htm">
         <HelpTOCNode Title="EatData Property " Url="html/abbd8405-91a5-c2ce-8077-6d7823273b81.htm" />
         <HelpTOCNode Title="Message Property " Url="html/c249c3eb-9e67-6686-17c1-506e5e9d601e.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/ca1a9fac-1baa-bfd5-9a07-c6482148d54f.htm" />
@@ -1000,9 +1000,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ServerPongReceivedArgs Methods" Url="html/4c7e77a3-e813-66f5-485e-211498800805.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="93b53b00-b731-482a-adef-a71b95fa8a6d" Title="UserModeArgs Class" Url="html/c7f11638-553c-dc52-27e7-909468fde185.htm">
+    <HelpTOCNode Id="c4aa061e-8b79-44bb-9b97-1bf37e0509a4" Title="UserModeArgs Class" Url="html/c7f11638-553c-dc52-27e7-909468fde185.htm">
       <HelpTOCNode Title="UserModeArgs Constructor " Url="html/1155d9c5-e6f8-a661-1787-ec1ff3adf5b9.htm" />
-      <HelpTOCNode Id="07cc7479-e76d-4acc-bb94-7b8b11050289" Title="UserModeArgs Properties" Url="html/357f9c4d-09fc-61fb-afe9-900c3f306f76.htm">
+      <HelpTOCNode Id="8c57f837-207f-4e08-a865-949fac07b5c0" Title="UserModeArgs Properties" Url="html/357f9c4d-09fc-61fb-afe9-900c3f306f76.htm">
         <HelpTOCNode Title="EatData Property " Url="html/f03ff730-50f0-81a8-ca97-0cb256028654.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/0e8b3873-7d5e-7a8a-bd6d-4ab987395daa.htm" />
         <HelpTOCNode Title="Mode Property " Url="html/a944a3e6-1dcf-678d-9fae-9d8d0445626d.htm" />
@@ -1014,10 +1014,10 @@
       <HelpTOCNode Title="UserModeArgs Methods" Url="html/fec24332-d62f-e9af-c273-d9dd9ee10e57.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="90db0ff5-de45-42de-ac69-6b1e077b94e4" Title="AdiIRCAPIv2.Arguments.Dns" Url="html/a45a8827-0414-7b78-ea57-8e536ab49b0a.htm">
-    <HelpTOCNode Id="321d6333-38c7-4a2b-86d4-3aa8d551be0c" Title="DnsResolveEndArgs Class" Url="html/a521c5ff-3cbd-374c-b915-bb33db5e65a8.htm">
+  <HelpTOCNode Id="4a1c6dfa-3896-42f1-9c02-9b9183391d6c" Title="AdiIRCAPIv2.Arguments.Dns" Url="html/a45a8827-0414-7b78-ea57-8e536ab49b0a.htm">
+    <HelpTOCNode Id="81f7d5ea-8828-42d3-86f5-3abbdcc4c7c9" Title="DnsResolveEndArgs Class" Url="html/a521c5ff-3cbd-374c-b915-bb33db5e65a8.htm">
       <HelpTOCNode Title="DnsResolveEndArgs Constructor " Url="html/19621458-7c9a-0d97-8625-3e79e1037af7.htm" />
-      <HelpTOCNode Id="38da8944-577c-4446-8c0d-9f373b60d71f" Title="DnsResolveEndArgs Properties" Url="html/3528a1f8-b834-3f7b-6599-0d5af6622c5e.htm">
+      <HelpTOCNode Id="ae3c440c-9614-43fa-9d93-48d98554930c" Title="DnsResolveEndArgs Properties" Url="html/3528a1f8-b834-3f7b-6599-0d5af6622c5e.htm">
         <HelpTOCNode Title="Address Property " Url="html/f0198e00-a9db-1f11-066f-8c91ac03b16a.htm" />
         <HelpTOCNode Title="Addresses Property " Url="html/90633587-a662-139c-b0ca-d1754f2fcf55.htm" />
         <HelpTOCNode Title="Error Property " Url="html/bf2746c1-9fae-a488-a6f5-223e3b012f81.htm" />
@@ -1026,9 +1026,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="DnsResolveEndArgs Methods" Url="html/718facba-aba3-478f-f376-913f78acbd6e.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d68ea081-00a2-447b-bffa-a4d63b97878b" Title="DnsResolveStartedArgs Class" Url="html/0a583ff2-c248-7d88-052b-f5b63bdd9ce6.htm">
+    <HelpTOCNode Id="a44b895a-22de-4146-9e9e-d470900ada30" Title="DnsResolveStartedArgs Class" Url="html/0a583ff2-c248-7d88-052b-f5b63bdd9ce6.htm">
       <HelpTOCNode Title="DnsResolveStartedArgs Constructor " Url="html/e0a47065-039f-3a91-d88c-47d885a3a080.htm" />
-      <HelpTOCNode Id="ff173d07-4073-4fbd-a339-5dda11988679" Title="DnsResolveStartedArgs Properties" Url="html/cabf7efe-14b4-50be-9860-b0b743dbb009.htm">
+      <HelpTOCNode Id="b25fe5e5-9a8c-44d5-a4b8-936470a2cce1" Title="DnsResolveStartedArgs Properties" Url="html/cabf7efe-14b4-50be-9860-b0b743dbb009.htm">
         <HelpTOCNode Title="Address Property " Url="html/0f359efb-28e0-8ee7-80ae-e113b451fd27.htm" />
         <HelpTOCNode Title="Ipv4 Property " Url="html/a1c6933e-35b5-127c-a516-f71bd90342ac.htm" />
         <HelpTOCNode Title="Ipv6 Property " Url="html/2406e97f-c620-e009-123d-9ef6bccb5078.htm" />
@@ -1036,47 +1036,47 @@
       <HelpTOCNode Title="DnsResolveStartedArgs Methods" Url="html/02a18879-7a37-9630-99b7-f026cc587a8b.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="727b1b4e-eb8d-42b5-ae63-894c4c6f9ae0" Title="AdiIRCAPIv2.Arguments.MediaPlayback" Url="html/6ebf6b0e-08e3-1e11-eb84-1b0e8380181b.htm">
-    <HelpTOCNode Id="fdce715a-ed48-4205-8782-05c76f1884af" Title="MediaPlayerPlaybackStartedArgs Class" Url="html/ab96734e-bf09-473b-df8e-2ec93c54938c.htm">
+  <HelpTOCNode Id="f851eecf-e6b2-46cb-a3a5-9f49f98ee9e0" Title="AdiIRCAPIv2.Arguments.MediaPlayback" Url="html/6ebf6b0e-08e3-1e11-eb84-1b0e8380181b.htm">
+    <HelpTOCNode Id="c8b4e079-651b-45c4-81ac-de0b583b9ce0" Title="MediaPlayerPlaybackStartedArgs Class" Url="html/ab96734e-bf09-473b-df8e-2ec93c54938c.htm">
       <HelpTOCNode Title="MediaPlayerPlaybackStartedArgs Constructor " Url="html/a869da2c-b333-1aad-074f-7319d51efb2d.htm" />
-      <HelpTOCNode Id="5f76ba47-dfda-4acd-bf06-cef7cc02d7d5" Title="MediaPlayerPlaybackStartedArgs Properties" Url="html/3c79d55e-9183-32e8-31db-91ada96ff84d.htm">
+      <HelpTOCNode Id="246560d4-6e9e-4972-b4b3-4586d8ef9bfd" Title="MediaPlayerPlaybackStartedArgs Properties" Url="html/3c79d55e-9183-32e8-31db-91ada96ff84d.htm">
         <HelpTOCNode Title="Song Property " Url="html/8a05b9d2-979b-f35c-bdbd-17aba6cad0ca.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="MediaPlayerPlaybackStartedArgs Methods" Url="html/638552e3-7850-e717-e595-7df03652cbb5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ccc2daef-d931-43b0-80af-9c577c337032" Title="SoundPlayBackEndArgs Class" Url="html/6e7bf17c-5f5b-8b3a-ccaf-385eeea080b0.htm">
+    <HelpTOCNode Id="09ee653c-68e9-4e39-8c3e-f78fe9c9b2a8" Title="SoundPlayBackEndArgs Class" Url="html/6e7bf17c-5f5b-8b3a-ccaf-385eeea080b0.htm">
       <HelpTOCNode Title="SoundPlayBackEndArgs Constructor " Url="html/bd79e102-057a-838b-bdfd-5a34b3e10823.htm" />
-      <HelpTOCNode Id="4ba906ee-db28-4bf7-a4cd-94ccbf951a1f" Title="SoundPlayBackEndArgs Properties" Url="html/3312223b-8d01-8cf8-9a37-7030f52ba0a9.htm">
+      <HelpTOCNode Id="0737ae70-430a-44e9-96f8-01c13a8c09db" Title="SoundPlayBackEndArgs Properties" Url="html/3312223b-8d01-8cf8-9a37-7030f52ba0a9.htm">
         <HelpTOCNode Title="Filename Property " Url="html/f47555c7-4a57-12d2-46a6-2c5d98a806d8.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="SoundPlayBackEndArgs Methods" Url="html/4e5eb164-dc93-0283-d0d0-ae7cc07863f8.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f2852db8-3052-4704-a91b-13f4600be4d2" Title="SoundPlayBackMidiEndArgs Class" Url="html/8e243d0c-f728-c871-7cbc-0b53bcb239da.htm">
+    <HelpTOCNode Id="da16d4c6-c20e-4e73-80bd-96c4993c4191" Title="SoundPlayBackMidiEndArgs Class" Url="html/8e243d0c-f728-c871-7cbc-0b53bcb239da.htm">
       <HelpTOCNode Title="SoundPlayBackMidiEndArgs Constructor " Url="html/f5e90132-b3f4-2527-2c72-92b816dd4876.htm" />
-      <HelpTOCNode Id="90e0cbf1-f650-47d6-8734-1909d3b76683" Title="SoundPlayBackMidiEndArgs Properties" Url="html/6f1989a3-f188-38f3-a357-6059ffb6cdbc.htm">
+      <HelpTOCNode Id="b098344a-d978-4a99-8a6f-be7b997ebcb7" Title="SoundPlayBackMidiEndArgs Properties" Url="html/6f1989a3-f188-38f3-a357-6059ffb6cdbc.htm">
         <HelpTOCNode Title="Filename Property " Url="html/48335445-1fe4-c692-85ba-0aa5b1750888.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="SoundPlayBackMidiEndArgs Methods" Url="html/c9e72d45-b2eb-b65e-0b03-b60bf7c78c18.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="13a03fa0-962b-4aeb-8baa-bcf981835f85" Title="SoundPlayBackMp3EndArgs Class" Url="html/b7bf4aeb-8d1a-57d1-4f45-362c4c539e72.htm">
+    <HelpTOCNode Id="8a746036-1167-4322-b0d9-c8e7225c6098" Title="SoundPlayBackMp3EndArgs Class" Url="html/b7bf4aeb-8d1a-57d1-4f45-362c4c539e72.htm">
       <HelpTOCNode Title="SoundPlayBackMp3EndArgs Constructor " Url="html/8e415cc7-82e8-6042-56cc-3c52cf2529be.htm" />
-      <HelpTOCNode Id="b767a867-8563-4873-8b4c-e06eaf48c14c" Title="SoundPlayBackMp3EndArgs Properties" Url="html/a0982735-f271-5fcb-f286-b5a9cbb739bc.htm">
+      <HelpTOCNode Id="3f5c2199-fbd8-43ea-9fbc-4b7b6606581b" Title="SoundPlayBackMp3EndArgs Properties" Url="html/a0982735-f271-5fcb-f286-b5a9cbb739bc.htm">
         <HelpTOCNode Title="Filename Property " Url="html/9d23b728-89d2-dcb8-f814-691598914039.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="SoundPlayBackMp3EndArgs Methods" Url="html/6156d19f-6051-1688-7dd7-c378f5a588b1.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="8cc383fb-d1d0-4211-bb26-d477d63c2d1b" Title="SoundPlayBackWaveEndArgs Class" Url="html/b750e4a8-c442-63c1-2bc1-e830ed5e8c19.htm">
+    <HelpTOCNode Id="18f5a057-ba13-48f5-8ef0-da7f3697ef42" Title="SoundPlayBackWaveEndArgs Class" Url="html/b750e4a8-c442-63c1-2bc1-e830ed5e8c19.htm">
       <HelpTOCNode Title="SoundPlayBackWaveEndArgs Constructor " Url="html/1dd8fb2b-6069-cd2b-b0a0-478534d5658a.htm" />
-      <HelpTOCNode Id="4b8eb166-28aa-44b9-b509-5508ff571fef" Title="SoundPlayBackWaveEndArgs Properties" Url="html/e4971831-03eb-b6c4-ef67-a2f01c0501b7.htm">
+      <HelpTOCNode Id="7b935ca9-bf5e-409d-b569-084f7a89fe5d" Title="SoundPlayBackWaveEndArgs Properties" Url="html/e4971831-03eb-b6c4-ef67-a2f01c0501b7.htm">
         <HelpTOCNode Title="Filename Property " Url="html/58f33d7b-9947-3eae-c5a1-75ddad83ad86.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="SoundPlayBackWaveEndArgs Methods" Url="html/77ebd5e1-bab6-4812-9dd1-a66878d2b610.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="7e47b888-ae16-405d-add8-6b50ddcf9b96" Title="AdiIRCAPIv2.Arguments.PrivateMessages" Url="html/4ed2af11-8e1a-0b95-2667-2edce50f5d60.htm">
-    <HelpTOCNode Id="2d532bbc-7985-4acb-afcc-0280df02488b" Title="PrivateActionMessageArgs Class" Url="html/bc9d7b1b-d113-4767-3680-34442c3a17df.htm">
+  <HelpTOCNode Id="e4af8ded-91e3-4abd-897a-907f0deeab17" Title="AdiIRCAPIv2.Arguments.PrivateMessages" Url="html/4ed2af11-8e1a-0b95-2667-2edce50f5d60.htm">
+    <HelpTOCNode Id="93632f0d-926f-4b73-ad76-7423438925c4" Title="PrivateActionMessageArgs Class" Url="html/bc9d7b1b-d113-4767-3680-34442c3a17df.htm">
       <HelpTOCNode Title="PrivateActionMessageArgs Constructor " Url="html/5be2b4f5-3be7-2f0f-f1b7-96ce43e8e98c.htm" />
-      <HelpTOCNode Id="0fd1387a-2d20-4a6c-acda-2ddb9b414270" Title="PrivateActionMessageArgs Properties" Url="html/5f071419-53aa-5f3f-81a4-8086b9327e2a.htm">
+      <HelpTOCNode Id="6021ddb3-9ea0-4882-b2f5-0d02e30ead9e" Title="PrivateActionMessageArgs Properties" Url="html/5f071419-53aa-5f3f-81a4-8086b9327e2a.htm">
         <HelpTOCNode Title="EatData Property " Url="html/3e413d80-2462-dd90-ef6f-990cb6ad779b.htm" />
         <HelpTOCNode Title="Message Property " Url="html/75b5fedb-ded0-fa6a-9e4c-1b1873abc9ba.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/fc21fd4c-eafc-13dc-1e17-eb4a2f12dd35.htm" />
@@ -1088,9 +1088,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="PrivateActionMessageArgs Methods" Url="html/4846b763-76aa-7d9a-45b4-086a057b88d2.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="19311ca0-a874-49aa-8b1b-1251a728439c" Title="PrivateCtcpMessageArgs Class" Url="html/1a19dd8d-1dd2-e344-6229-5add14122cc6.htm">
+    <HelpTOCNode Id="61c3afd4-dca2-4fe5-9f91-a0823370ee0c" Title="PrivateCtcpMessageArgs Class" Url="html/1a19dd8d-1dd2-e344-6229-5add14122cc6.htm">
       <HelpTOCNode Title="PrivateCtcpMessageArgs Constructor " Url="html/54188b1c-c03e-11db-e2a3-fbf911fdb11a.htm" />
-      <HelpTOCNode Id="d2517f48-e6e6-4c89-9e4d-c18c1d0ae441" Title="PrivateCtcpMessageArgs Properties" Url="html/e343659c-a146-04c5-e2f1-7f657bc5415a.htm">
+      <HelpTOCNode Id="b339a563-4df5-4df2-996f-90a34afe5e56" Title="PrivateCtcpMessageArgs Properties" Url="html/e343659c-a146-04c5-e2f1-7f657bc5415a.htm">
         <HelpTOCNode Title="EatData Property " Url="html/58284c7f-3684-3155-551a-5165d5527589.htm" />
         <HelpTOCNode Title="Message Property " Url="html/07ed8d38-2ce8-c5f1-622b-188a0de06d48.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/0d006ddd-a335-adeb-578b-8150e12760d9.htm" />
@@ -1102,9 +1102,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="PrivateCtcpMessageArgs Methods" Url="html/4a045186-8aa4-ce5f-1792-64ab391ddcdd.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4486bc74-348f-491c-af5d-d2e77f1d5053" Title="PrivateCtcpReplyMessageArgs Class" Url="html/5d9253e5-f5fc-3828-7715-c9705f5e9905.htm">
+    <HelpTOCNode Id="35839e5a-b32d-45ed-a795-ed2307695d49" Title="PrivateCtcpReplyMessageArgs Class" Url="html/5d9253e5-f5fc-3828-7715-c9705f5e9905.htm">
       <HelpTOCNode Title="PrivateCtcpReplyMessageArgs Constructor " Url="html/b02a3b14-f207-7cf8-125f-aee7b5558b64.htm" />
-      <HelpTOCNode Id="1b2055b8-c19c-43c3-8a9b-6eb9163dbda5" Title="PrivateCtcpReplyMessageArgs Properties" Url="html/246b84ba-54ac-2108-6086-dcace206e915.htm">
+      <HelpTOCNode Id="449327ed-8fe8-46ba-adfb-82068d7cbbcf" Title="PrivateCtcpReplyMessageArgs Properties" Url="html/246b84ba-54ac-2108-6086-dcace206e915.htm">
         <HelpTOCNode Title="EatData Property " Url="html/7d8e5530-d1b5-e5bd-1c20-a8bd169f8dd0.htm" />
         <HelpTOCNode Title="Message Property " Url="html/b98447a2-52f7-e4b5-a70a-3e26c76d221c.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/a35661bd-e699-7fc5-fd38-27f06a32d841.htm" />
@@ -1116,9 +1116,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="PrivateCtcpReplyMessageArgs Methods" Url="html/3b82bbaa-5d37-80b1-17f5-1e4b8890f69a.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4c227bf4-52a3-49f2-bfc4-169ac428498b" Title="PrivateNormalMessageArgs Class" Url="html/d59e9acf-ef99-9f15-e749-b02ddf744ca0.htm">
+    <HelpTOCNode Id="0da187f4-5338-41bf-bd46-55242759f8cc" Title="PrivateNormalMessageArgs Class" Url="html/d59e9acf-ef99-9f15-e749-b02ddf744ca0.htm">
       <HelpTOCNode Title="PrivateNormalMessageArgs Constructor " Url="html/34219b05-2697-4dd0-7792-fce3a8df8c85.htm" />
-      <HelpTOCNode Id="244b890e-2049-4e8e-80c7-45debcab271b" Title="PrivateNormalMessageArgs Properties" Url="html/ecd76448-1fee-83a0-9d32-e820b40a7bcf.htm">
+      <HelpTOCNode Id="7adfdfe0-03b4-4537-beeb-0fc72ac1760f" Title="PrivateNormalMessageArgs Properties" Url="html/ecd76448-1fee-83a0-9d32-e820b40a7bcf.htm">
         <HelpTOCNode Title="EatData Property " Url="html/69b9949f-3e36-9a2c-8d3f-352de34036ac.htm" />
         <HelpTOCNode Title="Message Property " Url="html/c3663ff7-6391-f202-81d5-0fdfa1ff56a9.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/06a8acd7-a73f-a011-b432-27462d39b76c.htm" />
@@ -1130,9 +1130,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="PrivateNormalMessageArgs Methods" Url="html/c420c1ca-0f88-8770-ed98-4bc74b2d5f80.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4682e370-d57c-472a-ba6f-dbb1f3858ce2" Title="PrivateNoticeMessageArgs Class" Url="html/a7b0f86a-995f-cbbf-9904-223296cf6576.htm">
+    <HelpTOCNode Id="38f40671-8b9b-406c-a48b-c045fa6ab9f9" Title="PrivateNoticeMessageArgs Class" Url="html/a7b0f86a-995f-cbbf-9904-223296cf6576.htm">
       <HelpTOCNode Title="PrivateNoticeMessageArgs Constructor " Url="html/0abb02df-0d3e-a1e1-e6c2-e2ecdb660d34.htm" />
-      <HelpTOCNode Id="286d51e7-3eb0-433f-8993-16346faa9896" Title="PrivateNoticeMessageArgs Properties" Url="html/bade66b2-21da-a3c2-ea1f-a4504bbc25d0.htm">
+      <HelpTOCNode Id="e319362d-141b-4219-ba23-d79af9df6193" Title="PrivateNoticeMessageArgs Properties" Url="html/bade66b2-21da-a3c2-ea1f-a4504bbc25d0.htm">
         <HelpTOCNode Title="EatData Property " Url="html/73ba9d1e-b386-8016-8808-ef417b10c9d4.htm" />
         <HelpTOCNode Title="Message Property " Url="html/e7b4fdde-808c-fb40-4cbf-10de58e2e38d.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/4851b50a-e126-1e23-b746-823da3314cf9.htm" />
@@ -1144,9 +1144,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="PrivateNoticeMessageArgs Methods" Url="html/99f01e9b-8cd4-e11d-a121-4236fcf1c24d.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="becaf460-91c1-48a5-a12a-3d591475d9ed" Title="ServerErrorMessageArgs Class" Url="html/c1cc5b1e-fe32-b862-4c44-caf9fe914c02.htm">
+    <HelpTOCNode Id="254728ca-ae17-4d58-b26e-84cbf97180de" Title="ServerErrorMessageArgs Class" Url="html/c1cc5b1e-fe32-b862-4c44-caf9fe914c02.htm">
       <HelpTOCNode Title="ServerErrorMessageArgs Constructor " Url="html/801af579-42bf-350c-a442-4274bb8bf97a.htm" />
-      <HelpTOCNode Id="d4d856f1-f8aa-42aa-94b4-d56d7b65dcf4" Title="ServerErrorMessageArgs Properties" Url="html/f39355a7-4a77-e4bc-569e-fe3a09feefbd.htm">
+      <HelpTOCNode Id="e83fd92a-91ca-4e22-b0f6-c2da8eda3c26" Title="ServerErrorMessageArgs Properties" Url="html/f39355a7-4a77-e4bc-569e-fe3a09feefbd.htm">
         <HelpTOCNode Title="EatData Property " Url="html/0e858cfb-a1b3-45f4-e75b-95f128f0a1a0.htm" />
         <HelpTOCNode Title="Message Property " Url="html/59c25d55-2edb-e2e7-22a9-ef0291cc3aca.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/cfbae9bb-afc1-a1df-fa35-d778763b13a8.htm" />
@@ -1157,9 +1157,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ServerErrorMessageArgs Methods" Url="html/84569ba5-bb9f-fa88-8f72-76397bc674b4.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="ed675bdd-e2cb-4a9a-8e5d-dbdea3b25d99" Title="ServerNoticeMessageArgs Class" Url="html/34b0006e-39a9-3d79-c717-a7c9231fbf57.htm">
+    <HelpTOCNode Id="4d279f2f-a434-40b6-923c-94a4f5df1c65" Title="ServerNoticeMessageArgs Class" Url="html/34b0006e-39a9-3d79-c717-a7c9231fbf57.htm">
       <HelpTOCNode Title="ServerNoticeMessageArgs Constructor " Url="html/d2b522ac-964e-124e-8f5c-83e9af321b4b.htm" />
-      <HelpTOCNode Id="2c5a99ff-b66e-4d3c-add3-9b8ad07cbe5f" Title="ServerNoticeMessageArgs Properties" Url="html/b2e8dc41-3b59-a998-46b9-7a2cdda73324.htm">
+      <HelpTOCNode Id="b3ce2d50-42ad-4a62-a4ba-85f87d4d759f" Title="ServerNoticeMessageArgs Properties" Url="html/b2e8dc41-3b59-a998-46b9-7a2cdda73324.htm">
         <HelpTOCNode Title="EatData Property " Url="html/12daa4c2-3717-56e2-687a-32b1c2a589a5.htm" />
         <HelpTOCNode Title="Message Property " Url="html/033e097b-d693-7a20-a64f-31e930c5f42f.htm" />
         <HelpTOCNode Title="MessageTags Property " Url="html/2439600d-c98a-67dd-e590-b605a5568495.htm" />
@@ -1172,27 +1172,27 @@
       <HelpTOCNode Title="ServerNoticeMessageArgs Methods" Url="html/5aacf721-6830-5415-92f5-80ff410afb15.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="7de4bf0a-f896-4380-83f0-3b7db6566915" Title="AdiIRCAPIv2.Arguments.ScriptEngine" Url="html/53d139c8-f75e-44f7-03ab-d9f06e7f2cb0.htm">
-    <HelpTOCNode Id="7722953a-bd72-44e9-bce8-13e10fb36b05" Title="EngineScriptLoadArgs Class" Url="html/dee53793-ae03-faa7-d9a2-7b8a700d721d.htm">
+  <HelpTOCNode Id="4fba3ddd-e7e5-4553-a4e3-701e4a43d7ff" Title="AdiIRCAPIv2.Arguments.ScriptEngine" Url="html/53d139c8-f75e-44f7-03ab-d9f06e7f2cb0.htm">
+    <HelpTOCNode Id="e8d66a4e-ab7e-4f14-8ac5-521da65d7f9b" Title="EngineScriptLoadArgs Class" Url="html/dee53793-ae03-faa7-d9a2-7b8a700d721d.htm">
       <HelpTOCNode Title="EngineScriptLoadArgs Constructor " Url="html/9d598ead-cb9f-7e1b-7f3d-c3d21a9fd5a3.htm" />
-      <HelpTOCNode Id="6658a42c-1b02-4542-8b1f-0b073e6607ff" Title="EngineScriptLoadArgs Properties" Url="html/42c98632-d30c-eb40-504d-8e09b1766f7c.htm">
+      <HelpTOCNode Id="7397e9e8-6ef8-48a8-9a64-c6261817154a" Title="EngineScriptLoadArgs Properties" Url="html/42c98632-d30c-eb40-504d-8e09b1766f7c.htm">
         <HelpTOCNode Title="Filename Property " Url="html/503610f1-8f6c-d0ab-741d-627acb7f8d6c.htm" />
         <HelpTOCNode Title="LoadType Property " Url="html/e9ed6a3f-996e-48a6-bd46-8581f9e07d5b.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="EngineScriptLoadArgs Methods" Url="html/733e16ee-775c-4b1d-cb75-aa264b9e4f32.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="8a11647b-635e-4bee-b587-bbdcbca236ea" Title="EngineScriptUnloadArgs Class" Url="html/66b93a44-4234-3c97-ba83-78ce2f3bc23b.htm">
+    <HelpTOCNode Id="fcc5dbae-4013-4214-8ffa-b5335f41c5c1" Title="EngineScriptUnloadArgs Class" Url="html/66b93a44-4234-3c97-ba83-78ce2f3bc23b.htm">
       <HelpTOCNode Title="EngineScriptUnloadArgs Constructor " Url="html/7f8ad229-33bf-0ad8-c2aa-49095083a1ab.htm" />
-      <HelpTOCNode Id="a5530e72-ceb8-40fc-a45c-41756003553b" Title="EngineScriptUnloadArgs Properties" Url="html/1d356880-0936-5a35-e0c8-2cc4dee0007f.htm">
+      <HelpTOCNode Id="8d2310a5-ad0b-43e9-b4e3-33025bb18eff" Title="EngineScriptUnloadArgs Properties" Url="html/1d356880-0936-5a35-e0c8-2cc4dee0007f.htm">
         <HelpTOCNode Title="Filename Property " Url="html/9116d8d5-fc0c-c5d3-f1f9-d7df76f8451e.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="EngineScriptUnloadArgs Methods" Url="html/0a6c1697-d09c-16cb-1298-4f1f449460bb.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="2d565c67-a841-4c11-b6f3-61de02a36228" Title="AdiIRCAPIv2.Arguments.ScriptHttpDownload" Url="html/ae562db3-991f-bb1f-f7ae-d2c686d24fff.htm">
-    <HelpTOCNode Id="374e1fb8-77d4-416f-933d-35c426d5c8ee" Title="ScriptHttpDownloadEndArgs Class" Url="html/db526599-a477-7d6c-15cd-90720a3d972a.htm">
+  <HelpTOCNode Id="c582c5f3-d201-4711-80cd-949a19ea78f9" Title="AdiIRCAPIv2.Arguments.ScriptHttpDownload" Url="html/ae562db3-991f-bb1f-f7ae-d2c686d24fff.htm">
+    <HelpTOCNode Id="434a2332-a187-41a1-ace4-27ed41deb288" Title="ScriptHttpDownloadEndArgs Class" Url="html/db526599-a477-7d6c-15cd-90720a3d972a.htm">
       <HelpTOCNode Title="ScriptHttpDownloadEndArgs Constructor " Url="html/386a4e3f-2d58-20cb-4608-a0df5ac5b213.htm" />
-      <HelpTOCNode Id="e890c4aa-d1f6-42b4-b2d1-f71082584c55" Title="ScriptHttpDownloadEndArgs Properties" Url="html/63055901-1ada-6e93-be55-24a775e388e7.htm">
+      <HelpTOCNode Id="01f6c5be-8330-4fe1-8081-43b645c5a139" Title="ScriptHttpDownloadEndArgs Properties" Url="html/63055901-1ada-6e93-be55-24a775e388e7.htm">
         <HelpTOCNode Title="Error Property " Url="html/90e54941-b149-0fdc-243e-6463636f21ff.htm" />
         <HelpTOCNode Title="Filename Property " Url="html/05b38e6f-65f4-901b-9713-5fb952275359.htm" />
         <HelpTOCNode Title="Name Property " Url="html/206eebf8-f4f5-b573-78b2-eb939450b81d.htm" />
@@ -1200,9 +1200,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ScriptHttpDownloadEndArgs Methods" Url="html/54a6dcdf-2398-9f76-c56e-417720e29674.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d07bb4f9-638c-4bd7-8550-28caa83a287d" Title="ScriptHttpDownloadStartedArgs Class" Url="html/3482bc7f-f413-f228-9270-ed453801c7fe.htm">
+    <HelpTOCNode Id="a5b1df2b-f4e9-4162-bbaa-9b27ffe4ab92" Title="ScriptHttpDownloadStartedArgs Class" Url="html/3482bc7f-f413-f228-9270-ed453801c7fe.htm">
       <HelpTOCNode Title="ScriptHttpDownloadStartedArgs Constructor " Url="html/0af5c57a-4d1f-c7ef-611d-df13946628b9.htm" />
-      <HelpTOCNode Id="fe4a7695-5d82-42dc-b95b-c7018ac9bdcb" Title="ScriptHttpDownloadStartedArgs Properties" Url="html/92c809e4-fe44-acf7-d99b-a3a69045ee6b.htm">
+      <HelpTOCNode Id="33210d46-1418-4cfe-b776-ca563bbfc86e" Title="ScriptHttpDownloadStartedArgs Properties" Url="html/92c809e4-fe44-acf7-d99b-a3a69045ee6b.htm">
         <HelpTOCNode Title="Filename Property " Url="html/95597a51-faa6-fd81-1d10-b79dc751bf49.htm" />
         <HelpTOCNode Title="Name Property " Url="html/75c1f1db-a0c4-ca22-684c-111c84037fda.htm" />
         <HelpTOCNode Title="Url Property " Url="html/656ed24b-d636-9c1b-9ca9-959038c0fab3.htm" />
@@ -1210,28 +1210,28 @@
       <HelpTOCNode Title="ScriptHttpDownloadStartedArgs Methods" Url="html/547a0d57-04e8-f118-7299-4125653a70bb.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="fd41485d-81d4-4367-a0d8-650759da3e3f" Title="AdiIRCAPIv2.Arguments.WindowInteraction" Url="html/b06e7916-f2de-26c3-2439-eac85950e7df.htm">
-    <HelpTOCNode Id="da432c20-8c9c-41a4-a1e4-b4f289660a4f" Title="EditboxKeyDownArgs Class" Url="html/61fd3dee-18c8-9350-dcc5-d54950a4a54c.htm">
+  <HelpTOCNode Id="e8f78ef8-c655-4b39-ba23-371d6740323d" Title="AdiIRCAPIv2.Arguments.WindowInteraction" Url="html/b06e7916-f2de-26c3-2439-eac85950e7df.htm">
+    <HelpTOCNode Id="b2a89811-bc30-42ff-b510-15e9e1d0ce0d" Title="EditboxKeyDownArgs Class" Url="html/61fd3dee-18c8-9350-dcc5-d54950a4a54c.htm">
       <HelpTOCNode Title="EditboxKeyDownArgs Constructor " Url="html/6ce7f57b-579a-3e62-7daf-328f7eed3027.htm" />
-      <HelpTOCNode Id="34774d4d-2f02-48a8-a651-3d921f74568a" Title="EditboxKeyDownArgs Properties" Url="html/96a7d273-fbc9-42eb-c4ea-b6ec14a0be58.htm">
+      <HelpTOCNode Id="2bbfd17c-68cd-4187-8a16-b67fcedef249" Title="EditboxKeyDownArgs Properties" Url="html/96a7d273-fbc9-42eb-c4ea-b6ec14a0be58.htm">
         <HelpTOCNode Title="Editbox Property " Url="html/422ba1be-c33a-735a-b9f7-59c10eec432b.htm" />
         <HelpTOCNode Title="KeyEventArgs Property " Url="html/d2091876-fda0-e64d-ec66-af66ca3c788b.htm" />
         <HelpTOCNode Title="Window Property " Url="html/d57f7aac-d647-8bbb-d981-03608f254a60.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="EditboxKeyDownArgs Methods" Url="html/aec90aee-e720-eb32-56e9-f526e695097b.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="0b6d842a-559b-44ee-94ea-333eea6e40e2" Title="EditboxKeyUpArgs Class" Url="html/0e258adc-c941-8daf-4f1b-de401751bd77.htm">
+    <HelpTOCNode Id="376767af-5f1c-4538-8056-a3ca81f1c273" Title="EditboxKeyUpArgs Class" Url="html/0e258adc-c941-8daf-4f1b-de401751bd77.htm">
       <HelpTOCNode Title="EditboxKeyUpArgs Constructor " Url="html/1c2c6481-bd21-acdf-3505-aefd6f2cecca.htm" />
-      <HelpTOCNode Id="ea2a30c4-6edf-46fe-8924-c5b648fbb7ed" Title="EditboxKeyUpArgs Properties" Url="html/6959ee7a-1a7a-7c6f-4781-bd5abb345d45.htm">
+      <HelpTOCNode Id="9e4be5e5-ae2d-4e69-b846-e4771d70baf0" Title="EditboxKeyUpArgs Properties" Url="html/6959ee7a-1a7a-7c6f-4781-bd5abb345d45.htm">
         <HelpTOCNode Title="Editbox Property " Url="html/df63cee9-e74e-62b9-e851-1877f4334eb7.htm" />
         <HelpTOCNode Title="KeyEventArgs Property " Url="html/d24bd325-429e-b137-bfd6-0bdfc826ecf3.htm" />
         <HelpTOCNode Title="Window Property " Url="html/8e3723ce-b055-83c3-3773-f15c97dcddc2.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="EditboxKeyUpArgs Methods" Url="html/789d8d90-4747-3fa3-b138-7d28c42d04e3.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="02b45c39-d171-4b24-ad5e-648fd0fc2916" Title="MenuEventArgs Class" Url="html/15c5ffcf-98fe-7d5d-1288-2131ccd14c75.htm">
+    <HelpTOCNode Id="224436de-1fc4-424b-934b-260666708128" Title="MenuEventArgs Class" Url="html/15c5ffcf-98fe-7d5d-1288-2131ccd14c75.htm">
       <HelpTOCNode Title="MenuEventArgs Constructor " Url="html/077d381a-99c0-d63e-cecf-6123655bd951.htm" />
-      <HelpTOCNode Id="9b0ebb54-a76c-4d01-8c41-b1c19fe217ce" Title="MenuEventArgs Properties" Url="html/ea54dfaa-66ab-15e4-4805-5168ecdac135.htm">
+      <HelpTOCNode Id="fae9a41f-f253-4f30-ae35-67d48058f047" Title="MenuEventArgs Properties" Url="html/ea54dfaa-66ab-15e4-4805-5168ecdac135.htm">
         <HelpTOCNode Title="EatData Property " Url="html/e4675ca5-c6cc-154e-c2fd-3c7831a53b5d.htm" />
         <HelpTOCNode Title="MenuContext Property " Url="html/83d380e1-42de-d9b6-9c82-68c46a9ff9eb.htm" />
         <HelpTOCNode Title="MenuItems Property " Url="html/a72ea905-b459-78e0-755b-e7f4b4c50d8e.htm" />
@@ -1241,47 +1241,47 @@
       </HelpTOCNode>
       <HelpTOCNode Title="MenuEventArgs Methods" Url="html/043a610c-b3cf-b367-29da-e80b2d456966.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="3fbaddb1-1dcc-452e-bd17-dabbd16fd0bd" Title="WindowBufferScrolledArgs Class" Url="html/4cadefc2-98b7-f757-bb0b-2199b4b338b4.htm">
+    <HelpTOCNode Id="7ecfb6b7-741e-4b98-b3f4-c40d3e968b8c" Title="WindowBufferScrolledArgs Class" Url="html/4cadefc2-98b7-f757-bb0b-2199b4b338b4.htm">
       <HelpTOCNode Title="WindowBufferScrolledArgs Constructor " Url="html/d116f7ba-4a02-0edd-17af-1fc290d2ede8.htm" />
-      <HelpTOCNode Id="7704f39a-e6ef-4df1-a2af-955fc67d91d3" Title="WindowBufferScrolledArgs Properties" Url="html/4cdacbf6-7c83-e5cb-598d-b98f013b0b66.htm">
+      <HelpTOCNode Id="203d1362-acc3-44ee-8274-f4fca350dfe9" Title="WindowBufferScrolledArgs Properties" Url="html/4cdacbf6-7c83-e5cb-598d-b98f013b0b66.htm">
         <HelpTOCNode Title="Window Property " Url="html/8dc47a25-be19-2892-f625-46b0d2a32817.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="WindowBufferScrolledArgs Methods" Url="html/4609b73e-be34-e144-a5eb-c669c65a692c.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="524f45cb-dad0-4736-8ac7-fde3713059a0" Title="WindowCloseArgs Class" Url="html/79329b67-07fd-4f68-716f-758947cf8ac7.htm">
+    <HelpTOCNode Id="4aa4dc66-4757-463b-9d55-f48948017294" Title="WindowCloseArgs Class" Url="html/79329b67-07fd-4f68-716f-758947cf8ac7.htm">
       <HelpTOCNode Title="WindowCloseArgs Constructor " Url="html/8bdd9611-b62b-c460-c089-594bc8b2fc29.htm" />
-      <HelpTOCNode Id="79e30037-0028-4a57-839c-1d8ef4944b1a" Title="WindowCloseArgs Properties" Url="html/52af86a1-27d7-9e9e-8d08-9aa6eccf63e9.htm">
+      <HelpTOCNode Id="26ff2b10-928b-4bed-921d-193a30362854" Title="WindowCloseArgs Properties" Url="html/52af86a1-27d7-9e9e-8d08-9aa6eccf63e9.htm">
         <HelpTOCNode Title="Window Property " Url="html/18b2a258-cafb-4092-14b7-a48ee8fc989e.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="WindowCloseArgs Methods" Url="html/31c61c90-f65c-d930-fce2-7044765a3e8d.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="581d20e9-19d2-4794-a8ff-f8fe34a33df2" Title="WindowFocusArgs Class" Url="html/09f7328c-96af-6c13-20d3-18fc6f32824d.htm">
+    <HelpTOCNode Id="3bc17bed-b47a-4b07-b42b-88a338451e16" Title="WindowFocusArgs Class" Url="html/09f7328c-96af-6c13-20d3-18fc6f32824d.htm">
       <HelpTOCNode Title="WindowFocusArgs Constructor " Url="html/d9bcc175-7771-0efc-3f1c-13cfc88bff18.htm" />
-      <HelpTOCNode Id="c5ea02a7-5a98-450b-ae1c-8db4b2fbc5a0" Title="WindowFocusArgs Properties" Url="html/bc8fa85f-fd27-dcee-ce63-4219625e7773.htm">
+      <HelpTOCNode Id="8a3702ad-2e22-48c2-b2ba-95f4c2ededd1" Title="WindowFocusArgs Properties" Url="html/bc8fa85f-fd27-dcee-ce63-4219625e7773.htm">
         <HelpTOCNode Title="PreviousWindow Property " Url="html/c9cfc1bb-1eb3-bd3f-58c1-168ce8c498b6.htm" />
         <HelpTOCNode Title="Window Property " Url="html/2be88cf9-6fca-1c31-f81b-ac96fff94f10.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="WindowFocusArgs Methods" Url="html/cb2ea33b-dac1-158f-05a8-ffd5959ce520.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="668243c7-c994-4cca-bfee-08c219af6110" Title="WindowOpenArgs Class" Url="html/9c1ab43d-5f0d-50ff-d140-8f1ac303208c.htm">
+    <HelpTOCNode Id="2544b587-ddbb-4be6-95f3-6da2fb52c315" Title="WindowOpenArgs Class" Url="html/9c1ab43d-5f0d-50ff-d140-8f1ac303208c.htm">
       <HelpTOCNode Title="WindowOpenArgs Constructor " Url="html/0cfa6003-60fd-4fbc-fe8c-05957b8a1b10.htm" />
-      <HelpTOCNode Id="5b2d0675-073f-456e-9852-1abaab6a4b86" Title="WindowOpenArgs Properties" Url="html/16b08e42-8809-7790-0c0a-c74d043cd266.htm">
+      <HelpTOCNode Id="0f550d00-47ef-49a0-93ed-3ae2f4dfd1ab" Title="WindowOpenArgs Properties" Url="html/16b08e42-8809-7790-0c0a-c74d043cd266.htm">
         <HelpTOCNode Title="Window Property " Url="html/8fe6f7db-e216-f709-65fb-a9b2348be4e6.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="WindowOpenArgs Methods" Url="html/14eb4d06-394c-9676-77ab-8307e1d01467.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="42f01974-3d1b-42e8-942b-19bc79258532" Title="WindowRenamedArgs Class" Url="html/eb8378be-db2a-592e-6437-f78e23c7bcf4.htm">
+    <HelpTOCNode Id="a5addd41-0641-466f-9a42-90c1a408cd2b" Title="WindowRenamedArgs Class" Url="html/eb8378be-db2a-592e-6437-f78e23c7bcf4.htm">
       <HelpTOCNode Title="WindowRenamedArgs Constructor " Url="html/8bbde50d-544b-59e9-c306-5dfd7273bc9d.htm" />
-      <HelpTOCNode Id="66930c62-5b7c-4e04-a82b-56b6ced86de5" Title="WindowRenamedArgs Properties" Url="html/13938869-5fd8-5e79-4142-57098a4a34ae.htm">
+      <HelpTOCNode Id="6e5d8003-f881-4abb-b732-a8d3fa3be304" Title="WindowRenamedArgs Properties" Url="html/13938869-5fd8-5e79-4142-57098a4a34ae.htm">
         <HelpTOCNode Title="Window Property " Url="html/18e5e491-28aa-5467-edc7-3035c32252eb.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="WindowRenamedArgs Methods" Url="html/ece273e0-1c50-43d6-4de1-a0b00e262c86.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="09ec3d8e-4d26-49f2-b0f3-27b4918730da" Title="AdiIRCAPIv2.Arguments.ZipCompression" Url="html/196767f4-af7b-ef68-05b8-2b5a1268c6a0.htm">
-    <HelpTOCNode Id="d2283f8a-c9da-4e7c-a89d-92b1b75b34dc" Title="ZipCompressionEndArgs Class" Url="html/fee5a17b-82aa-23b0-6de4-aaca23a213aa.htm">
+  <HelpTOCNode Id="750ae7c9-0995-4a21-bd71-da96590c30ce" Title="AdiIRCAPIv2.Arguments.ZipCompression" Url="html/196767f4-af7b-ef68-05b8-2b5a1268c6a0.htm">
+    <HelpTOCNode Id="e1f14691-9731-4cdf-b1c1-f8abb6ef765f" Title="ZipCompressionEndArgs Class" Url="html/fee5a17b-82aa-23b0-6de4-aaca23a213aa.htm">
       <HelpTOCNode Title="ZipCompressionEndArgs Constructor " Url="html/967aeb90-7a64-4c81-febb-fd1c544e1447.htm" />
-      <HelpTOCNode Id="305acf2b-964c-4b7d-a628-2ec825a0ca1f" Title="ZipCompressionEndArgs Properties" Url="html/b42163b5-f0a3-50fb-921f-9aecd779dcd2.htm">
+      <HelpTOCNode Id="5c9ee84b-6545-4141-87df-a9ce8dde6612" Title="ZipCompressionEndArgs Properties" Url="html/b42163b5-f0a3-50fb-921f-9aecd779dcd2.htm">
         <HelpTOCNode Title="CompressionMethod Property " Url="html/d1774bd5-2e84-ecfa-52f9-78435bfeb0d2.htm" />
         <HelpTOCNode Title="Error Property " Url="html/9a130a13-192a-243c-1a5a-28df1239fbba.htm" />
         <HelpTOCNode Title="Name Property " Url="html/a8753db7-fa60-dead-24f1-4bde4e363c77.htm" />
@@ -1290,9 +1290,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ZipCompressionEndArgs Methods" Url="html/90a02ad6-d274-56a0-cf10-2a35e0e2fbf0.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e2020bc7-bb9b-453f-8ed5-fa37bcd4cf46" Title="ZipCompressionStartedArgs Class" Url="html/2164691a-80f2-92b6-d45e-9a3c333085c1.htm">
+    <HelpTOCNode Id="0f5fa175-d060-46d0-afee-e8e92eea99b2" Title="ZipCompressionStartedArgs Class" Url="html/2164691a-80f2-92b6-d45e-9a3c333085c1.htm">
       <HelpTOCNode Title="ZipCompressionStartedArgs Constructor " Url="html/990c1d11-df47-1803-9f16-b23faf61bd92.htm" />
-      <HelpTOCNode Id="32d3d190-3ac8-4342-9736-5f2924f4ffd9" Title="ZipCompressionStartedArgs Properties" Url="html/57dbc24a-0ec0-31e5-7bfb-f855a4aa8d31.htm">
+      <HelpTOCNode Id="7da2d6c1-41aa-4831-8e26-5f56f8c4868c" Title="ZipCompressionStartedArgs Properties" Url="html/57dbc24a-0ec0-31e5-7bfb-f855a4aa8d31.htm">
         <HelpTOCNode Title="CompressionMethod Property " Url="html/4c9828e2-b84a-bbaa-eaf5-3cf274a15646.htm" />
         <HelpTOCNode Title="Name Property " Url="html/2248306a-2cf2-d2f5-dd33-a51932f914a8.htm" />
         <HelpTOCNode Title="SourceFileOrFolder Property " Url="html/2bdee611-62ba-f3c7-5a41-5d88adb534d3.htm" />
@@ -1300,9 +1300,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ZipCompressionStartedArgs Methods" Url="html/10424cc5-9d90-ed23-17d8-87ebf59e0a49.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="7bfe05ee-b836-4ebc-8fa7-28bc02d94075" Title="ZipDecompressionEndArgs Class" Url="html/293bc313-5293-9da9-d0fe-6f630f1b9913.htm">
+    <HelpTOCNode Id="6626c864-85f8-492e-8276-d502b5fc59d9" Title="ZipDecompressionEndArgs Class" Url="html/293bc313-5293-9da9-d0fe-6f630f1b9913.htm">
       <HelpTOCNode Title="ZipDecompressionEndArgs Constructor " Url="html/41f55c88-be9c-4d72-cdc9-ee550b752ff8.htm" />
-      <HelpTOCNode Id="e06810ef-4998-4123-a1d0-b7010d997870" Title="ZipDecompressionEndArgs Properties" Url="html/380a0422-3b2b-2545-bc1c-7aa3bd67b38e.htm">
+      <HelpTOCNode Id="df1a5996-3eac-442d-baf0-990c2e52d7d5" Title="ZipDecompressionEndArgs Properties" Url="html/380a0422-3b2b-2545-bc1c-7aa3bd67b38e.htm">
         <HelpTOCNode Title="Error Property " Url="html/30c064af-eebb-ed0f-b72d-320ea1378d27.htm" />
         <HelpTOCNode Title="Name Property " Url="html/059b467b-af1c-0d55-b0da-cc2b07078d20.htm" />
         <HelpTOCNode Title="TargetFolder Property " Url="html/b5f244f4-c32d-45a6-726a-00381deed4e2.htm" />
@@ -1310,9 +1310,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="ZipDecompressionEndArgs Methods" Url="html/fea81311-750f-ae13-7afd-7492646d1cd7.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="f35bb08a-31b3-4f5a-bbf1-0450d42473f1" Title="ZipDecompressionStartedArgs Class" Url="html/e87d870a-e1c7-0761-deb7-cfe294002e15.htm">
+    <HelpTOCNode Id="348556e6-ce87-41ab-a3e4-a11a2a5488db" Title="ZipDecompressionStartedArgs Class" Url="html/e87d870a-e1c7-0761-deb7-cfe294002e15.htm">
       <HelpTOCNode Title="ZipDecompressionStartedArgs Constructor " Url="html/e017ab50-0c6e-6c7e-484d-b27f7c6357b0.htm" />
-      <HelpTOCNode Id="e29ff1cd-b7da-4077-be96-1a521c9eb83c" Title="ZipDecompressionStartedArgs Properties" Url="html/9971ad07-e766-3666-b53a-031759f584dd.htm">
+      <HelpTOCNode Id="7995d087-2313-4220-9695-b63b077697c3" Title="ZipDecompressionStartedArgs Properties" Url="html/9971ad07-e766-3666-b53a-031759f584dd.htm">
         <HelpTOCNode Title="Name Property " Url="html/34a5a930-b755-da82-006c-11abbaf51399.htm" />
         <HelpTOCNode Title="TargetFolder Property " Url="html/aaf02850-0f51-8bee-0e35-49da7ba07b67.htm" />
         <HelpTOCNode Title="Zipfile Property " Url="html/9f4eb55a-67f3-57dc-eeb2-fafa0a8e8cde.htm" />
@@ -1320,7 +1320,7 @@
       <HelpTOCNode Title="ZipDecompressionStartedArgs Methods" Url="html/cad43a14-eb08-3707-dc9c-4a21ef9e855d.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
-  <HelpTOCNode Id="5a7aa6aa-1fc6-4ade-9481-3c26c2e5decf" Title="AdiIRCAPIv2.Delegates" Url="html/4ccdf996-7481-c6cc-7871-8410a5cf61f9.htm">
+  <HelpTOCNode Id="d39ad194-dcb3-4bfb-ade2-c79f134ad9bd" Title="AdiIRCAPIv2.Delegates" Url="html/4ccdf996-7481-c6cc-7871-8410a5cf61f9.htm">
     <HelpTOCNode Title="ApplicationClosing Delegate" Url="html/3b594aad-04f3-f6a3-e8f5-a1505af59d44.htm" />
     <HelpTOCNode Title="ApplicationFocusChanged Delegate" Url="html/629e81d5-9923-9c0f-2aca-f1311b27b7da.htm" />
     <HelpTOCNode Title="ApplicationHostSuspended Delegate" Url="html/a4a2f82d-8f2b-cef7-bc45-a634addedf61.htm" />
@@ -1429,16 +1429,16 @@
     <HelpTOCNode Title="ZipDecompressionEnd Delegate" Url="html/0840799a-3966-054a-6fed-d29e86e864dd.htm" />
     <HelpTOCNode Title="ZipDecompressionStarted Delegate" Url="html/f7af48c4-17cc-54fa-22a3-1420b7013352.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="8554564c-718c-4696-afd9-b5455e28983a" Title="AdiIRCAPIv2.Enumerators" Url="html/0cc1e219-6121-bc08-e4d7-7eeac50e21e2.htm">
+  <HelpTOCNode Id="2fd7a4cb-ef75-4bf1-8fe3-76cb4e188783" Title="AdiIRCAPIv2.Enumerators" Url="html/0cc1e219-6121-bc08-e4d7-7eeac50e21e2.htm">
     <HelpTOCNode Title="EatData Enumeration" Url="html/d5cf3883-6605-5fdc-8efd-4b6c655982f0.htm" />
     <HelpTOCNode Title="MenuContext Enumeration" Url="html/d4d80e8f-5c9a-c0ef-89d6-ff7113ffec5d.htm" />
     <HelpTOCNode Title="MenuType Enumeration" Url="html/7912b0fe-3f49-29bb-c5ec-523598f792e9.htm" />
     <HelpTOCNode Title="MessageType Enumeration" Url="html/f7f42c25-fb04-9e44-51f1-3352a523a5a9.htm" />
     <HelpTOCNode Title="PluginScriptLoadType Enumeration" Url="html/1f09bbad-2be5-436c-c877-2acf14316eed.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="bb5535c1-ad75-4459-815a-81cc930f539c" Title="AdiIRCAPIv2.Interfaces" Url="html/f346231f-bdec-074f-eeb6-654ff35e9759.htm">
-    <HelpTOCNode Id="88ae8000-2e9d-437f-a07a-d3e1f9ccaaf7" Title="IChannel Interface" Url="html/b3458065-6d94-cdd3-5bb3-96bb64500c19.htm">
-      <HelpTOCNode Id="6feee3c8-3aa6-42cb-9573-be2f5103488f" Title="IChannel Properties" Url="html/c4c8e545-c35f-574d-52b0-828ae8b96e6c.htm">
+  <HelpTOCNode Id="7d2759af-b06d-4c7c-9399-d716e2b7fbc1" Title="AdiIRCAPIv2.Interfaces" Url="html/f346231f-bdec-074f-eeb6-654ff35e9759.htm">
+    <HelpTOCNode Id="aeacf336-90e7-48c1-a8cd-b8254039c9e6" Title="IChannel Interface" Url="html/b3458065-6d94-cdd3-5bb3-96bb64500c19.htm">
+      <HelpTOCNode Id="0d283c09-f9d6-401d-a742-7940ee94cdf1" Title="IChannel Properties" Url="html/c4c8e545-c35f-574d-52b0-828ae8b96e6c.htm">
         <HelpTOCNode Title="BanList Property " Url="html/aba1a8fc-4c6f-e6a1-20b6-0480520faa6c.htm" />
         <HelpTOCNode Title="ChannelLimit Property " Url="html/b968e5f6-6c72-8151-eed5-175205344e64.htm" />
         <HelpTOCNode Title="ChannelModeArgs Property " Url="html/b8cd82ab-a453-6fd4-a1b2-8f210105ad12.htm" />
@@ -1460,15 +1460,15 @@
       </HelpTOCNode>
       <HelpTOCNode Title="IChannel Methods" Url="html/a1ab3036-c11a-7301-d957-377d39ba5bc7.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="9a943c83-0e6d-45a2-8f44-94f3969e6485" Title="IChannelMask Interface" Url="html/c838dd70-689e-6742-3ede-3b0052f4c804.htm">
-      <HelpTOCNode Id="14afaf25-2583-44c2-b433-91b4008422ff" Title="IChannelMask Properties" Url="html/7c694f31-edc5-fe0d-c300-d35af88ac07c.htm">
+    <HelpTOCNode Id="424c79fd-ff13-4477-ad1a-5cc294a63843" Title="IChannelMask Interface" Url="html/c838dd70-689e-6742-3ede-3b0052f4c804.htm">
+      <HelpTOCNode Id="107d9a3e-2027-453a-859a-bacb41902bbb" Title="IChannelMask Properties" Url="html/7c694f31-edc5-fe0d-c300-d35af88ac07c.htm">
         <HelpTOCNode Title="Mask Property " Url="html/702b0bba-93d7-63b0-9df0-6a719a71bafc.htm" />
         <HelpTOCNode Title="SetAt Property " Url="html/464144da-1ca1-fe0e-3183-acd065a86803.htm" />
         <HelpTOCNode Title="SetBy Property " Url="html/8f639280-ee4b-ba2c-28fe-959c8f56a729.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="b896efda-63c2-4be8-9e3a-bfcdfcb2a092" Title="IChannelUser Interface" Url="html/8a722899-f8d4-da21-a721-aec8ce8af637.htm">
-      <HelpTOCNode Id="877e97cd-d768-4748-b386-aea3b0e03299" Title="IChannelUser Properties" Url="html/a5c3f796-8805-33c8-3163-0de73fb9516c.htm">
+    <HelpTOCNode Id="b6b69915-065e-408a-a4af-031e87706f37" Title="IChannelUser Interface" Url="html/8a722899-f8d4-da21-a721-aec8ce8af637.htm">
+      <HelpTOCNode Id="1ea0b60d-92ff-4455-80fe-1a3ff8477d61" Title="IChannelUser Properties" Url="html/a5c3f796-8805-33c8-3163-0de73fb9516c.htm">
         <HelpTOCNode Title="HasSpoken Property " Url="html/4bc16b71-f941-86e1-4728-cb5a3e3177c9.htm" />
         <HelpTOCNode Title="HasVoice Property " Url="html/fc309817-9552-e575-a82b-e17e1afe5e9f.htm" />
         <HelpTOCNode Title="IdleTime Property " Url="html/117cdc75-2f54-c46a-e26f-159fe85bd3b3.htm" />
@@ -1481,36 +1481,36 @@
         <HelpTOCNode Title="RgbNickColor Property " Url="html/0ce62b2a-1c78-deab-0138-03d7dd398de5.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="76db4b09-5586-4388-b4f5-67fd2f5ba16a" Title="ICustomWindow Interface" Url="html/589a0029-2014-3431-9231-4150a34a41e9.htm">
+    <HelpTOCNode Id="57a65867-b42e-4302-b282-250b0b1aab48" Title="ICustomWindow Interface" Url="html/589a0029-2014-3431-9231-4150a34a41e9.htm">
       <HelpTOCNode Title="ICustomWindow Properties" Url="html/f7750029-c07d-cc6f-fe18-26da0a7ca1df.htm" />
       <HelpTOCNode Title="ICustomWindow Methods" Url="html/0de2ffa6-d4eb-3dd6-dd93-a2ba3a16676b.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="cb744bba-c6ae-4209-b9af-936d0e23ea67" Title="IDns Interface" Url="html/3d1625d1-e698-03e7-4a6c-58009ac9dc0e.htm">
-      <HelpTOCNode Id="37b7d223-aa88-40fc-af43-d3d1d49d7c4c" Title="IDns Properties" Url="html/6da2aa03-8d16-d765-55f3-410cf5145427.htm">
+    <HelpTOCNode Id="ad8d01d8-c014-4d57-948b-fc2c08f8d94c" Title="IDns Interface" Url="html/3d1625d1-e698-03e7-4a6c-58009ac9dc0e.htm">
+      <HelpTOCNode Id="c2dae2d7-936e-496d-9f1b-863a6afddd7e" Title="IDns Properties" Url="html/6da2aa03-8d16-d765-55f3-410cf5145427.htm">
         <HelpTOCNode Title="Hostname Property " Url="html/43f12106-c878-382b-f5f3-4f9705cc9888.htm" />
         <HelpTOCNode Title="IpAddress Property " Url="html/3d57cc41-cb96-6001-3074-82caad577a4f.htm" />
         <HelpTOCNode Title="Nick Property " Url="html/3569ec5f-211c-a20a-68e9-c8b7d1dd28e9.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="42b9a2ae-3fd9-472d-8f58-243739cd5b45" Title="IEditbox Interface" Url="html/05878b69-8978-3495-2565-4fd3a3a5e83e.htm">
-      <HelpTOCNode Id="9935c0d3-f2c1-4b0f-b54a-4994443e2dda" Title="IEditbox Properties" Url="html/811fbda3-69f4-9d55-231e-6857609311e4.htm">
+    <HelpTOCNode Id="363cedb8-f444-4e27-8d8d-9c52f91cc3bc" Title="IEditbox Interface" Url="html/05878b69-8978-3495-2565-4fd3a3a5e83e.htm">
+      <HelpTOCNode Id="f9ad7f08-d9d6-4d68-99c3-ca093d2e1324" Title="IEditbox Properties" Url="html/811fbda3-69f4-9d55-231e-6857609311e4.htm">
         <HelpTOCNode Title="SelectedText Property " Url="html/e5a6d951-8e69-af48-28f7-33d58e8459cb.htm" />
         <HelpTOCNode Title="SelectionLength Property " Url="html/ed6be430-8245-037d-03ee-75afc355cdba.htm" />
         <HelpTOCNode Title="SelectionStart Property " Url="html/643c18ec-79a8-5693-2e9c-fed081dc737d.htm" />
         <HelpTOCNode Title="Text Property " Url="html/a443ac73-dfd3-5c51-77e1-e96a8ca50193.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0afcddca-6f62-462e-a147-1453d82e2b2c" Title="IEditbox Methods" Url="html/2b07ec0f-c3ee-cf3e-7ddb-c749adaad23a.htm">
+      <HelpTOCNode Id="28329d7e-f7ac-47b3-bc53-187148581015" Title="IEditbox Methods" Url="html/2b07ec0f-c3ee-cf3e-7ddb-c749adaad23a.htm">
         <HelpTOCNode Title="Select Method " Url="html/e492b606-cb3a-c8d8-9cad-31c18fe2a79b.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c1236032-0793-45ce-b259-42b9d4872a39" Title="IEditboxOptions Interface" Url="html/42bdc332-33ea-1fd7-4bac-4886f2289a29.htm">
-      <HelpTOCNode Id="2d40ad70-517c-49d6-9dcf-889bd6175c58" Title="IEditboxOptions Properties" Url="html/18161f7d-f7da-c71a-05d5-a2e39be57735.htm">
+    <HelpTOCNode Id="d58f0b6c-37fd-419d-b0c8-6a09cf24c65b" Title="IEditboxOptions Interface" Url="html/42bdc332-33ea-1fd7-4bac-4886f2289a29.htm">
+      <HelpTOCNode Id="7569006b-6779-45fb-a166-9d8e9484992e" Title="IEditboxOptions Properties" Url="html/18161f7d-f7da-c71a-05d5-a2e39be57735.htm">
         <HelpTOCNode Title="TabCompleteSuffix Property " Url="html/74d0dc71-1938-3f93-6bdc-589daf15262c.htm" />
         <HelpTOCNode Title="TabCompleteSuffixFirstWord Property " Url="html/ff5cd4c8-09cb-bbbb-1dcf-d53e5ede2f63.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="eefee285-e32b-4aef-82af-be0a6663f728" Title="IMessagesOptions Interface" Url="html/026a0d0a-069c-2111-076c-f1ee92ad50ac.htm">
-      <HelpTOCNode Id="0032cf44-e21a-47b0-823c-7e5127b79f8e" Title="IMessagesOptions Properties" Url="html/75b04bba-549d-f565-607f-6665b9881fd9.htm">
+    <HelpTOCNode Id="e1e7e546-2948-4920-b3c1-3c23ee17ff11" Title="IMessagesOptions Interface" Url="html/026a0d0a-069c-2111-076c-f1ee92ad50ac.htm">
+      <HelpTOCNode Id="78f5aa2a-f558-44fb-a2c9-5e33b50a4638" Title="IMessagesOptions Properties" Url="html/75b04bba-549d-f565-607f-6665b9881fd9.htm">
         <HelpTOCNode Title="PrefixCtcp Property " Url="html/525e9c60-dc28-598b-d7b3-27084f097045.htm" />
         <HelpTOCNode Title="PrefixEmote Property " Url="html/bb076928-badf-dc59-5548-fd9979127c9a.htm" />
         <HelpTOCNode Title="PrefixSys Property " Url="html/5de38239-0bed-16fe-3cdb-67dab6051897.htm" />
@@ -1519,21 +1519,21 @@
         <HelpTOCNode Title="UseTimestamp Property " Url="html/3d01e8fa-bcd3-cfe8-14ab-6c0a8c4b8b8d.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4e2d43ee-8c37-43df-be62-0579460b4a65" Title="IPlugin Interface" Url="html/d74abffd-d679-8c2f-2cea-e46f43558250.htm">
-      <HelpTOCNode Id="949c662c-3ec1-42e8-a50b-682ce75ca14d" Title="IPlugin Properties" Url="html/6e27e87c-6c31-d163-2d5c-9aa099e25798.htm">
+    <HelpTOCNode Id="0b91f6a6-fa2d-4c84-9bdd-95f6372eaced" Title="IPlugin Interface" Url="html/d74abffd-d679-8c2f-2cea-e46f43558250.htm">
+      <HelpTOCNode Id="68230da3-f2b8-4c92-b698-ce40c78d5a9d" Title="IPlugin Properties" Url="html/6e27e87c-6c31-d163-2d5c-9aa099e25798.htm">
         <HelpTOCNode Title="PluginAuthor Property " Url="html/a623098c-48f1-041a-0207-4151ea543c1e.htm" />
         <HelpTOCNode Title="PluginDescription Property " Url="html/4ebd00c4-ce2c-6989-71a2-5e64732d5ce2.htm" />
         <HelpTOCNode Title="PluginEmail Property " Url="html/fc3df82c-47cc-53e5-d7fd-25e96650c440.htm" />
         <HelpTOCNode Title="PluginName Property " Url="html/d6f8b352-3321-c93a-40a2-d212245c7dd4.htm" />
         <HelpTOCNode Title="PluginVersion Property " Url="html/63d98262-c661-3ac4-2399-3923e6cc5824.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="010d5775-8154-4c47-9c24-97643dbf855f" Title="IPlugin Methods" Url="html/469257bf-4f75-2e0e-c29f-918e03e896bf.htm">
+      <HelpTOCNode Id="3103d37d-0665-40ea-a7ce-8149ee6784a5" Title="IPlugin Methods" Url="html/469257bf-4f75-2e0e-c29f-918e03e896bf.htm">
         <HelpTOCNode Title="Dispose Method " Url="html/30fc95f9-b21f-8ff8-a605-94977cd20cb9.htm" />
         <HelpTOCNode Title="Initialize Method " Url="html/800bf3ac-22a4-8570-5271-f20774fd04c3.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="49f2a6d1-1520-42b3-a312-948353a0f7f2" Title="IPluginHost Interface" Url="html/56c5ff5d-e1b5-964c-d3a5-0960367c4abb.htm">
-      <HelpTOCNode Id="c2491c64-3d2e-4d2b-8235-bb73c173c623" Title="IPluginHost Properties" Url="html/a0c6c184-0e17-a0da-846e-e852c3f965ce.htm">
+    <HelpTOCNode Id="f59accbb-6628-41ad-8da5-7358e957c068" Title="IPluginHost Interface" Url="html/56c5ff5d-e1b5-964c-d3a5-0960367c4abb.htm">
+      <HelpTOCNode Id="df541824-bfb9-4813-b410-5f3aa180414d" Title="IPluginHost Properties" Url="html/a0c6c184-0e17-a0da-846e-e852c3f965ce.htm">
         <HelpTOCNode Title="ActiveIWindow Property " Url="html/28e3cdcc-fbc6-a93a-bf73-c9417d3d28e8.htm" />
         <HelpTOCNode Title="ConfigFolder Property " Url="html/1bf18b24-efa3-f6bc-b867-50e1e3bdd11a.htm" />
         <HelpTOCNode Title="EditboxOptions Property " Url="html/bdf10ad3-194b-ca96-351d-132bfb10bc8c.htm" />
@@ -1546,14 +1546,14 @@
         <HelpTOCNode Title="SystemUptime Property " Url="html/e65914b0-4896-9e43-a434-b3677600603b.htm" />
         <HelpTOCNode Title="Uptime Property " Url="html/4c614ae8-acc3-925f-2f12-74e44a0ffba9.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9199cbb8-7a4e-44aa-9470-4e1d5eb1607d" Title="IPluginHost Methods" Url="html/da9c0da4-eee9-ad21-4636-1fb27abe3978.htm">
+      <HelpTOCNode Id="d05da5fd-820e-4ba7-ab0c-1801f3fdd619" Title="IPluginHost Methods" Url="html/da9c0da4-eee9-ad21-4636-1fb27abe3978.htm">
         <HelpTOCNode Title="EngineRegistration Method " Url="html/c6ec3fb8-1002-4422-8a9f-341add43af30.htm" />
         <HelpTOCNode Title="HookCommand Method " Url="html/98a0d9ee-3c6d-6bbd-2298-4be71fbf436a.htm" />
         <HelpTOCNode Title="HookIdentifier Method " Url="html/6d40d525-c5f7-c95a-f154-402703cae765.htm" />
         <HelpTOCNode Title="UnHookCommand Method " Url="html/eb751998-c4fc-ac26-fc62-14e70b7175f6.htm" />
         <HelpTOCNode Title="UnHookIdentifier Method " Url="html/e027645d-dbdf-4053-ccdb-8b142e3a6118.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="79207146-4f17-449b-8b16-30728ba507c7" Title="IPluginHost Events" Url="html/1338e29b-7dce-8145-3cac-5f06faa281fe.htm">
+      <HelpTOCNode Id="b4941337-a6e1-4c27-98b2-f769364ab353" Title="IPluginHost Events" Url="html/1338e29b-7dce-8145-3cac-5f06faa281fe.htm">
         <HelpTOCNode Title="OnApplicationClosing Event" Url="html/54368199-5aa7-4450-ae90-ff182b8e00c0.htm" />
         <HelpTOCNode Title="OnApplicationFocusChanged Event" Url="html/0a4bdf82-41c7-335e-1f0a-4b8184dff5da.htm" />
         <HelpTOCNode Title="OnApplicationHostSuspended Event" Url="html/cd9d63ec-47d0-8d59-f8b9-23d779578630.htm" />
@@ -1661,8 +1661,8 @@
         <HelpTOCNode Title="OnZipDecompressionStarted Event" Url="html/66749c88-7066-39ee-7e0b-29bb9ab04e87.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="914f7047-7e93-4ed2-b076-9ab00f1518da" Title="IPrivateWindow Interface" Url="html/1758cff2-87b0-cf09-f362-15c177325074.htm">
-      <HelpTOCNode Id="411c95a6-1966-4584-8ec8-3b8ecaea7c78" Title="IPrivateWindow Properties" Url="html/3db13bc5-a428-8951-4f98-9d5cb545da8a.htm">
+    <HelpTOCNode Id="637348f8-db7b-4a1c-a4b2-221c6ec293b8" Title="IPrivateWindow Interface" Url="html/1758cff2-87b0-cf09-f362-15c177325074.htm">
+      <HelpTOCNode Id="392ded4e-326a-43d5-9700-cbf5e23217ba" Title="IPrivateWindow Properties" Url="html/3db13bc5-a428-8951-4f98-9d5cb545da8a.htm">
         <HelpTOCNode Title="GetChannels Property " Url="html/93705383-5494-65b4-9cda-f736978cf97a.htm" />
         <HelpTOCNode Title="Host Property " Url="html/a45ce425-16db-a2fe-fda2-49e49d8b913b.htm" />
         <HelpTOCNode Title="Ident Property " Url="html/14897714-b9b0-aefe-b867-a06127c40170.htm" />
@@ -1672,8 +1672,8 @@
       </HelpTOCNode>
       <HelpTOCNode Title="IPrivateWindow Methods" Url="html/fdb7ba4b-65d1-b930-4038-90cfd0763d05.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="55fbc394-65de-410e-9116-f3dffd719125" Title="IServer Interface" Url="html/05073858-153c-09e0-112c-062e7eed7d22.htm">
-      <HelpTOCNode Id="23b0ccf6-8afb-48a8-9eca-b5b2b27d24ae" Title="IServer Properties" Url="html/17046024-0d63-1b18-576f-341eab1bae97.htm">
+    <HelpTOCNode Id="81e80d68-6d2e-4790-ab42-b35e19dd19c0" Title="IServer Interface" Url="html/05073858-153c-09e0-112c-062e7eed7d22.htm">
+      <HelpTOCNode Id="7d156d3d-2156-4800-8747-12b3a61af0f2" Title="IServer Properties" Url="html/17046024-0d63-1b18-576f-341eab1bae97.htm">
         <HelpTOCNode Title="AlternativeNicks Property " Url="html/4a5494ce-29b8-671c-84dd-206f949df8ec.htm" />
         <HelpTOCNode Title="Away Property " Url="html/473f88f1-944f-8b95-b290-52bb39bdc2a7.htm" />
         <HelpTOCNode Title="AwayMessage Property " Url="html/4b7093aa-3df1-ecf8-7d01-b28d56fe3738.htm" />
@@ -1702,6 +1702,7 @@
         <HelpTOCNode Title="HostTarget Property " Url="html/7192c1b7-a60d-f040-74df-9859bc7482ff.htm" />
         <HelpTOCNode Title="IdleTime Property " Url="html/6316157b-cd1f-c8b3-9d9a-fe23efeb67c5.htm" />
         <HelpTOCNode Title="InviteLength Property " Url="html/afb68bef-986e-e240-4980-cb26e4477732.htm" />
+        <HelpTOCNode Title="IRCv3Caps Property " Url="html/75bde0b1-2803-c68e-85bb-14ab75e8fcdc.htm" />
         <HelpTOCNode Title="IsConnected Property " Url="html/39fcde53-d7c7-9e3e-d999-2d84947f5530.htm" />
         <HelpTOCNode Title="IsConnecting Property " Url="html/dfcc87a0-c0c0-ffd4-387a-0cf0acb6f7e3.htm" />
         <HelpTOCNode Title="IsLoggingOn Property " Url="html/de112759-7cdc-8539-ec6e-e42df514b79f.htm" />
@@ -1731,7 +1732,7 @@
         <HelpTOCNode Title="UserPrefix Property " Url="html/970bdd84-8ea3-69bd-e936-91a971092aba.htm" />
         <HelpTOCNode Title="UserPrefixChars Property " Url="html/95a38ec6-2131-fdbe-25da-09eaaed0ca07.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="3cfbe904-ec66-4cb5-9baf-9ff256e08471" Title="IServer Methods" Url="html/ef861547-9355-265a-ccd4-31c31c1b7532.htm">
+      <HelpTOCNode Id="8a0b6095-2226-4f33-9cf3-a977198f08ca" Title="IServer Methods" Url="html/ef861547-9355-265a-ccd4-31c31c1b7532.htm">
         <HelpTOCNode Title="Connect Method " Url="html/b233cc6b-0b29-c4a3-200a-5780ecaa38a6.htm" />
         <HelpTOCNode Title="Disconnect Method " Url="html/287d3d9b-6173-d3fd-740e-1d74759aa4d6.htm" />
         <HelpTOCNode Title="SendFakeRaw Method " Url="html/51da7bba-c65b-715e-432f-f911fa232f93.htm" />
@@ -1739,15 +1740,15 @@
         <HelpTOCNode Title="SendRawData Method " Url="html/752901a4-0c28-4d12-2aa7-4609add8f17a.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="120082aa-2cfb-4a59-842c-d3f9c1ec6d2c" Title="ITextView Interface" Url="html/eaa40741-145e-3c9b-86c1-8b95ec865cf1.htm">
-      <HelpTOCNode Id="0d68af4b-0fae-442a-979c-81ace5f8e239" Title="ITextView Properties" Url="html/7a610e79-d8d9-9d8a-4192-62d008ea4d42.htm">
+    <HelpTOCNode Id="c73a4885-0a84-41f6-86f1-1bca9957541d" Title="ITextView Interface" Url="html/eaa40741-145e-3c9b-86c1-8b95ec865cf1.htm">
+      <HelpTOCNode Id="bc963e70-086d-41ac-abd8-1403f66f979c" Title="ITextView Properties" Url="html/7a610e79-d8d9-9d8a-4192-62d008ea4d42.htm">
         <HelpTOCNode Title="Lines Property " Url="html/99ff4506-82d4-5b3e-4968-d550f12cfd0c.htm" />
         <HelpTOCNode Title="MaxBuffer Property " Url="html/7c3858b4-48ac-73ff-d8a8-1aa8edf05d4a.htm" />
         <HelpTOCNode Title="MaxScrollbar Property " Url="html/fb95d23e-59a6-cb84-d0bc-de7df5ad9afd.htm" />
         <HelpTOCNode Title="ScrollbarPos Property " Url="html/8b678a37-7ada-5571-c1f0-8be9f1e581aa.htm" />
         <HelpTOCNode Title="UseTimestamp Property " Url="html/ec75b6b8-63d5-825c-d60a-7223d66217ed.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0df83eae-cb9d-4642-bf6d-9ec9d743a0b9" Title="ITextView Methods" Url="html/af11ebc2-0275-d236-68d4-8f3974de5295.htm">
+      <HelpTOCNode Id="5c7fcd7d-468f-476c-bbcc-b84533698a48" Title="ITextView Methods" Url="html/af11ebc2-0275-d236-68d4-8f3974de5295.htm">
         <HelpTOCNode Title="Add Method " Url="html/5286fe6f-7781-605e-9d7c-f0c34433aaa7.htm" />
         <HelpTOCNode Title="Clear Method " Url="html/9ba2de53-ef8f-1fcf-e04f-06f55519196b.htm" />
         <HelpTOCNode Title="GetLine Method " Url="html/74986818-fa24-12f8-3811-3b3e8b4ba881.htm" />
@@ -1764,12 +1765,12 @@
         <HelpTOCNode Title="ScrollUp Method " Url="html/b7c3d585-5bae-1bbe-94d9-3274771260b0.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5964b896-00bc-4809-b99c-1af89e9d5f34" Title="IToolWindow Interface" Url="html/4e0ec6f3-2134-f045-0b1c-21c7689862bb.htm">
+    <HelpTOCNode Id="4afbc0b0-95e6-4a75-a532-3746b6084ba2" Title="IToolWindow Interface" Url="html/4e0ec6f3-2134-f045-0b1c-21c7689862bb.htm">
       <HelpTOCNode Title="IToolWindow Properties" Url="html/216a10d4-3dc4-3004-6bab-ea7fe5f84d1d.htm" />
       <HelpTOCNode Title="IToolWindow Methods" Url="html/1cc08180-de4b-7e0f-2cdc-3b63100f5dc0.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="68f3fc18-2c76-4235-89a5-06d9aa238102" Title="IUser Interface" Url="html/2d0101ce-0c8a-4b93-82b9-0ad176394e86.htm">
-      <HelpTOCNode Id="3db0be6f-c8df-45c5-816b-279f1a7806aa" Title="IUser Properties" Url="html/20d144a8-d80c-da30-d612-9f38d4d4ee7b.htm">
+    <HelpTOCNode Id="ee70b91a-c89c-4ad1-81a0-1e24dda0d70a" Title="IUser Interface" Url="html/2d0101ce-0c8a-4b93-82b9-0ad176394e86.htm">
+      <HelpTOCNode Id="4bedb035-0a86-4449-8b5b-c72a823d3cf0" Title="IUser Properties" Url="html/20d144a8-d80c-da30-d612-9f38d4d4ee7b.htm">
         <HelpTOCNode Title="GetChannels Property " Url="html/97c87f8a-96e7-c534-2a62-50acc8114f8b.htm" />
         <HelpTOCNode Title="Host Property " Url="html/8a4654b8-be20-be87-f9cc-55701a1b7351.htm" />
         <HelpTOCNode Title="Ident Property " Url="html/995be460-042a-8bec-8630-f51d1e0d35bd.htm" />
@@ -1778,8 +1779,8 @@
         <HelpTOCNode Title="RealName Property " Url="html/4d463cf6-0779-6aa4-71e5-9d5b13c734b2.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9e0aed8a-284c-426a-a98e-50b86905dee3" Title="IWindow Interface" Url="html/77e080a3-fd40-820b-c6a2-b738f1d4e038.htm">
-      <HelpTOCNode Id="e5b6009f-9927-49d7-8480-be6a7a8f63e2" Title="IWindow Properties" Url="html/0ed185af-739a-e316-9ee7-133a6c2b1fe0.htm">
+    <HelpTOCNode Id="b6341f83-6fc4-42be-9af1-98caad2d9d79" Title="IWindow Interface" Url="html/77e080a3-fd40-820b-c6a2-b738f1d4e038.htm">
+      <HelpTOCNode Id="5420f762-2a60-4225-9bfc-0a303c9c8e01" Title="IWindow Properties" Url="html/0ed185af-739a-e316-9ee7-133a6c2b1fe0.htm">
         <HelpTOCNode Title="Editbox Property " Url="html/7f567ede-6768-db2d-61c8-b94e56677320.htm" />
         <HelpTOCNode Title="IsMdiChild Property " Url="html/70abecf3-eabf-4f82-4201-7d8021bc4570.htm" />
         <HelpTOCNode Title="LogFile Property " Url="html/d553cf57-30aa-68b0-4b82-c998fa64bb96.htm" />
@@ -1795,7 +1796,7 @@
         <HelpTOCNode Title="WindowId Property " Url="html/e9bb1338-47f1-a82f-91b4-4c83a8f2f0d0.htm" />
         <HelpTOCNode Title="WindowState Property " Url="html/362e8139-dc3c-6c90-726e-0e6f3167a6f1.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="9821a04c-0e45-4961-b645-08418ed7656f" Title="IWindow Methods" Url="html/ef870d8a-ac60-f9f8-68cf-40756f7267e6.htm">
+      <HelpTOCNode Id="62be3c67-7be4-4498-b1d6-87298ea0f498" Title="IWindow Methods" Url="html/ef870d8a-ac60-f9f8-68cf-40756f7267e6.htm">
         <HelpTOCNode Title="Evaluate Method " Url="html/f31933b4-7d1a-a5f4-bbf1-19be23ab3c30.htm" />
         <HelpTOCNode Title="ExecuteCommand Method " Url="html/0232e1d1-92ef-9b4b-cd40-3201c0723f89.htm" />
         <HelpTOCNode Title="OutputText Method " Url="html/36d3ad92-7440-9572-cedf-9ced750e3de7.htm" />

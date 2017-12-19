@@ -123,12 +123,12 @@
         /// <summary>
         /// Returns the available channel modes which can have an argument on this IServer. (retrieved from 005 chanmodes=)
         /// </summary>
-        IDictionary ChannelModesWithArgs { get; }
+        ICollection ChannelModesWithArgs { get; }
 
         /// <summary>
         /// Returns the available channel modes which must have an argument on this IServer. (retrieved from 005 chanmodes=)
         /// </summary>
-        IDictionary ChannelModesWithRequiredArgs { get; }
+        ICollection ChannelModesWithRequiredArgs { get; }
 
         /// <summary>
         /// Max topic length on this IServer. (retrieved from 005)
@@ -305,6 +305,11 @@
         /// Returns server variables discovered in RAW 005 messages.
         /// </summary>
         IDictionary ServerVariables { get; }
+
+        /// <summary>
+        /// Returns IRCv3 caps discovered during CAP LS/NEW.
+        /// </summary>
+        IDictionary IRCv3Caps { get; }
 
         /// <summary>
         /// Returns Server Uptime as a TimeSpan.
