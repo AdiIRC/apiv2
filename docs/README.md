@@ -1,3 +1,3 @@
 # [AdiIRC](https://adiirc.com)'s API v2 Documentation
 
-To come: plain text documentation of the plugin api
+The documentation can be viewed at https://adiirc.github.io/apiv2/generated/
