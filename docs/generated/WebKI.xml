@@ -258,6 +258,7 @@
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IPrivateWindow interface" Url="html/1758cff2-87b0-cf09-f362-15c177325074.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IServer interface" Url="html/05073858-153c-09e0-112c-062e7eed7d22.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.ITextView interface" Url="html/eaa40741-145e-3c9b-86c1-8b95ec865cf1.htm" />
+  <HelpKINode Title="AdiIRCAPIv2.Interfaces.ITools interface" Url="html/6bf811a8-e288-b1e2-1891-07999ae2887b.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IToolWindow interface" Url="html/4e0ec6f3-2134-f045-0b1c-21c7689862bb.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IUser interface" Url="html/2d0101ce-0c8a-4b93-82b9-0ad176394e86.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IWindow interface" Url="html/77e080a3-fd40-820b-c6a2-b738f1d4e038.htm" />
@@ -334,6 +335,7 @@
     <HelpKINode Title="ChannelServerModeListUnquietArgs.BanMask Property " Url="html/02063715-0238-9ec0-6d22-3680410b877e.htm" />
   </HelpKINode>
   <HelpKINode Title="BanType property" Url="html/63adba4f-b494-2355-cb15-3e13726cde9a.htm" />
+  <HelpKINode Title="Boldify method" Url="html/7933b669-0f70-df36-93aa-0c3a5d865864.htm" />
   <HelpKINode Title="Bytes property">
     <HelpKINode Title="RawBytesReceivedArgs.Bytes Property " Url="html/a6e74f24-a520-952d-b65b-e09347ec3a73.htm" />
     <HelpKINode Title="RawBytesSentArgs.Bytes Property " Url="html/f4acd6dc-cc42-6464-fdd5-efb5e5cfd616.htm" />
@@ -1394,6 +1396,7 @@
     <HelpKINode Title="StringDataReceivedArgs.Data Property " Url="html/287b4d8a-38d2-b245-03c7-99270de41887.htm" />
     <HelpKINode Title="StringDataSentArgs.Data Property " Url="html/cd1f200d-acd0-f608-397c-89d5c59995f0.htm" />
   </HelpKINode>
+  <HelpKINode Title="Debug method" Url="html/6c4f0b6f-d72b-2aa3-effe-83bfdbdd51b6.htm" />
   <HelpKINode Title="DelayBetweenJoins property" Url="html/8263d4f8-0030-1e10-874a-ff3c7ddb316f.htm" />
   <HelpKINode Title="DelayJoin property" Url="html/d8d25997-ac93-9d78-2c50-a885378edb96.htm" />
   <HelpKINode Title="Disconnect delegate" Url="html/b1df1807-deb9-72e7-537b-1c73ecb66524.htm" />
@@ -1590,6 +1593,7 @@
     <HelpKINode Title="SoundPlayBackMp3EndArgs.Filename Property " Url="html/9d23b728-89d2-dcb8-f814-691598914039.htm" />
     <HelpKINode Title="SoundPlayBackWaveEndArgs.Filename Property " Url="html/58f33d7b-9947-3eae-c5a1-75ddad83ad86.htm" />
   </HelpKINode>
+  <HelpKINode Title="FormatTime method" Url="html/191d741d-e6fc-70db-04f1-13c9faa51096.htm" />
   <HelpKINode Title="GetChannels property">
     <HelpKINode Title="IPrivateWindow.GetChannels Property " Url="html/93705383-5494-65b4-9cda-f736978cf97a.htm" />
     <HelpKINode Title="IServer.GetChannels Property " Url="html/fc556641-267a-bafd-9d63-da026a4bffc2.htm" />
@@ -1859,6 +1863,7 @@
   <HelpKINode Title="IPluginHost.OnZipDecompressionStarted event" Url="html/66749c88-7066-39ee-7e0b-29bb9ab04e87.htm" />
   <HelpKINode Title="IPluginHost.ProgramFolder property" Url="html/49bfcee9-c39a-d25e-7242-6227e48877f9.htm" />
   <HelpKINode Title="IPluginHost.SystemUptime property" Url="html/e65914b0-4896-9e43-a434-b3677600603b.htm" />
+  <HelpKINode Title="IPluginHost.Tools property" Url="html/ae4473e5-f6ca-7167-e001-38f70a944b2f.htm" />
   <HelpKINode Title="IPluginHost.UnHookCommand method" Url="html/eb751998-c4fc-ac26-fc62-14e70b7175f6.htm" />
   <HelpKINode Title="IPluginHost.UnHookIdentifier method" Url="html/e027645d-dbdf-4053-ccdb-8b142e3a6118.htm" />
   <HelpKINode Title="IPluginHost.Uptime property" Url="html/4c614ae8-acc3-925f-2f12-74e44a0ffba9.htm" />
@@ -1995,6 +2000,19 @@
   <HelpKINode Title="ITextView.ScrollToUnreadLine method" Url="html/651fa78a-2410-540c-f250-96ca83c6f17f.htm" />
   <HelpKINode Title="ITextView.ScrollUp method" Url="html/b7c3d585-5bae-1bbe-94d9-3274771260b0.htm" />
   <HelpKINode Title="ITextView.UseTimestamp property" Url="html/ec75b6b8-63d5-825c-d60a-7223d66217ed.htm" />
+  <HelpKINode Title="ITools interface">
+    <HelpKINode Title="ITools Interface" Url="html/6bf811a8-e288-b1e2-1891-07999ae2887b.htm" />
+    <HelpKINode Title="about ITools interface" Url="html/6bf811a8-e288-b1e2-1891-07999ae2887b.htm" />
+    <HelpKINode Title="methods" Url="html/847abab8-cddc-9e4c-0779-2994fbe960dc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITools.Boldify method" Url="html/7933b669-0f70-df36-93aa-0c3a5d865864.htm" />
+  <HelpKINode Title="ITools.Debug method" Url="html/6c4f0b6f-d72b-2aa3-effe-83bfdbdd51b6.htm" />
+  <HelpKINode Title="ITools.FormatTime method" Url="html/191d741d-e6fc-70db-04f1-13c9faa51096.htm" />
+  <HelpKINode Title="ITools.Strip method" Url="html/4260244a-cc61-a753-cc15-270f1585fddb.htm" />
+  <HelpKINode Title="ITools.StripBold method" Url="html/264ad14d-4741-20c9-ecfd-fe22088b68b7.htm" />
+  <HelpKINode Title="ITools.StripColors method" Url="html/92a133ab-7396-3d84-feb8-2004ead14a92.htm" />
+  <HelpKINode Title="ITools.StripItalic method" Url="html/3d115e4c-820a-9c2c-87f7-ab3252c5a417.htm" />
+  <HelpKINode Title="ITools.StripUnderline method" Url="html/e20d7671-ffe6-fd8c-0734-a33038405547.htm" />
   <HelpKINode Title="IToolWindow interface">
     <HelpKINode Title="IToolWindow Interface" Url="html/4e0ec6f3-2134-f045-0b1c-21c7689862bb.htm" />
     <HelpKINode Title="about IToolWindow interface" Url="html/4e0ec6f3-2134-f045-0b1c-21c7689862bb.htm" />
@@ -3064,6 +3082,11 @@
   <HelpKINode Title="StringDataSentArgs.Data property" Url="html/cd1f200d-acd0-f608-397c-89d5c59995f0.htm" />
   <HelpKINode Title="StringDataSentArgs.Server property" Url="html/ac55925d-1605-b072-69aa-2c57d867ee63.htm" />
   <HelpKINode Title="StringDataSentArgs.StringDataSentArgs constructor" Url="html/189b9123-1188-f8a0-27e4-a9d3159fe3e0.htm" />
+  <HelpKINode Title="Strip method" Url="html/4260244a-cc61-a753-cc15-270f1585fddb.htm" />
+  <HelpKINode Title="StripBold method" Url="html/264ad14d-4741-20c9-ecfd-fe22088b68b7.htm" />
+  <HelpKINode Title="StripColors method" Url="html/92a133ab-7396-3d84-feb8-2004ead14a92.htm" />
+  <HelpKINode Title="StripItalic method" Url="html/3d115e4c-820a-9c2c-87f7-ab3252c5a417.htm" />
+  <HelpKINode Title="StripUnderline method" Url="html/e20d7671-ffe6-fd8c-0734-a33038405547.htm" />
   <HelpKINode Title="Switchbar enumeration member" Url="html/d4d80e8f-5c9a-c0ef-89d6-ff7113ffec5d.htm" />
   <HelpKINode Title="System enumeration member" Url="html/7912b0fe-3f49-29bb-c5ec-523598f792e9.htm" />
   <HelpKINode Title="SystemUptime property" Url="html/e65914b0-4896-9e43-a434-b3677600603b.htm" />
@@ -3082,6 +3105,7 @@
   <HelpKINode Title="TimeFormat property" Url="html/487f1709-3df3-78ba-e0fe-8e2a71481b92.htm" />
   <HelpKINode Title="Title property" Url="html/de66b6bc-d240-4b65-b04f-69a6b3b70fa4.htm" />
   <HelpKINode Title="Toolbar enumeration member" Url="html/d4d80e8f-5c9a-c0ef-89d6-ff7113ffec5d.htm" />
+  <HelpKINode Title="Tools property" Url="html/ae4473e5-f6ca-7167-e001-38f70a944b2f.htm" />
   <HelpKINode Title="Topic property" Url="html/3e043d42-171a-207a-0135-638d69e8072f.htm" />
   <HelpKINode Title="TopicLength property" Url="html/9cd461b8-77b5-9db2-4b78-3fb4d02482e5.htm" />
   <HelpKINode Title="TopicSetAt property" Url="html/104c5283-edb9-fe0e-e577-60000ff1ce42.htm" />

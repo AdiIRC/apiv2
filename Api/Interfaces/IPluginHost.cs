@@ -924,6 +924,8 @@
         /// </summary>
         IEditboxOptions EditboxOptions { get; }
 
+        ITools Tools { get; }
+
         /// <summary>
         /// Returns a list of global variables which are saved across sessions.
         /// </summary>
