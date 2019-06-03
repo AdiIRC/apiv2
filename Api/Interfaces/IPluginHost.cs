@@ -796,6 +796,14 @@
         ///     Scripted Event Equivalent: <c>on CTCPREPLY</c>
         /// </remarks>
         event PrivateCtcpReplyMessage OnPrivateCtcpReplyMessage;
+
+        /// <summary>
+        ///     Delegate gets called when your IUser receives a wallops message
+        /// </summary>
+        /// <remarks>
+        ///     Scripted Event Equivalent: <c>on WALLOPS</c>
+        /// </remarks>
+        event ServerWallopsMessage OnServerWallopsMessage;
         #endregion
 
         #region ScriptEngine
@@ -970,10 +978,7 @@
         /// <summary>
         /// Get a list of all IServers.
         /// </summary>
-        ICollection GetServers
-        {
-            get;
-        }
+        ICollection GetServers { get; }
 
         /// <summary>
         /// Get a list of all IWindows.

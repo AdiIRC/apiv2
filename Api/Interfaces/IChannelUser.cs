@@ -38,22 +38,22 @@
         DateTime IdleTime { get; }
 
         /// <summary>
-        /// /// Returns the time the user joined the IChannel (UTC time)
+        /// Returns the time the user joined the IChannel (UTC time)
         /// </summary>
         DateTime Joined { get; }
 
         /// <summary>
-        /// /// Returns whether the user has spoken since joining the IChannel
+        /// Returns whether the user has spoken since joining the IChannel
         /// </summary>
         bool HasSpoken { get; }
 
         /// <summary>
-        /// /// Returns the (0-15 numeric) nick color to use for the nick on this IChannel
+        /// Returns the (0-15 numeric) nick color to use for the nick on this IChannel
         /// </summary>
         int NickColor { get; }
 
         /// <summary>
-        /// /// Returns the rgb nick color (RRGGBB format) to use for the nick on this IChannel
+        /// Returns the rgb nick color (RRGGBB format) to use for the nick on this IChannel
         /// </summary>
         string RgbNickColor { get; }
     }

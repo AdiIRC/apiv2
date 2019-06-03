@@ -68,4 +68,13 @@ namespace AdiIRCAPIv2.Delegates
     /// </remarks>
     /// <param name="argument">PrivateCtcpReplyMessageArgs</param>
     public delegate void PrivateCtcpReplyMessage(PrivateCtcpReplyMessageArgs argument);
+
+    /// <summary>
+    ///     Delegate gets called when your IUser receives a wallops message
+    /// </summary>
+    /// <remarks>
+    ///     Scripted Event Equivalent: <c>on WALLOPS</c>
+    /// </remarks>
+    /// <param name="argument">ServerWallopsMessageArgs</param>
+    public delegate void ServerWallopsMessage(ServerWallopsMessageArgs argument);
 }

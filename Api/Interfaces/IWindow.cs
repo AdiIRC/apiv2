@@ -61,11 +61,17 @@
         /// <summary>
         /// Returns the IEditbox associated with this IWindow.
         /// </summary>
+        /// <remarks>
+        ///     Can return null on windows without a Editbox
+        /// </remarks>
         IEditbox Editbox { get; }
 
         /// <summary>
         /// Returns the ITextView associated with this IWindow.
         /// </summary>
+        /// <remarks>
+        ///     Can return null on windows without a TextView
+        /// </remarks>
         ITextView TextView { get; }
 
         /// <summary>
@@ -91,6 +97,9 @@
         /// </summary>
         /// <param name="message">Message to output</param>
         /// <returns>True/False depending if the output was successful</returns>
+        /// <remarks>
+        ///     Some windows does not have a TextView, the output will be ignored and return false in these cases.
+        /// </remarks>
         bool OutputText(string message);
 
         /// <summary>
