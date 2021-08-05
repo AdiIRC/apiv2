@@ -67,6 +67,14 @@
         IEditbox Editbox { get; }
 
         /// <summary>
+        /// Returns the INicklist associated with this IWindow.
+        /// </summary>
+        /// <remarks>
+        ///     Can return null on windows without a Nicklist
+        /// </remarks>
+        INicklist Nicklist { get; }
+
+        /// <summary>
         /// Returns the ITextView associated with this IWindow.
         /// </summary>
         /// <remarks>
@@ -104,6 +112,7 @@
 
         /// <summary>
         /// Executes a /command to this IWindow.
+        /// Using double slashes //command parses and executes the command as a script in this IWindow.
         /// </summary>
         /// <param name="command">Command to execute</param>
         /// <returns>True/False depending if the send was successful</returns>

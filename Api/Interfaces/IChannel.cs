@@ -72,8 +72,17 @@
 
         /// <summary>
         /// Gets a collection of IChannelUsers in the IChannel.
+        /// Deprecated, use Users instead.
         /// </summary>
         ICollection GetUsers
+        {
+            get;
+        }
+
+        /// <summary>
+        /// Gets a collection of IChannelUsers in the IChannel.
+        /// </summary>
+        List<IChannelUser> Users
         {
             get;
         }

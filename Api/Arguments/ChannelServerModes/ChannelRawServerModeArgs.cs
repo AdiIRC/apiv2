@@ -11,6 +11,7 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
     public class ChannelRawServerModeArgs : EventArgs
     {
         private readonly IChannel channel;
+        private readonly string byServer;
         private readonly string modes;
         private readonly string rawMessage;
         private readonly string rawBytes;
@@ -22,15 +23,17 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         ///     Constructor for arguments class passed to the ChannelRawServerMode event
         /// </summary>
         /// <param name="channel">IChannel</param>
+        /// <param name="byServer">string</param>
         /// <param name="modes">string</param>
         /// <param name="rawMessage">string</param>
         /// <param name="rawBytes">string</param>
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelRawServerModeArgs(IChannel channel, string modes, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelRawServerModeArgs(IChannel channel, string byServer, string modes, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
             this.channel = channel;
+            this.byServer = byServer;
             this.modes = modes;
             this.rawMessage = rawMessage;
             this.rawBytes = rawBytes;
@@ -43,6 +46,11 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         ///     Returns the IChannel where the mode change occured
         /// </summary>
         public IChannel Channel { get { return this.channel; } }
+
+        /// <summary>
+        ///     Returns the server who made the mode change
+        /// </summary>
+        public string ByServer { get { return this.byServer; } }
 
         /// <summary>
         ///     Returns the mode changes

@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections;
+    using System.Collections.Generic;
     using System.Net;
     using System.Text;
 
@@ -282,6 +283,7 @@
 
         /// <summary>
         /// Get a collection of IChannels in this IServer.
+        /// Deprecated, use Channels instead.
         /// </summary>
         ICollection GetChannels
         {
@@ -289,9 +291,26 @@
         }
 
         /// <summary>
+        /// Get a list of IChannels in this IServer.
+        /// </summary>
+        List<IChannel> Channels
+        {
+            get;
+        }
+
+        /// <summary>
         /// Get a collection of IUsers in this IServer.
+        /// Deprecated, use Users instead.
         /// </summary>
         ICollection GetUsers
+        {
+            get;
+        }
+
+        /// <summary>
+        /// Get a collection of IUsers in this IServer.
+        /// </summary>
+        List<IUser> Users 
         {
             get;
         }

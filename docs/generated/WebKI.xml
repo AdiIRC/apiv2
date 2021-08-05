@@ -255,6 +255,7 @@
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IEditbox interface" Url="html/05878b69-8978-3495-2565-4fd3a3a5e83e.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IEditboxOptions interface" Url="html/42bdc332-33ea-1fd7-4bac-4886f2289a29.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IMessagesOptions interface" Url="html/026a0d0a-069c-2111-076c-f1ee92ad50ac.htm" />
+  <HelpKINode Title="AdiIRCAPIv2.Interfaces.INicklist interface" Url="html/7e6e3327-228f-46a4-efc3-17a0815951df.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IPlugin interface" Url="html/d74abffd-d679-8c2f-2cea-e46f43558250.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IPluginHost interface" Url="html/56c5ff5d-e1b5-964c-d3a5-0960367c4abb.htm" />
   <HelpKINode Title="AdiIRCAPIv2.Interfaces.IPrivateWindow interface" Url="html/1758cff2-87b0-cf09-f362-15c177325074.htm" />
@@ -332,6 +333,28 @@
   </HelpKINode>
   <HelpKINode Title="BanType property" Url="html/63adba4f-b494-2355-cb15-3e13726cde9a.htm" />
   <HelpKINode Title="Boldify method" Url="html/7933b669-0f70-df36-93aa-0c3a5d865864.htm" />
+  <HelpKINode Title="ByServer property">
+    <HelpKINode Title="ChannelRawServerModeArgs.ByServer Property " Url="html/6ad54414-e52c-b370-786f-f34d7c19ccdb.htm" />
+    <HelpKINode Title="ChannelServerModeArgs.ByServer Property " Url="html/cd4ecd1d-0c74-92ab-cf0f-ab479fe2c9f6.htm" />
+    <HelpKINode Title="ChannelServerModeListBanArgs.ByServer Property " Url="html/07a59b4c-521a-bbb1-fa99-4a7c1f0aa1ff.htm" />
+    <HelpKINode Title="ChannelServerModeListBanExemptArgs.ByServer Property " Url="html/24cc1487-07fd-b0bc-5956-39c153eace4a.htm" />
+    <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.ByServer Property " Url="html/7863b7fc-d50f-9a6c-b016-9950efdf5ba9.htm" />
+    <HelpKINode Title="ChannelServerModeListInviteExemptArgs.ByServer Property " Url="html/e9b7ee3c-cd1c-096a-51db-a5909e34ebe8.htm" />
+    <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.ByServer Property " Url="html/83779d05-9087-4acf-1c09-144650226cbc.htm" />
+    <HelpKINode Title="ChannelServerModeListQuietArgs.ByServer Property " Url="html/d30e66e2-6e60-c24d-1be1-f1871c7e443f.htm" />
+    <HelpKINode Title="ChannelServerModeListUnbanArgs.ByServer Property " Url="html/131d366d-dcb7-b49f-226e-a429f8d3f461.htm" />
+    <HelpKINode Title="ChannelServerModeListUnquietArgs.ByServer Property " Url="html/e32852f2-8ceb-cca1-b099-0b5edeec0481.htm" />
+    <HelpKINode Title="ChannelServerModeUserAdminedArgs.ByServer Property " Url="html/228e2fb8-fb46-03df-f9cb-e56bded9a5fc.htm" />
+    <HelpKINode Title="ChannelServerModeUserDeadminedArgs.ByServer Property " Url="html/3f216340-7fc5-f05c-0f92-c00e38344ce9.htm" />
+    <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.ByServer Property " Url="html/d878aa64-14b9-e580-4ab9-efc8afd08f38.htm" />
+    <HelpKINode Title="ChannelServerModeUserDeoppedArgs.ByServer Property " Url="html/ef5a8ae6-09f9-3113-10b1-6b54648399d1.htm" />
+    <HelpKINode Title="ChannelServerModeUserDeowneredArgs.ByServer Property " Url="html/e60c91ee-df65-0240-e743-ed575d2a6ad3.htm" />
+    <HelpKINode Title="ChannelServerModeUserDevoicedArgs.ByServer Property " Url="html/1c83bd68-e624-2084-dd54-ef01abc1c139.htm" />
+    <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.ByServer Property " Url="html/6eae6b7a-e55e-bdae-395b-dfe79c33df20.htm" />
+    <HelpKINode Title="ChannelServerModeUserOppedArgs.ByServer Property " Url="html/b528554d-6d71-82c8-c4e4-44c192d861be.htm" />
+    <HelpKINode Title="ChannelServerModeUserOwneredArgs.ByServer Property " Url="html/cd9e0add-807c-a740-a77b-9c9366014c78.htm" />
+    <HelpKINode Title="ChannelServerModeUserVoicedArgs.ByServer Property " Url="html/7462b95b-b07e-da0a-49e7-6397e8a4d942.htm" />
+  </HelpKINode>
   <HelpKINode Title="Bytes property">
     <HelpKINode Title="RawBytesReceivedArgs.Bytes Property " Url="html/a6e74f24-a520-952d-b65b-e09347ec3a73.htm" />
     <HelpKINode Title="RawBytesSentArgs.Bytes Property " Url="html/f4acd6dc-cc42-6464-fdd5-efb5e5cfd616.htm" />
@@ -939,27 +962,30 @@
   <HelpKINode Title="ChannelRawServerMode delegate" Url="html/53f4c9ae-8ca7-ef2f-b0b4-e5dde552cf5b.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs class">
     <HelpKINode Title="ChannelRawServerModeArgs Class" Url="html/d7275b50-a18c-ebb0-1c17-5b55e27b0105.htm" />
-    <HelpKINode Title="constructor" Url="html/2c362f78-571e-572a-950c-5cc151cf847b.htm" />
+    <HelpKINode Title="constructor" Url="html/e7931458-a7d0-749d-5f76-3144586171d5.htm" />
     <HelpKINode Title="methods" Url="html/d55fcde5-08a6-7f2d-0748-a1a8631b460c.htm" />
     <HelpKINode Title="properties" Url="html/7557880c-b36e-666e-6908-d614cd8b08b2.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelRawServerModeArgs.ByServer property" Url="html/6ad54414-e52c-b370-786f-f34d7c19ccdb.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs.Channel property" Url="html/d62a44e0-f60c-6e32-9355-7ee26207fd36.htm" />
-  <HelpKINode Title="ChannelRawServerModeArgs.ChannelRawServerModeArgs constructor" Url="html/2c362f78-571e-572a-950c-5cc151cf847b.htm" />
+  <HelpKINode Title="ChannelRawServerModeArgs.ChannelRawServerModeArgs constructor" Url="html/e7931458-a7d0-749d-5f76-3144586171d5.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs.EatData property" Url="html/2a5c471f-0fc6-5072-e71b-ac7e3f016c68.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs.MessageTags property" Url="html/f77778fa-d4ea-9657-3b65-9841e81938b5.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs.Modes property" Url="html/5797d2e8-7871-b810-c53c-ed79d13347a9.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs.RawBytes property" Url="html/495dcc76-df77-0ebc-a196-fa66d6bcf3ba.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs.RawMessage property" Url="html/552030d0-f9b2-1671-61df-1b2454efc539.htm" />
   <HelpKINode Title="ChannelRawServerModeArgs.ServerTime property" Url="html/a726bae7-528b-1856-f1b4-9079f9754b7e.htm" />
+  <HelpKINode Title="Channels property" Url="html/214c2d32-c884-8b08-269f-8833eede0933.htm" />
   <HelpKINode Title="ChannelServerMode delegate" Url="html/d5990da5-14b5-d627-081b-8c95c9553724.htm" />
   <HelpKINode Title="ChannelServerModeArgs class">
     <HelpKINode Title="ChannelServerModeArgs Class" Url="html/757b7d96-3f86-0074-e90c-1583b944c22e.htm" />
-    <HelpKINode Title="constructor" Url="html/dda308fc-d4c9-49eb-322d-6dfdc6fee792.htm" />
+    <HelpKINode Title="constructor" Url="html/eb9b1a04-be06-47e0-b7c8-67432181ba89.htm" />
     <HelpKINode Title="methods" Url="html/8194331d-ce40-b726-8ccb-7604b5ed5309.htm" />
     <HelpKINode Title="properties" Url="html/e7cda385-82fc-0837-78d9-2e4609751f7c.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeArgs.ByServer property" Url="html/cd4ecd1d-0c74-92ab-cf0f-ab479fe2c9f6.htm" />
   <HelpKINode Title="ChannelServerModeArgs.Channel property" Url="html/7a93da82-9c53-4e8a-6b38-b32682b67c0c.htm" />
-  <HelpKINode Title="ChannelServerModeArgs.ChannelServerModeArgs constructor" Url="html/dda308fc-d4c9-49eb-322d-6dfdc6fee792.htm" />
+  <HelpKINode Title="ChannelServerModeArgs.ChannelServerModeArgs constructor" Url="html/eb9b1a04-be06-47e0-b7c8-67432181ba89.htm" />
   <HelpKINode Title="ChannelServerModeArgs.EatData property" Url="html/239420c4-7533-2652-2d64-bb8a30be11c4.htm" />
   <HelpKINode Title="ChannelServerModeArgs.MessageTags property" Url="html/fd12d21a-7f2c-9ac5-0407-a078bcf72894.htm" />
   <HelpKINode Title="ChannelServerModeArgs.Mode property" Url="html/91114d3c-b3a9-a0b1-83bd-6dcd34a05833.htm" />
@@ -969,13 +995,14 @@
   <HelpKINode Title="ChannelServerModeListBan delegate" Url="html/eba766a6-7bd8-8719-ce96-9fe6bd42c4cc.htm" />
   <HelpKINode Title="ChannelServerModeListBanArgs class">
     <HelpKINode Title="ChannelServerModeListBanArgs Class" Url="html/abd0ec5e-929e-c6b4-197c-659bef77ea46.htm" />
-    <HelpKINode Title="constructor" Url="html/a7804957-2688-405a-efa7-d063b46364a9.htm" />
+    <HelpKINode Title="constructor" Url="html/d019ecd6-332d-99aa-71d6-72e2438ad073.htm" />
     <HelpKINode Title="methods" Url="html/8e008379-9b07-dc19-9bb9-817c168a6154.htm" />
     <HelpKINode Title="properties" Url="html/0611acca-b859-5377-d3d8-519bc99f23c7.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListBanArgs.BanMask property" Url="html/5d652a1c-88ec-4cd3-e9c1-498760769448.htm" />
+  <HelpKINode Title="ChannelServerModeListBanArgs.ByServer property" Url="html/07a59b4c-521a-bbb1-fa99-4a7c1f0aa1ff.htm" />
   <HelpKINode Title="ChannelServerModeListBanArgs.Channel property" Url="html/9564c6ca-d9f2-8066-1ee6-0c807f0164e9.htm" />
-  <HelpKINode Title="ChannelServerModeListBanArgs.ChannelServerModeListBanArgs constructor" Url="html/a7804957-2688-405a-efa7-d063b46364a9.htm" />
+  <HelpKINode Title="ChannelServerModeListBanArgs.ChannelServerModeListBanArgs constructor" Url="html/d019ecd6-332d-99aa-71d6-72e2438ad073.htm" />
   <HelpKINode Title="ChannelServerModeListBanArgs.EatData property" Url="html/e4dc7e7d-2312-a531-ab3b-d47ea84ea4bb.htm" />
   <HelpKINode Title="ChannelServerModeListBanArgs.MessageTags property" Url="html/bef656be-4217-7acf-7e30-ceedca083aa6.htm" />
   <HelpKINode Title="ChannelServerModeListBanArgs.ModeFirst property" Url="html/8b6586ae-0e77-258d-2354-5740b168aad4.htm" />
@@ -986,13 +1013,14 @@
   <HelpKINode Title="ChannelServerModeListBanExempt delegate" Url="html/b8dec293-640e-424e-04fe-e7faf786f85c.htm" />
   <HelpKINode Title="ChannelServerModeListBanExemptArgs class">
     <HelpKINode Title="ChannelServerModeListBanExemptArgs Class" Url="html/702b9ddf-8945-214f-b533-0969d35c12a4.htm" />
-    <HelpKINode Title="constructor" Url="html/5d1a3d29-3e3d-3206-7698-8b846127cc46.htm" />
+    <HelpKINode Title="constructor" Url="html/d6b4c9c7-1d3d-c596-4fde-6b67357f0a24.htm" />
     <HelpKINode Title="methods" Url="html/fb63e81f-3bfd-8d61-9757-82aa3181aaf5.htm" />
     <HelpKINode Title="properties" Url="html/147944de-3c4a-c42f-3faf-005f3da9b68b.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListBanExemptArgs.BanMask property" Url="html/bbedf9c9-8ce0-5023-50bc-c69e78b6c434.htm" />
+  <HelpKINode Title="ChannelServerModeListBanExemptArgs.ByServer property" Url="html/24cc1487-07fd-b0bc-5956-39c153eace4a.htm" />
   <HelpKINode Title="ChannelServerModeListBanExemptArgs.Channel property" Url="html/fbd8d3fe-38ae-2a70-f4e6-be0f96b0182e.htm" />
-  <HelpKINode Title="ChannelServerModeListBanExemptArgs.ChannelServerModeListBanExemptArgs constructor" Url="html/5d1a3d29-3e3d-3206-7698-8b846127cc46.htm" />
+  <HelpKINode Title="ChannelServerModeListBanExemptArgs.ChannelServerModeListBanExemptArgs constructor" Url="html/d6b4c9c7-1d3d-c596-4fde-6b67357f0a24.htm" />
   <HelpKINode Title="ChannelServerModeListBanExemptArgs.EatData property" Url="html/873591af-7b19-baab-8be7-159558fdfeba.htm" />
   <HelpKINode Title="ChannelServerModeListBanExemptArgs.MessageTags property" Url="html/5546e73c-e8eb-df54-3ffa-15c4f9903792.htm" />
   <HelpKINode Title="ChannelServerModeListBanExemptArgs.ModeFirst property" Url="html/c14f4728-61be-a348-8a5b-606c6b5b39b6.htm" />
@@ -1003,13 +1031,14 @@
   <HelpKINode Title="ChannelServerModeListBanUnexempt delegate" Url="html/dc5b716b-c309-9df6-d9eb-49951f9e0f37.htm" />
   <HelpKINode Title="ChannelServerModeListBanUnexemptArgs class">
     <HelpKINode Title="ChannelServerModeListBanUnexemptArgs Class" Url="html/22825ec1-e44a-048c-6a5f-41dda97c6bc4.htm" />
-    <HelpKINode Title="constructor" Url="html/f63394da-35a9-822a-e046-f9f22e8082ab.htm" />
+    <HelpKINode Title="constructor" Url="html/ebe2c643-f350-ff3f-d87f-6076197cd28f.htm" />
     <HelpKINode Title="methods" Url="html/02e44491-ee70-4513-bd73-18bf7ab48c8d.htm" />
     <HelpKINode Title="properties" Url="html/4119e6f3-3203-7a9a-1a9d-72e391ad3960.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.BanMask property" Url="html/e1d1aaec-a143-4da1-5e1c-dc8a8c4c784d.htm" />
+  <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.ByServer property" Url="html/7863b7fc-d50f-9a6c-b016-9950efdf5ba9.htm" />
   <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.Channel property" Url="html/883d9be8-ade8-ae21-e58a-5ceecb8fcf6f.htm" />
-  <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.ChannelServerModeListBanUnexemptArgs constructor" Url="html/f63394da-35a9-822a-e046-f9f22e8082ab.htm" />
+  <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.ChannelServerModeListBanUnexemptArgs constructor" Url="html/ebe2c643-f350-ff3f-d87f-6076197cd28f.htm" />
   <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.EatData property" Url="html/80b7b7f1-2615-218a-8e66-1b0312ccc056.htm" />
   <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.MessageTags property" Url="html/db50b3f0-99e8-5c56-f08a-ad5993623075.htm" />
   <HelpKINode Title="ChannelServerModeListBanUnexemptArgs.ModeFirst property" Url="html/69114c80-5d81-f427-ac64-cea70e8add92.htm" />
@@ -1020,13 +1049,14 @@
   <HelpKINode Title="ChannelServerModeListInviteExempt delegate" Url="html/efcd26c9-e217-96d5-b137-151addd913d5.htm" />
   <HelpKINode Title="ChannelServerModeListInviteExemptArgs class">
     <HelpKINode Title="ChannelServerModeListInviteExemptArgs Class" Url="html/35ee24b1-856b-5564-98dd-f6676d495781.htm" />
-    <HelpKINode Title="constructor" Url="html/907c4c86-0ec0-cfca-db4c-6199c4696970.htm" />
+    <HelpKINode Title="constructor" Url="html/159b795e-16b6-193d-7478-742171471de6.htm" />
     <HelpKINode Title="methods" Url="html/fd33f4c0-5bd9-c362-e765-88428ff23817.htm" />
     <HelpKINode Title="properties" Url="html/3b3f0c9e-6fd5-7f33-425a-4a8fc2fbaf39.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListInviteExemptArgs.BanMask property" Url="html/9f2a83f1-73da-44c0-8698-f5d82af87b60.htm" />
+  <HelpKINode Title="ChannelServerModeListInviteExemptArgs.ByServer property" Url="html/e9b7ee3c-cd1c-096a-51db-a5909e34ebe8.htm" />
   <HelpKINode Title="ChannelServerModeListInviteExemptArgs.Channel property" Url="html/4405f2c7-bf90-4bd4-c6db-651d60f1eaf5.htm" />
-  <HelpKINode Title="ChannelServerModeListInviteExemptArgs.ChannelServerModeListInviteExemptArgs constructor" Url="html/907c4c86-0ec0-cfca-db4c-6199c4696970.htm" />
+  <HelpKINode Title="ChannelServerModeListInviteExemptArgs.ChannelServerModeListInviteExemptArgs constructor" Url="html/159b795e-16b6-193d-7478-742171471de6.htm" />
   <HelpKINode Title="ChannelServerModeListInviteExemptArgs.EatData property" Url="html/255e56c1-b050-13cb-2d1d-304cd9826b15.htm" />
   <HelpKINode Title="ChannelServerModeListInviteExemptArgs.MessageTags property" Url="html/c6b24307-1885-8bc7-0df6-9b08cdb88c0b.htm" />
   <HelpKINode Title="ChannelServerModeListInviteExemptArgs.ModeFirst property" Url="html/621dab5d-3938-724a-8bf0-4bb55e90025a.htm" />
@@ -1037,13 +1067,14 @@
   <HelpKINode Title="ChannelServerModeListInviteUnexempt delegate" Url="html/4159300a-4503-b690-7027-2bbd611194a9.htm" />
   <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs class">
     <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs Class" Url="html/78c9262a-0229-3828-84ce-8610593bf745.htm" />
-    <HelpKINode Title="constructor" Url="html/0e0be86a-d6d8-6c65-0c16-8b841181dc9e.htm" />
+    <HelpKINode Title="constructor" Url="html/b5c53049-81a9-1389-f34f-4d4c3cc1cbc1.htm" />
     <HelpKINode Title="methods" Url="html/d66bc2c5-be84-09f0-2906-e5407d13f57e.htm" />
     <HelpKINode Title="properties" Url="html/4f371f08-d681-ee7d-1444-9a84dd2e08a7.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.BanMask property" Url="html/99d0efb2-532c-7683-fced-29914a4e60c1.htm" />
+  <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.ByServer property" Url="html/83779d05-9087-4acf-1c09-144650226cbc.htm" />
   <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.Channel property" Url="html/e2ed6ac7-59d5-af3f-02fb-48a9d4987a89.htm" />
-  <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.ChannelServerModeListInviteUnexemptArgs constructor" Url="html/0e0be86a-d6d8-6c65-0c16-8b841181dc9e.htm" />
+  <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.ChannelServerModeListInviteUnexemptArgs constructor" Url="html/b5c53049-81a9-1389-f34f-4d4c3cc1cbc1.htm" />
   <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.EatData property" Url="html/d49d0aa6-878d-6346-4b80-455f669a796f.htm" />
   <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.MessageTags property" Url="html/b72d29ca-5739-7b00-db5d-2e7c324a90a4.htm" />
   <HelpKINode Title="ChannelServerModeListInviteUnexemptArgs.ModeFirst property" Url="html/af4908a8-5657-2bad-f04b-08e053e3091f.htm" />
@@ -1054,13 +1085,14 @@
   <HelpKINode Title="ChannelServerModeListQuiet delegate" Url="html/a5e7c177-2088-2b39-b81a-74465af470c1.htm" />
   <HelpKINode Title="ChannelServerModeListQuietArgs class">
     <HelpKINode Title="ChannelServerModeListQuietArgs Class" Url="html/d939241e-8344-6aea-0bdc-577023ee9655.htm" />
-    <HelpKINode Title="constructor" Url="html/8dcd6e40-e4dc-6e00-b9f0-47fd426b762f.htm" />
+    <HelpKINode Title="constructor" Url="html/c628919b-7697-0185-8e2a-a8c322abc017.htm" />
     <HelpKINode Title="methods" Url="html/5dcf4f9f-62cf-5ca7-0a11-c481f7e06ed4.htm" />
     <HelpKINode Title="properties" Url="html/360dc1f4-3323-2cd3-fc37-00e4ec4c52fc.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListQuietArgs.BanMask property" Url="html/c957ba46-526d-d1dc-e5d7-dbbbfbc62e70.htm" />
+  <HelpKINode Title="ChannelServerModeListQuietArgs.ByServer property" Url="html/d30e66e2-6e60-c24d-1be1-f1871c7e443f.htm" />
   <HelpKINode Title="ChannelServerModeListQuietArgs.Channel property" Url="html/ae4eeaee-0e35-94a4-1e41-1a3124dd908d.htm" />
-  <HelpKINode Title="ChannelServerModeListQuietArgs.ChannelServerModeListQuietArgs constructor" Url="html/8dcd6e40-e4dc-6e00-b9f0-47fd426b762f.htm" />
+  <HelpKINode Title="ChannelServerModeListQuietArgs.ChannelServerModeListQuietArgs constructor" Url="html/c628919b-7697-0185-8e2a-a8c322abc017.htm" />
   <HelpKINode Title="ChannelServerModeListQuietArgs.EatData property" Url="html/741f9cc9-41f4-8e21-e02f-73cf261c6349.htm" />
   <HelpKINode Title="ChannelServerModeListQuietArgs.MessageTags property" Url="html/f9e81113-66ce-367d-a301-573c1bc9a713.htm" />
   <HelpKINode Title="ChannelServerModeListQuietArgs.ModeFirst property" Url="html/dacab700-92f8-1462-f30d-14484997b86f.htm" />
@@ -1071,13 +1103,14 @@
   <HelpKINode Title="ChannelServerModeListUnban delegate" Url="html/37616396-f9a0-4375-d88d-7f033af2fda0.htm" />
   <HelpKINode Title="ChannelServerModeListUnbanArgs class">
     <HelpKINode Title="ChannelServerModeListUnbanArgs Class" Url="html/02743f8a-5f4a-195b-ce73-84c904531c92.htm" />
-    <HelpKINode Title="constructor" Url="html/b0dcb403-5a19-7b1c-d3a4-328156d2a0cb.htm" />
+    <HelpKINode Title="constructor" Url="html/9d14273f-c961-8af3-0477-6f2456b710b8.htm" />
     <HelpKINode Title="methods" Url="html/f1f24970-084b-1e11-4cff-61c7dc23d3b4.htm" />
     <HelpKINode Title="properties" Url="html/50b97c99-632d-a70b-d64d-33bee2512483.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListUnbanArgs.BanMask property" Url="html/9107a3bb-5028-b462-258d-1c2b26e5a01f.htm" />
+  <HelpKINode Title="ChannelServerModeListUnbanArgs.ByServer property" Url="html/131d366d-dcb7-b49f-226e-a429f8d3f461.htm" />
   <HelpKINode Title="ChannelServerModeListUnbanArgs.Channel property" Url="html/33b8bebb-c522-e022-7aae-7fae42e1aa36.htm" />
-  <HelpKINode Title="ChannelServerModeListUnbanArgs.ChannelServerModeListUnbanArgs constructor" Url="html/b0dcb403-5a19-7b1c-d3a4-328156d2a0cb.htm" />
+  <HelpKINode Title="ChannelServerModeListUnbanArgs.ChannelServerModeListUnbanArgs constructor" Url="html/9d14273f-c961-8af3-0477-6f2456b710b8.htm" />
   <HelpKINode Title="ChannelServerModeListUnbanArgs.EatData property" Url="html/787b5533-6d19-9da2-6a89-83f06681bdec.htm" />
   <HelpKINode Title="ChannelServerModeListUnbanArgs.MessageTags property" Url="html/8c6636b4-c317-3427-352e-4bb900872440.htm" />
   <HelpKINode Title="ChannelServerModeListUnbanArgs.ModeFirst property" Url="html/e0cbfad9-1676-ecce-c70a-9e311ca85acb.htm" />
@@ -1088,13 +1121,14 @@
   <HelpKINode Title="ChannelServerModeListUnquiet delegate" Url="html/3b9a4af7-7646-edc7-d9e0-7f1e9d8547c2.htm" />
   <HelpKINode Title="ChannelServerModeListUnquietArgs class">
     <HelpKINode Title="ChannelServerModeListUnquietArgs Class" Url="html/1561b0f5-7294-abd8-3491-6ab4c08dbd5d.htm" />
-    <HelpKINode Title="constructor" Url="html/731b04aa-9a14-e75e-d095-fb415c9da95b.htm" />
+    <HelpKINode Title="constructor" Url="html/aa7dd0bb-28a9-5cf5-9cc9-866ab9ece2d8.htm" />
     <HelpKINode Title="methods" Url="html/b2f104c1-21e8-81cd-ccfe-c1e277a0c795.htm" />
     <HelpKINode Title="properties" Url="html/f87e4158-9b47-adf3-7934-f0f4aa4a2c27.htm" />
   </HelpKINode>
   <HelpKINode Title="ChannelServerModeListUnquietArgs.BanMask property" Url="html/02063715-0238-9ec0-6d22-3680410b877e.htm" />
+  <HelpKINode Title="ChannelServerModeListUnquietArgs.ByServer property" Url="html/e32852f2-8ceb-cca1-b099-0b5edeec0481.htm" />
   <HelpKINode Title="ChannelServerModeListUnquietArgs.Channel property" Url="html/2d2e66a3-c981-04b3-8211-9bedfb01b3ba.htm" />
-  <HelpKINode Title="ChannelServerModeListUnquietArgs.ChannelServerModeListUnquietArgs constructor" Url="html/731b04aa-9a14-e75e-d095-fb415c9da95b.htm" />
+  <HelpKINode Title="ChannelServerModeListUnquietArgs.ChannelServerModeListUnquietArgs constructor" Url="html/aa7dd0bb-28a9-5cf5-9cc9-866ab9ece2d8.htm" />
   <HelpKINode Title="ChannelServerModeListUnquietArgs.EatData property" Url="html/2c6dccc9-580a-7b55-6987-12798b17aa7c.htm" />
   <HelpKINode Title="ChannelServerModeListUnquietArgs.MessageTags property" Url="html/f8a57b7d-2ce5-f031-4ffe-fcc690bbee95.htm" />
   <HelpKINode Title="ChannelServerModeListUnquietArgs.ModeFirst property" Url="html/fe892203-02c8-d630-bc73-9dc16c703e7b.htm" />
@@ -1105,12 +1139,13 @@
   <HelpKINode Title="ChannelServerModeUserAdmined delegate" Url="html/eebf0744-587b-4471-1c69-aa3b2ace2cde.htm" />
   <HelpKINode Title="ChannelServerModeUserAdminedArgs class">
     <HelpKINode Title="ChannelServerModeUserAdminedArgs Class" Url="html/17a1fc8d-690b-e02e-4289-49641f8f1245.htm" />
-    <HelpKINode Title="constructor" Url="html/f634efb6-54a1-6c5f-052e-c568286b86a6.htm" />
+    <HelpKINode Title="constructor" Url="html/1da2bcf3-399f-d85a-3927-780e44257479.htm" />
     <HelpKINode Title="methods" Url="html/97c47a07-2ca1-2385-4609-e9aff8a9cef6.htm" />
     <HelpKINode Title="properties" Url="html/46802a4a-7127-d96b-8179-bb4be3fee33b.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserAdminedArgs.ByServer property" Url="html/228e2fb8-fb46-03df-f9cb-e56bded9a5fc.htm" />
   <HelpKINode Title="ChannelServerModeUserAdminedArgs.Channel property" Url="html/4a8f15db-bdd1-594c-4b01-e1717ccb6ee9.htm" />
-  <HelpKINode Title="ChannelServerModeUserAdminedArgs.ChannelServerModeUserAdminedArgs constructor" Url="html/f634efb6-54a1-6c5f-052e-c568286b86a6.htm" />
+  <HelpKINode Title="ChannelServerModeUserAdminedArgs.ChannelServerModeUserAdminedArgs constructor" Url="html/1da2bcf3-399f-d85a-3927-780e44257479.htm" />
   <HelpKINode Title="ChannelServerModeUserAdminedArgs.EatData property" Url="html/8a0ce562-0071-311b-1dee-4467dd473c21.htm" />
   <HelpKINode Title="ChannelServerModeUserAdminedArgs.MessageTags property" Url="html/fccd7984-5e18-33e1-2d62-72257ad08ea1.htm" />
   <HelpKINode Title="ChannelServerModeUserAdminedArgs.ModeFirst property" Url="html/39f9d8af-4e34-4143-3abb-e0e417176b0e.htm" />
@@ -1122,12 +1157,13 @@
   <HelpKINode Title="ChannelServerModeUserDeadmined delegate" Url="html/9ceb9d3a-8178-fff7-d005-b1c8deb47418.htm" />
   <HelpKINode Title="ChannelServerModeUserDeadminedArgs class">
     <HelpKINode Title="ChannelServerModeUserDeadminedArgs Class" Url="html/7a7488fa-3463-cd64-72ce-abeb5c03a6d5.htm" />
-    <HelpKINode Title="constructor" Url="html/3689cc49-f1e2-1440-b0cb-29168df9fe03.htm" />
+    <HelpKINode Title="constructor" Url="html/ad31457b-92e9-c75a-692d-98180b00c8d0.htm" />
     <HelpKINode Title="methods" Url="html/1b5ba632-fb12-e71d-2db0-673e959c00d0.htm" />
     <HelpKINode Title="properties" Url="html/7e542e1d-17a9-106e-baad-bba0f0d08a2d.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserDeadminedArgs.ByServer property" Url="html/3f216340-7fc5-f05c-0f92-c00e38344ce9.htm" />
   <HelpKINode Title="ChannelServerModeUserDeadminedArgs.Channel property" Url="html/69aeef22-7534-a6f4-0044-d48be8b0a28d.htm" />
-  <HelpKINode Title="ChannelServerModeUserDeadminedArgs.ChannelServerModeUserDeadminedArgs constructor" Url="html/3689cc49-f1e2-1440-b0cb-29168df9fe03.htm" />
+  <HelpKINode Title="ChannelServerModeUserDeadminedArgs.ChannelServerModeUserDeadminedArgs constructor" Url="html/ad31457b-92e9-c75a-692d-98180b00c8d0.htm" />
   <HelpKINode Title="ChannelServerModeUserDeadminedArgs.EatData property" Url="html/44d9541e-75b4-c2a6-901b-0e0e5255863d.htm" />
   <HelpKINode Title="ChannelServerModeUserDeadminedArgs.MessageTags property" Url="html/86690fc2-1d44-ee4a-8175-a43eb17746dd.htm" />
   <HelpKINode Title="ChannelServerModeUserDeadminedArgs.ModeFirst property" Url="html/b8a49007-7252-72f2-084e-04a1e1ebcdd9.htm" />
@@ -1139,12 +1175,13 @@
   <HelpKINode Title="ChannelServerModeUserDehalfOpped delegate" Url="html/e0482671-24ce-d3c2-d06d-2381f5a74661.htm" />
   <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs class">
     <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs Class" Url="html/36e38b80-a410-d47c-3a66-a7aed3a0510c.htm" />
-    <HelpKINode Title="constructor" Url="html/636ed60c-dc60-5352-d62e-87b54c04a78e.htm" />
+    <HelpKINode Title="constructor" Url="html/ee7e0f77-8d27-3d6e-c4f9-2397417307c8.htm" />
     <HelpKINode Title="methods" Url="html/d10fbd49-dd6d-7ba1-2f9b-65b14e5f08fb.htm" />
     <HelpKINode Title="properties" Url="html/fac5c670-1f6c-0bf4-3e86-bcb0d18eb3e5.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.ByServer property" Url="html/d878aa64-14b9-e580-4ab9-efc8afd08f38.htm" />
   <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.Channel property" Url="html/d9138545-981b-767e-70dc-4558e1118418.htm" />
-  <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.ChannelServerModeUserDehalfOppedArgs constructor" Url="html/636ed60c-dc60-5352-d62e-87b54c04a78e.htm" />
+  <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.ChannelServerModeUserDehalfOppedArgs constructor" Url="html/ee7e0f77-8d27-3d6e-c4f9-2397417307c8.htm" />
   <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.EatData property" Url="html/d517c185-c41f-1f4d-52d5-978e62e90c63.htm" />
   <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.MessageTags property" Url="html/76598c8a-aa5c-fc90-5cb2-0dbc15f7cd09.htm" />
   <HelpKINode Title="ChannelServerModeUserDehalfOppedArgs.ModeFirst property" Url="html/c64d0f98-b43a-0063-7989-43b9d3a95e1c.htm" />
@@ -1156,12 +1193,13 @@
   <HelpKINode Title="ChannelServerModeUserDeopped delegate" Url="html/02146a7f-1ff7-e54b-f53c-f88461e2642d.htm" />
   <HelpKINode Title="ChannelServerModeUserDeoppedArgs class">
     <HelpKINode Title="ChannelServerModeUserDeoppedArgs Class" Url="html/1c52a302-c1d2-650a-164a-b83adde2ac58.htm" />
-    <HelpKINode Title="constructor" Url="html/3174c7d4-39dd-3a90-58da-71bf0ab9fcd5.htm" />
+    <HelpKINode Title="constructor" Url="html/c4b1edb6-84b8-e1e3-bd21-68c4d0b9264e.htm" />
     <HelpKINode Title="methods" Url="html/8a0ec421-a3a4-d39e-16ff-b46d72339b67.htm" />
     <HelpKINode Title="properties" Url="html/16b9303f-ec46-b187-a7d1-18f3d41e6590.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserDeoppedArgs.ByServer property" Url="html/ef5a8ae6-09f9-3113-10b1-6b54648399d1.htm" />
   <HelpKINode Title="ChannelServerModeUserDeoppedArgs.Channel property" Url="html/321ae030-eb80-0e0d-865a-916f7c739e1a.htm" />
-  <HelpKINode Title="ChannelServerModeUserDeoppedArgs.ChannelServerModeUserDeoppedArgs constructor" Url="html/3174c7d4-39dd-3a90-58da-71bf0ab9fcd5.htm" />
+  <HelpKINode Title="ChannelServerModeUserDeoppedArgs.ChannelServerModeUserDeoppedArgs constructor" Url="html/c4b1edb6-84b8-e1e3-bd21-68c4d0b9264e.htm" />
   <HelpKINode Title="ChannelServerModeUserDeoppedArgs.EatData property" Url="html/674625be-df6e-53a4-8fe8-55b9b2334eed.htm" />
   <HelpKINode Title="ChannelServerModeUserDeoppedArgs.MessageTags property" Url="html/98eb7821-e4a2-9322-277b-398ef1d3988c.htm" />
   <HelpKINode Title="ChannelServerModeUserDeoppedArgs.ModeFirst property" Url="html/d2dd96c2-b2f6-3498-a3d2-b1fb918342f1.htm" />
@@ -1173,12 +1211,13 @@
   <HelpKINode Title="ChannelServerModeUserDeownered delegate" Url="html/2f80ba07-6e61-00bb-29ed-6eb131e53945.htm" />
   <HelpKINode Title="ChannelServerModeUserDeowneredArgs class">
     <HelpKINode Title="ChannelServerModeUserDeowneredArgs Class" Url="html/cf7afc5a-ba7d-a19a-13d4-b0b3977a2e3b.htm" />
-    <HelpKINode Title="constructor" Url="html/30593c42-33d0-cd8a-6ba9-99ec65067c40.htm" />
+    <HelpKINode Title="constructor" Url="html/6ec80a47-8c34-a6ee-524b-a71cba1f9215.htm" />
     <HelpKINode Title="methods" Url="html/4c21c4e2-e4c9-2ecc-00c4-111731686cf1.htm" />
     <HelpKINode Title="properties" Url="html/3be298c9-8a76-0ec6-e706-5800a67b4f1c.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserDeowneredArgs.ByServer property" Url="html/e60c91ee-df65-0240-e743-ed575d2a6ad3.htm" />
   <HelpKINode Title="ChannelServerModeUserDeowneredArgs.Channel property" Url="html/2d94a68f-1ee5-8b65-0841-8d44c5046f1f.htm" />
-  <HelpKINode Title="ChannelServerModeUserDeowneredArgs.ChannelServerModeUserDeowneredArgs constructor" Url="html/30593c42-33d0-cd8a-6ba9-99ec65067c40.htm" />
+  <HelpKINode Title="ChannelServerModeUserDeowneredArgs.ChannelServerModeUserDeowneredArgs constructor" Url="html/6ec80a47-8c34-a6ee-524b-a71cba1f9215.htm" />
   <HelpKINode Title="ChannelServerModeUserDeowneredArgs.EatData property" Url="html/45a55b56-10fc-d89d-5761-47e04cca1c28.htm" />
   <HelpKINode Title="ChannelServerModeUserDeowneredArgs.MessageTags property" Url="html/5aad1bd1-7c4d-0d08-db06-c9641a55c800.htm" />
   <HelpKINode Title="ChannelServerModeUserDeowneredArgs.ModeFirst property" Url="html/b47db79c-f502-915b-1b26-9255cf7a532d.htm" />
@@ -1190,12 +1229,13 @@
   <HelpKINode Title="ChannelServerModeUserDevoiced delegate" Url="html/33c3b1d0-f0a4-1d1d-892c-901f5086a569.htm" />
   <HelpKINode Title="ChannelServerModeUserDevoicedArgs class">
     <HelpKINode Title="ChannelServerModeUserDevoicedArgs Class" Url="html/9be99031-6057-723c-02e8-01d9fbccd1e8.htm" />
-    <HelpKINode Title="constructor" Url="html/3b918d0f-ee01-eea2-63b0-1072011cc28c.htm" />
+    <HelpKINode Title="constructor" Url="html/4c3264b8-484c-a9ed-c843-1095d8a9e06e.htm" />
     <HelpKINode Title="methods" Url="html/bbec10ed-27b8-2195-bdc5-cfc102aad183.htm" />
     <HelpKINode Title="properties" Url="html/75007281-2305-d353-52f1-7977113f021b.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserDevoicedArgs.ByServer property" Url="html/1c83bd68-e624-2084-dd54-ef01abc1c139.htm" />
   <HelpKINode Title="ChannelServerModeUserDevoicedArgs.Channel property" Url="html/8a033fa3-ec54-e4d1-f14c-d978c1239cf8.htm" />
-  <HelpKINode Title="ChannelServerModeUserDevoicedArgs.ChannelServerModeUserDevoicedArgs constructor" Url="html/3b918d0f-ee01-eea2-63b0-1072011cc28c.htm" />
+  <HelpKINode Title="ChannelServerModeUserDevoicedArgs.ChannelServerModeUserDevoicedArgs constructor" Url="html/4c3264b8-484c-a9ed-c843-1095d8a9e06e.htm" />
   <HelpKINode Title="ChannelServerModeUserDevoicedArgs.EatData property" Url="html/703ea534-a468-6dfa-d0c5-410702655b43.htm" />
   <HelpKINode Title="ChannelServerModeUserDevoicedArgs.MessageTags property" Url="html/276c8fdf-104c-e3d8-e3aa-5e776c633cb1.htm" />
   <HelpKINode Title="ChannelServerModeUserDevoicedArgs.ModeFirst property" Url="html/c894be4c-87d1-436d-b60f-3a65cf9869f1.htm" />
@@ -1207,12 +1247,13 @@
   <HelpKINode Title="ChannelServerModeUserHalfOpped delegate" Url="html/cffb766a-2498-fa01-2407-768d41e24d16.htm" />
   <HelpKINode Title="ChannelServerModeUserHalfOppedArgs class">
     <HelpKINode Title="ChannelServerModeUserHalfOppedArgs Class" Url="html/184ec323-86b6-7073-bd54-c098b7e45f48.htm" />
-    <HelpKINode Title="constructor" Url="html/3a7eec21-afa7-2484-2643-fe0f319646d5.htm" />
+    <HelpKINode Title="constructor" Url="html/2dc8b4b4-ec3a-2892-0b85-25195ba9dcd9.htm" />
     <HelpKINode Title="methods" Url="html/bc28ba2a-7d76-6f2e-8b7c-7dbec2139582.htm" />
     <HelpKINode Title="properties" Url="html/ed450917-3a5a-d3d1-0a44-44ba17a55104.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.ByServer property" Url="html/6eae6b7a-e55e-bdae-395b-dfe79c33df20.htm" />
   <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.Channel property" Url="html/db53fbc0-1c14-71a0-0577-bfa1c1c0c22f.htm" />
-  <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.ChannelServerModeUserHalfOppedArgs constructor" Url="html/3a7eec21-afa7-2484-2643-fe0f319646d5.htm" />
+  <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.ChannelServerModeUserHalfOppedArgs constructor" Url="html/2dc8b4b4-ec3a-2892-0b85-25195ba9dcd9.htm" />
   <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.EatData property" Url="html/d0444602-a584-0d32-8e91-2614dc926201.htm" />
   <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.MessageTags property" Url="html/ea0659b6-84bb-e90c-ae3c-e204975ada20.htm" />
   <HelpKINode Title="ChannelServerModeUserHalfOppedArgs.ModeFirst property" Url="html/1946834a-8407-42f8-0ab3-3d995bc47156.htm" />
@@ -1224,12 +1265,13 @@
   <HelpKINode Title="ChannelServerModeUserOpped delegate" Url="html/da32c06b-a675-f311-644e-706a908af208.htm" />
   <HelpKINode Title="ChannelServerModeUserOppedArgs class">
     <HelpKINode Title="ChannelServerModeUserOppedArgs Class" Url="html/e87ff1d2-e148-3a2c-7213-5779ff01a03f.htm" />
-    <HelpKINode Title="constructor" Url="html/c731bbd0-e9cf-e958-85e4-10a90bf9186a.htm" />
+    <HelpKINode Title="constructor" Url="html/7a243c20-f12a-63e8-d9c5-6ffb22e268f7.htm" />
     <HelpKINode Title="methods" Url="html/9ccd69ed-b122-45f4-dc3a-0772593533c5.htm" />
     <HelpKINode Title="properties" Url="html/ae78a000-9245-b1cb-5da2-006ec79a08ae.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserOppedArgs.ByServer property" Url="html/b528554d-6d71-82c8-c4e4-44c192d861be.htm" />
   <HelpKINode Title="ChannelServerModeUserOppedArgs.Channel property" Url="html/05423f72-399f-036f-ac39-550be8fbb437.htm" />
-  <HelpKINode Title="ChannelServerModeUserOppedArgs.ChannelServerModeUserOppedArgs constructor" Url="html/c731bbd0-e9cf-e958-85e4-10a90bf9186a.htm" />
+  <HelpKINode Title="ChannelServerModeUserOppedArgs.ChannelServerModeUserOppedArgs constructor" Url="html/7a243c20-f12a-63e8-d9c5-6ffb22e268f7.htm" />
   <HelpKINode Title="ChannelServerModeUserOppedArgs.EatData property" Url="html/e4a7af04-f82e-481f-b24d-ea8eb554ea85.htm" />
   <HelpKINode Title="ChannelServerModeUserOppedArgs.MessageTags property" Url="html/0850b30c-0ebb-072a-1c0c-923fc16571b1.htm" />
   <HelpKINode Title="ChannelServerModeUserOppedArgs.ModeFirst property" Url="html/691a540d-7383-0d75-c819-96ab501752d4.htm" />
@@ -1241,12 +1283,13 @@
   <HelpKINode Title="ChannelServerModeUserOwnered delegate" Url="html/6eebb3ee-a36a-62d7-cb90-079c8a63c280.htm" />
   <HelpKINode Title="ChannelServerModeUserOwneredArgs class">
     <HelpKINode Title="ChannelServerModeUserOwneredArgs Class" Url="html/2a84e5cf-cb39-c60f-6e0e-cfe09adb8494.htm" />
-    <HelpKINode Title="constructor" Url="html/00addb44-ba83-3d65-c829-47e7ebec1276.htm" />
+    <HelpKINode Title="constructor" Url="html/d501f043-a83f-cc18-cb6b-222713f5dcd7.htm" />
     <HelpKINode Title="methods" Url="html/9fc4eb95-8edf-24d5-034c-0820108b06a5.htm" />
     <HelpKINode Title="properties" Url="html/393bc0e5-f2e7-4bdb-37ce-806154cf020d.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserOwneredArgs.ByServer property" Url="html/cd9e0add-807c-a740-a77b-9c9366014c78.htm" />
   <HelpKINode Title="ChannelServerModeUserOwneredArgs.Channel property" Url="html/6c135c71-2892-52c1-4a4d-d8209fbac6ad.htm" />
-  <HelpKINode Title="ChannelServerModeUserOwneredArgs.ChannelServerModeUserOwneredArgs constructor" Url="html/00addb44-ba83-3d65-c829-47e7ebec1276.htm" />
+  <HelpKINode Title="ChannelServerModeUserOwneredArgs.ChannelServerModeUserOwneredArgs constructor" Url="html/d501f043-a83f-cc18-cb6b-222713f5dcd7.htm" />
   <HelpKINode Title="ChannelServerModeUserOwneredArgs.EatData property" Url="html/9a59800d-8c84-ad9f-f68b-eab7cf839048.htm" />
   <HelpKINode Title="ChannelServerModeUserOwneredArgs.MessageTags property" Url="html/34b9a25e-08a3-d66f-029b-214c3392d2aa.htm" />
   <HelpKINode Title="ChannelServerModeUserOwneredArgs.ModeFirst property" Url="html/21273e2a-2cb3-db98-97e7-da084a97be9d.htm" />
@@ -1258,12 +1301,13 @@
   <HelpKINode Title="ChannelServerModeUserVoiced delegate" Url="html/d31396f2-5d86-6f08-7071-a6e362001d30.htm" />
   <HelpKINode Title="ChannelServerModeUserVoicedArgs class">
     <HelpKINode Title="ChannelServerModeUserVoicedArgs Class" Url="html/9a2b9fff-09bc-38ee-3f1b-00d50a3945dd.htm" />
-    <HelpKINode Title="constructor" Url="html/a14a35fa-78a3-5966-a3b5-c419a949f3bc.htm" />
+    <HelpKINode Title="constructor" Url="html/3dda9501-de30-40a5-4f70-6d8bd0e6d612.htm" />
     <HelpKINode Title="methods" Url="html/79a36326-1126-1833-5069-06a856fb34ae.htm" />
     <HelpKINode Title="properties" Url="html/d53650f7-ca14-7eab-e130-76168ec9276d.htm" />
   </HelpKINode>
+  <HelpKINode Title="ChannelServerModeUserVoicedArgs.ByServer property" Url="html/7462b95b-b07e-da0a-49e7-6397e8a4d942.htm" />
   <HelpKINode Title="ChannelServerModeUserVoicedArgs.Channel property" Url="html/21ca104e-c54b-8603-868f-1545572d6ac6.htm" />
-  <HelpKINode Title="ChannelServerModeUserVoicedArgs.ChannelServerModeUserVoicedArgs constructor" Url="html/a14a35fa-78a3-5966-a3b5-c419a949f3bc.htm" />
+  <HelpKINode Title="ChannelServerModeUserVoicedArgs.ChannelServerModeUserVoicedArgs constructor" Url="html/3dda9501-de30-40a5-4f70-6d8bd0e6d612.htm" />
   <HelpKINode Title="ChannelServerModeUserVoicedArgs.EatData property" Url="html/e4c7edd0-682d-bb8a-2a19-1a75b0b25bef.htm" />
   <HelpKINode Title="ChannelServerModeUserVoicedArgs.MessageTags property" Url="html/b4a3f043-60ed-1b9c-2c61-4c4b6511c64a.htm" />
   <HelpKINode Title="ChannelServerModeUserVoicedArgs.ModeFirst property" Url="html/f7784c0d-048d-984c-5021-be00bfcd7a5f.htm" />
@@ -1437,6 +1481,8 @@
     <HelpKINode Title="MenuEventArgs.EatData Property " Url="html/e4675ca5-c6cc-154e-c2fd-3c7831a53b5d.htm" />
     <HelpKINode Title="MessageSentArgs.EatData Property " Url="html/13e956c5-9681-a303-89ee-82daff38c4cb.htm" />
     <HelpKINode Title="NickArgs.EatData Property " Url="html/b31f9456-c093-3968-2a2a-1b513666e370.htm" />
+    <HelpKINode Title="NotifyUserOfflineArgs.EatData Property " Url="html/c8cdd8a8-a49e-dcba-06f5-e5b68bb32b39.htm" />
+    <HelpKINode Title="NotifyUserOnlineArgs.EatData Property " Url="html/901197b6-1f5b-ff65-8b2e-8b8287de5a07.htm" />
     <HelpKINode Title="PrivateActionMessageArgs.EatData Property " Url="html/3e413d80-2462-dd90-ef6f-990cb6ad779b.htm" />
     <HelpKINode Title="PrivateCtcpMessageArgs.EatData Property " Url="html/58284c7f-3684-3155-551a-5165d5527589.htm" />
     <HelpKINode Title="PrivateCtcpReplyMessageArgs.EatData Property " Url="html/7d8e5530-d1b5-e5bd-1c20-a8bd169f8dd0.htm" />
@@ -1579,6 +1625,7 @@
   <HelpKINode Title="IChannel.Topic property" Url="html/3e043d42-171a-207a-0135-638d69e8072f.htm" />
   <HelpKINode Title="IChannel.TopicSetAt property" Url="html/104c5283-edb9-fe0e-e577-60000ff1ce42.htm" />
   <HelpKINode Title="IChannel.TopicSetBy property" Url="html/f59f5db8-6e45-7635-ef07-3cc8abb0cad1.htm" />
+  <HelpKINode Title="IChannel.Users property" Url="html/6ae2e6b3-4f6e-1b98-fb54-a806d560e674.htm" />
   <HelpKINode Title="IChannelMask interface">
     <HelpKINode Title="IChannelMask Interface" Url="html/c838dd70-689e-6742-3ede-3b0052f4c804.htm" />
     <HelpKINode Title="properties" Url="html/7c694f31-edc5-fe0d-c300-d35af88ac07c.htm" />
@@ -1647,6 +1694,12 @@
   <HelpKINode Title="IMessagesOptions.PrefixUser property" Url="html/d8016002-b10f-2a9e-03ed-6308608d235c.htm" />
   <HelpKINode Title="IMessagesOptions.TimeFormat property" Url="html/487f1709-3df3-78ba-e0fe-8e2a71481b92.htm" />
   <HelpKINode Title="IMessagesOptions.UseTimestamp property" Url="html/3d01e8fa-bcd3-cfe8-14ab-6c0a8c4b8b8d.htm" />
+  <HelpKINode Title="INicklist interface">
+    <HelpKINode Title="INicklist Interface" Url="html/7e6e3327-228f-46a4-efc3-17a0815951df.htm" />
+    <HelpKINode Title="properties" Url="html/78b64a1a-1d2a-db6c-bfbe-1fe38ce8e8a4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INicklist.Nicks property" Url="html/7de38da1-f7f3-3edb-fdea-66a94dfc3dd2.htm" />
+  <HelpKINode Title="INicklist.SelectedNicks property" Url="html/b144cd2b-0c21-b36d-f752-d32937a79223.htm" />
   <HelpKINode Title="Initialize method" Url="html/800bf3ac-22a4-8570-5271-f20774fd04c3.htm" />
   <HelpKINode Title="InputParameters property" Url="html/bcad045d-be71-b79b-71eb-8b2082abd8fb.htm" />
   <HelpKINode Title="Insert method" Url="html/c1206ca8-adad-d23f-9927-92200a5924cc.htm" />
@@ -1835,6 +1888,7 @@
   <HelpKINode Title="IServer.ChannelModesWithArgs property" Url="html/fb8e8109-f6b4-7993-6737-fcc8dbffdbbf.htm" />
   <HelpKINode Title="IServer.ChannelModesWithRequiredArgs property" Url="html/9d0f61ac-9d96-fcb4-a079-29b046dac8b9.htm" />
   <HelpKINode Title="IServer.ChannelPrefix property" Url="html/1dc23fa5-70c0-277d-6173-97464500738d.htm" />
+  <HelpKINode Title="IServer.Channels property" Url="html/214c2d32-c884-8b08-269f-8833eede0933.htm" />
   <HelpKINode Title="IServer.Connect method" Url="html/b233cc6b-0b29-c4a3-200a-5780ecaa38a6.htm" />
   <HelpKINode Title="IServer.ConnectedAt property" Url="html/92ce8116-ca51-9a0e-85cb-03f6e49c66ca.htm" />
   <HelpKINode Title="IServer.ConnectError property" Url="html/564e7738-1bac-152c-623f-d9111bd006de.htm" />
@@ -1887,6 +1941,7 @@
   <HelpKINode Title="IServer.UserNick property" Url="html/7d0c2b3b-58d5-abd9-83da-6211c5e6c317.htm" />
   <HelpKINode Title="IServer.UserPrefix property" Url="html/970bdd84-8ea3-69bd-e936-91a971092aba.htm" />
   <HelpKINode Title="IServer.UserPrefixChars property" Url="html/95a38ec6-2131-fdbe-25da-09eaaed0ca07.htm" />
+  <HelpKINode Title="IServer.Users property" Url="html/1835d8df-3efd-77c1-91fd-beb7dd66a69d.htm" />
   <HelpKINode Title="IsHalfOperator property" Url="html/837b75f2-0a84-1a5b-74c2-0030769f9754.htm" />
   <HelpKINode Title="IsInviteOnly property" Url="html/c2ccfcfb-cbc0-8d67-4631-7c1583764349.htm" />
   <HelpKINode Title="IsLoggingOn property" Url="html/de112759-7cdc-8539-ec6e-e42df514b79f.htm" />
@@ -1962,6 +2017,7 @@
   <HelpKINode Title="IWindow.IsMdiChild property" Url="html/70abecf3-eabf-4f82-4201-7d8021bc4570.htm" />
   <HelpKINode Title="IWindow.LogFile property" Url="html/d553cf57-30aa-68b0-4b82-c998fa64bb96.htm" />
   <HelpKINode Title="IWindow.Name property" Url="html/eb50ef9c-6a0f-f937-f64b-3657b1b9cc3d.htm" />
+  <HelpKINode Title="IWindow.Nicklist property" Url="html/04445221-363e-39cd-037d-411ac20f7732.htm" />
   <HelpKINode Title="IWindow.OutputText method" Url="html/36d3ad92-7440-9572-cedf-9ced750e3de7.htm" />
   <HelpKINode Title="IWindow.PictureWindow property" Url="html/a224e686-1620-ed93-3090-7cce2c26a6e6.htm" />
   <HelpKINode Title="IWindow.RealWindowName property" Url="html/28bb9111-568e-b9e8-3164-190fd013a6e2.htm" />
@@ -2246,27 +2302,31 @@
   <HelpKINode Title="NickArgs.User property" Url="html/fef76bc8-187c-f0fe-8377-911cb881befb.htm" />
   <HelpKINode Title="NickColor property" Url="html/e60054e4-3f6c-43f3-e615-a47e24423369.htm" />
   <HelpKINode Title="Nicklist enumeration member" Url="html/7912b0fe-3f49-29bb-c5ec-523598f792e9.htm" />
+  <HelpKINode Title="Nicklist property" Url="html/04445221-363e-39cd-037d-411ac20f7732.htm" />
+  <HelpKINode Title="Nicks property" Url="html/7de38da1-f7f3-3edb-fdea-66a94dfc3dd2.htm" />
   <HelpKINode Title="NoExternalMsgs property" Url="html/03c78aa9-a504-69c4-c26f-217890562d59.htm" />
   <HelpKINode Title="None enumeration member" Url="html/7912b0fe-3f49-29bb-c5ec-523598f792e9.htm" />
   <HelpKINode Title="NOTICE enumeration member" Url="html/f7f42c25-fb04-9e44-51f1-3352a523a5a9.htm" />
   <HelpKINode Title="NotifyUserOffline delegate" Url="html/105474a3-2bba-33c0-d3a8-dede62aab2fa.htm" />
   <HelpKINode Title="NotifyUserOfflineArgs class">
     <HelpKINode Title="NotifyUserOfflineArgs Class" Url="html/68e63aed-9929-ea76-585a-cde5d53be997.htm" />
-    <HelpKINode Title="constructor" Url="html/4e756add-8b38-7715-56f0-1f20aca3f568.htm" />
+    <HelpKINode Title="constructor" Url="html/5847edd3-ff10-d301-daa9-2ca56b5ab727.htm" />
     <HelpKINode Title="methods" Url="html/4d706c27-45ef-81d4-b330-9ff1bd768d1c.htm" />
     <HelpKINode Title="properties" Url="html/f36af71c-15a0-89f8-33a0-7e7153b30a88.htm" />
   </HelpKINode>
-  <HelpKINode Title="NotifyUserOfflineArgs.NotifyUserOfflineArgs constructor" Url="html/4e756add-8b38-7715-56f0-1f20aca3f568.htm" />
+  <HelpKINode Title="NotifyUserOfflineArgs.EatData property" Url="html/c8cdd8a8-a49e-dcba-06f5-e5b68bb32b39.htm" />
+  <HelpKINode Title="NotifyUserOfflineArgs.NotifyUserOfflineArgs constructor" Url="html/5847edd3-ff10-d301-daa9-2ca56b5ab727.htm" />
   <HelpKINode Title="NotifyUserOfflineArgs.Server property" Url="html/82ca9eb1-e0b8-724a-d16f-3c5ba472372b.htm" />
   <HelpKINode Title="NotifyUserOfflineArgs.User property" Url="html/c7d7aa3a-1624-ab58-31d4-50f0c4738000.htm" />
   <HelpKINode Title="NotifyUserOnline delegate" Url="html/279437ae-8519-8a8f-4cdc-382d74fe234f.htm" />
   <HelpKINode Title="NotifyUserOnlineArgs class">
     <HelpKINode Title="NotifyUserOnlineArgs Class" Url="html/d1a57416-870b-56be-a0a6-c3f0c8aabc99.htm" />
-    <HelpKINode Title="constructor" Url="html/c24e4afa-a96c-8180-0e3c-b7b37b359b55.htm" />
+    <HelpKINode Title="constructor" Url="html/5a4acfdd-5856-6a55-4f01-1e9d861948ec.htm" />
     <HelpKINode Title="methods" Url="html/a40621c2-feb0-20fb-9839-1c3c7e354403.htm" />
     <HelpKINode Title="properties" Url="html/ddf49c0c-5231-73e7-176e-94e98032e483.htm" />
   </HelpKINode>
-  <HelpKINode Title="NotifyUserOnlineArgs.NotifyUserOnlineArgs constructor" Url="html/c24e4afa-a96c-8180-0e3c-b7b37b359b55.htm" />
+  <HelpKINode Title="NotifyUserOnlineArgs.EatData property" Url="html/901197b6-1f5b-ff65-8b2e-8b8287de5a07.htm" />
+  <HelpKINode Title="NotifyUserOnlineArgs.NotifyUserOnlineArgs constructor" Url="html/5a4acfdd-5856-6a55-4f01-1e9d861948ec.htm" />
   <HelpKINode Title="NotifyUserOnlineArgs.Server property" Url="html/b52e7b79-b193-1998-2b6e-388a30ae5f64.htm" />
   <HelpKINode Title="NotifyUserOnlineArgs.SignedOnTime property" Url="html/de2d525f-e43e-e9ec-59a7-c10942126d34.htm" />
   <HelpKINode Title="NotifyUserOnlineArgs.User property" Url="html/51ee60ba-c7d9-f30c-8098-997d8a496fbc.htm" />
@@ -2746,6 +2806,7 @@
   <HelpKINode Title="ScrollToUnreadLine method" Url="html/651fa78a-2410-540c-f250-96ca83c6f17f.htm" />
   <HelpKINode Title="ScrollUp method" Url="html/b7c3d585-5bae-1bbe-94d9-3274771260b0.htm" />
   <HelpKINode Title="Select method" Url="html/e492b606-cb3a-c8d8-9cad-31c18fe2a79b.htm" />
+  <HelpKINode Title="SelectedNicks property" Url="html/b144cd2b-0c21-b36d-f752-d32937a79223.htm" />
   <HelpKINode Title="SelectedText property" Url="html/e5a6d951-8e69-af48-28f7-33d58e8459cb.htm" />
   <HelpKINode Title="SelectionLength property" Url="html/ed6be430-8245-037d-03ee-75afc355cdba.htm" />
   <HelpKINode Title="SelectionStart property" Url="html/643c18ec-79a8-5693-2e9c-fed081dc737d.htm" />
@@ -3113,6 +3174,10 @@
   <HelpKINode Title="UserNick property" Url="html/7d0c2b3b-58d5-abd9-83da-6211c5e6c317.htm" />
   <HelpKINode Title="UserPrefix property" Url="html/970bdd84-8ea3-69bd-e936-91a971092aba.htm" />
   <HelpKINode Title="UserPrefixChars property" Url="html/95a38ec6-2131-fdbe-25da-09eaaed0ca07.htm" />
+  <HelpKINode Title="Users property">
+    <HelpKINode Title="IChannel.Users Property " Url="html/6ae2e6b3-4f6e-1b98-fb54-a806d560e674.htm" />
+    <HelpKINode Title="IServer.Users Property " Url="html/1835d8df-3efd-77c1-91fd-beb7dd66a69d.htm" />
+  </HelpKINode>
   <HelpKINode Title="UseTimestamp property">
     <HelpKINode Title="IMessagesOptions.UseTimestamp Property " Url="html/3d01e8fa-bcd3-cfe8-14ab-6c0a8c4b8b8d.htm" />
     <HelpKINode Title="ITextView.UseTimestamp Property " Url="html/ec75b6b8-63d5-825c-d60a-7223d66217ed.htm" />

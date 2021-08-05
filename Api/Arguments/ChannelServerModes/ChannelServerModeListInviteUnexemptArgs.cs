@@ -11,6 +11,7 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
     public class ChannelServerModeListInviteUnexemptArgs : EventArgs
     {
         private readonly IChannel channel;
+        private readonly string byServer;
         private readonly string banMask;
         private readonly bool modeFirst;
         private readonly bool modeLast;
@@ -24,6 +25,7 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         ///     Constructor for arguments class passed to the ChannelServerModeListInviteUnexempt event
         /// </summary>
         /// <param name="channel">IChannel</param>
+        /// <param name="byServer">string</param>
         /// <param name="banMask">string</param>
         /// <param name="modeFirst">bool</param>
         /// <param name="modeLast">bool</param>
@@ -32,9 +34,10 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelServerModeListInviteUnexemptArgs(IChannel channel, string banMask, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelServerModeListInviteUnexemptArgs(IChannel channel, string byServer, string banMask, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
             this.channel = channel;
+            this.byServer = byServer;
             this.banMask = banMask;
             this.modeFirst = modeFirst;
             this.modeLast = modeLast;
@@ -49,6 +52,11 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         ///     Returns the IChannel where the invite unexcempt occured
         /// </summary>
         public IChannel Channel { get { return this.channel; } }
+
+        /// <summary>
+        ///     Returns the server who performed the mode change
+        /// </summary>
+        public string ByServer { get { return this.byServer; } }
 
         /// <summary>
         ///     Returns the nick!ident@host mask for this invite unexcempt

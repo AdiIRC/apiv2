@@ -1,5 +1,6 @@
 ﻿namespace AdiIRCAPIv2.Arguments.Contextless
 {
+    using Enumerators;
     using Interfaces;
 
     /// <summary>
@@ -9,16 +10,19 @@
     {
         private readonly IServer server;
         private readonly IUser user;
+        private EatData eatData;
 
         /// <summary>
         ///     Constructor for arguments class passed to the NotifyUserOffline event
         /// </summary>
         /// <param name="server">IServer</param>
         /// <param name="user">IUser</param>
-        public NotifyUserOfflineArgs(IServer server, IUser user)
+        /// <param name="eatData">EatData</param
+        public NotifyUserOfflineArgs(IServer server, IUser user, EatData eatData)
         {
             this.server = server;
             this.user = user;
+            this.eatData = eatData;
         }
 
         /// <summary>
@@ -30,5 +34,10 @@
         ///     Returns the IUser who went offline
         /// </summary>
         public IUser User { get { return this.user; } }
+
+        /// <summary>
+        ///     Gets or sets the current event proccessing state
+        /// </summary>
+        public EatData EatData { get { return this.eatData; } set { this.eatData = value; } }
     }
 }

@@ -12,6 +12,7 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
     {
         private readonly IChannel channel;
         private readonly IChannelUser user;
+        private readonly string byServer;
         private readonly bool modeFirst;
         private readonly bool modeLast;
         private readonly string rawMessage;
@@ -25,6 +26,7 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         /// </summary>
         /// <param name="channel">IChannel</param>
         /// <param name="user">IChannelUser</param>
+        /// <param name="byServer">string</param>
         /// <param name="modeFirst">bool</param>
         /// <param name="modeLast">bool</param>
         /// <param name="rawMessage">string</param>
@@ -32,10 +34,11 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelServerModeUserAdminedArgs(IChannel channel, IChannelUser user, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelServerModeUserAdminedArgs(IChannel channel, IChannelUser user, string byServer, bool modeFirst, bool modeLast, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
             this.channel = channel;
             this.user = user;
+            this.byServer = byServer;
             this.modeFirst = modeFirst;
             this.modeLast = modeLast;
             this.rawMessage = rawMessage;
@@ -54,6 +57,11 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         ///     Returns the IChannelUser which got admined
         /// </summary>
         public IChannelUser User { get { return this.user; } }
+
+        /// <summary>
+        ///     Returns the server who performed the mode change
+        /// </summary>
+        public string ByServer { get { return this.byServer; } }
 
         /// <summary>
         ///     Returns true if this was the first mode change in the channel mode event

@@ -2,6 +2,7 @@
 
 namespace AdiIRCAPIv2.Arguments.Contextless
 {
+    using Enumerators;
     using Interfaces;
 
     /// <summary>
@@ -12,6 +13,7 @@ namespace AdiIRCAPIv2.Arguments.Contextless
         private readonly IServer server;
         private readonly IUser user;
         private readonly DateTime signedOnTime;
+        private EatData eatData;
 
         /// <summary>
         ///     Constructor for arguments class passed to the NotifyUserOnline event
@@ -19,11 +21,13 @@ namespace AdiIRCAPIv2.Arguments.Contextless
         /// <param name="server">IServer</param>
         /// <param name="user">IUser</param>
         /// <param name="signedOnTime">DateTime></param>
-        public NotifyUserOnlineArgs(IServer server, IUser user, DateTime signedOnTime)
+        /// <param name="eatData">EatData></param>
+        public NotifyUserOnlineArgs(IServer server, IUser user, DateTime signedOnTime, EatData eatData)
         {
             this.server = server;
             this.user = user;
             this.signedOnTime = signedOnTime;
+            this.eatData = eatData;
         }
 
         /// <summary>
@@ -43,5 +47,10 @@ namespace AdiIRCAPIv2.Arguments.Contextless
         ///     If the server does not send a signed on time, current time in UTC is used
         /// </remarks>
         public DateTime SignedOnTime { get { return this.signedOnTime; } }
+
+        /// <summary>
+        ///     Gets or sets the current event proccessing state
+        /// </summary>
+        public EatData EatData { get { return this.eatData; } set { this.eatData = value; } }
     }
 }

@@ -11,6 +11,7 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
     public class ChannelServerModeArgs : EventArgs
     {
         private readonly IChannel channel;
+        private readonly string byServer;
         private readonly string mode;
         private readonly string rawMessage;
         private readonly string rawBytes;
@@ -18,19 +19,22 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         private readonly IDictionary<string, string> messageTags;
         private EatData eatData;
 
+
         /// <summary>
         ///     Constructor for arguments class passed to the ChannelServerMode event
         /// </summary>
         /// <param name="channel">IChannel</param>
+        /// <param name="byServer">string</param>
         /// <param name="mode">string</param>
         /// <param name="rawMessage">string</param>
         /// <param name="rawBytes">string</param>
         /// <param name="serverTime">DateTime</param>
         /// <param name="messageTags">IDictionary></param>
         /// <param name="eatData">EatData></param>
-        public ChannelServerModeArgs(IChannel channel, string mode, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
+        public ChannelServerModeArgs(IChannel channel, string byServer, string mode, string rawMessage, string rawBytes, DateTime serverTime, IDictionary<string, string> messageTags, EatData eatData)
         {
             this.channel = channel;
+            this.byServer = byServer;
             this.mode = mode;
             this.rawMessage = rawMessage;
             this.rawBytes = rawBytes;
@@ -43,6 +47,11 @@ namespace AdiIRCAPIv2.Arguments.ChannelServerModes
         ///     Returns the IChannel where the mode change occured
         /// </summary>
         public IChannel Channel { get { return this.channel; } }
+
+        /// <summary>
+        ///     Returns the server who performed the mode change
+        /// </summary>
+        public string ByServer { get { return this.byServer; } }
 
         /// <summary>
         ///     Returns the mode change
